@@ -1,5 +1,20 @@
 <application>
   <component name="fastRequest">
+    <option name="dataList">
+      <list>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8099" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="storage" />
+        </NameGroup>
+      </list>
+    </option>
     <option name="defaultDataMappingList">
       <list>
         <DataMapping>
@@ -70,6 +85,55 @@
           <option name="type" value="java.math.BigDecimal" />
           <option name="value" value="1" />
         </DataMapping>
+      </list>
+    </option>
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="storage" />
+    <option name="envList">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
+    <option name="headerGroupList">
+      <list>
+        <HeaderGroup>
+          <option name="envMap">
+            <map>
+              <entry key="dev">
+                <value>
+                  <map />
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="projectName" value="storage" />
+        </HeaderGroup>
+      </list>
+    </option>
+    <option name="paramGroup">
+      <ParamGroup>
+        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
+        <option name="method" value="selectChestCode" />
+        <option name="methodDescription" value="根据实托查询箱码" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/pda/trade/mark/selectChestCode" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="realCode">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/pda/trade/mark/selectChestCode" />
+      </ParamGroup>
+    </option>
+    <option name="projectList">
+      <list>
+        <option value="storage" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
