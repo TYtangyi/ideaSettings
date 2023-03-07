@@ -113,22 +113,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="selectChestCode" />
-        <option name="methodDescription" value="根据实托查询箱码" />
+        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
+        <option name="method" value="getSign" />
+        <option name="methodDescription" value="h5_AntiFakeController_getSign APP防伪查询获取签名接口" />
         <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/pda/trade/mark/selectChestCode" />
+        <option name="module" value="sp-h5-center" />
+        <option name="originUrl" value="/app/h5/antiFake/getSign" />
         <option name="requestParamMap">
           <map>
-            <entry key="realCode">
+            <entry key="logisInfoQueryBo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/trade/mark/selectChestCode" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
