@@ -100,11 +100,7 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev">
-                <value>
-                  <map />
-                </value>
-              </entry>
+              <entry key="dev" />
             </map>
           </option>
           <option name="projectName" value="storage" />
@@ -113,22 +109,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
-        <option name="method" value="getSign" />
-        <option name="methodDescription" value="h5_AntiFakeController_getSign APP防伪查询获取签名接口" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="logisInfoQueryBo">
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.panpass.market.center.server.controller.web.ExternalRequestController" />
+        <option name="method" value="syncPrizeInfo" />
+        <option name="methodDescription" value="第三方同步奖品信息" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="market-center-service" />
+        <option name="originUrl" value="/prizeInfo/syncPrizeInfo" />
+        <option name="url" value="/prizeInfo/syncPrizeInfo" />
       </ParamGroup>
     </option>
     <option name="projectList">
