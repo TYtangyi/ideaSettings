@@ -100,7 +100,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY3ODc4MjY3OSwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6Ijk0ZTc4ODEwLTJmMmQtNDgwOS1hNGI4LTQ4MjFkMjYwNGFmOSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.RAK-6nJdy5thKZXPLsdCtQFnXKlRnjWy3AjwXq9NYJ-Bz9BgMV6cmgJ4mXEqCHxjZZ-5raONn0wwktCCoEUosT0dqCcKyNwWuVihSucaec1uoq4eqbdS4lUa4yCm13tP6kKPQdF-o5BKMXbm0KAC_nDMvYyzoMVSzpoQXCUtWjk" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="storage" />
@@ -109,22 +115,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
+        <option name="method" value="selectChestCode" />
+        <option name="methodDescription" value="根据实托查询箱码" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/pda/trade/mark/selectChestCode" />
+        <option name="requestParamMap">
           <map>
-            <entry key="param">
+            <entry key="realCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.market.center.server.controller.web.ExternalRequestController" />
-        <option name="method" value="syncPrizeInfo" />
-        <option name="methodDescription" value="第三方同步奖品信息" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="market-center-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="url" value="/pda/trade/mark/selectChestCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
