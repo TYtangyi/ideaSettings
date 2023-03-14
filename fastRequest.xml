@@ -123,8 +123,8 @@
         <option name="methodDescription" value="第三方同步奖品信息" />
         <option name="methodType" value="POST" />
         <option name="module" value="market-center-service" />
-        <option name="originUrl" value="/prizeInfo/syncPrizeInfo" />
-        <option name="url" value="/prizeInfo/syncPrizeInfo" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
