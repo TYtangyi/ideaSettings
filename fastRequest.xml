@@ -115,22 +115,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="selectChestCode" />
-        <option name="methodDescription" value="根据实托查询箱码" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/pda/trade/mark/selectChestCode" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="realCode">
+            <entry key="trayInfoQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/trade/mark/selectChestCode" />
+        <option name="className" value="com.panpass.storage.service.controller.web.CcCodeQueryLogController" />
+        <option name="method" value="selectTrayInfoPage" />
+        <option name="methodDescription" value="pda查验数码" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/ccCodeQuery/queryForPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/ccCodeQuery/queryForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
