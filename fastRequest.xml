@@ -129,7 +129,7 @@
         <option name="methodDescription" value="pda查验数码" />
         <option name="methodType" value="POST" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="" />
+        <option name="originUrl" value="/ccCodeQuery/queryForPage" />
         <option name="requestParamMap">
           <map>
             <entry key="page">
@@ -139,7 +139,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/ccCodeQuery/queryForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
