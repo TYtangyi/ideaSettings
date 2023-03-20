@@ -102,9 +102,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY3ODg0NzcyNCwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6ImY1N2RjNGM5LWM3ZDAtNDRlYS05MGVhLTE3ZTNiMTA1MzZkYSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.PluRezP9es1zKqzkBn0m2Gqzo38IieRacjxaAH6OQ6Tq8Ad1p1eSMbtaL4MOoC78XN4TW2oKE6E3QP3eYskLWbpLb2VgwZDNJOemPDCt23DeJRA5De4n-Puh_Fq1x8I7e8SgbNk6RRHfcrhHbjNUR0S4JRR7qSvQ55fF7GpTIvU" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
@@ -115,21 +113,12 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="trayInfoQuery">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.panpass.storage.service.controller.web.CcCodeQueryLogController" />
-        <option name="method" value="selectTrayInfoPage" />
-        <option name="methodDescription" value="pda查验数码" />
-        <option name="methodType" value="POST" />
+        <option name="className" value="com.panpass.storage.service.controller.web.InspectionResultController" />
+        <option name="method" value="excelQueryForPage" />
+        <option name="methodDescription" value="cc_InspectionResultController_queryForPage 稽查分页查询导出" />
+        <option name="methodType" value="GET" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="" />
+        <option name="originUrl" value="/inspection/excelQueryForPage" />
         <option name="requestParamMap">
           <map>
             <entry key="page">
@@ -137,9 +126,14 @@
                 <Object />
               </value>
             </entry>
+            <entry key="query">
+              <value>
+                <Object />
+              </value>
+            </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/inspection/excelQueryForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
