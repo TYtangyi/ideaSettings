@@ -138,22 +138,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.mark.center.service.controller.api.LithiumTemplateController" />
+        <option name="method" value="add" />
+        <option name="methodDescription" value="新增锂电模板" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/lithiumTemplate/add" />
+        <option name="requestParamMap">
           <map>
-            <entry key="lithiumTemplateDTO">
+            <entry key="pId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.LithiumTemplateController" />
-        <option name="method" value="add" />
-        <option name="methodDescription" value="新增锂电模板" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/lithiumTemplate/add" />
-        <option name="url" value="/lithiumTemplate/add" />
+        <option name="url" value="/lithiumTemplate/detail" />
       </ParamGroup>
     </option>
     <option name="projectList">
