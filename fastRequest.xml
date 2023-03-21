@@ -13,6 +13,17 @@
           </option>
           <option name="name" value="storage" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8906" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="mark" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -87,9 +98,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -109,36 +120,46 @@
           </option>
           <option name="projectName" value="storage" />
         </HeaderGroup>
+        <HeaderGroup>
+          <option name="envMap">
+            <map>
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY3OTM5Njg2OSwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6Ijc5NjI3ZmFiLTEwM2ItNGU2MS05YjJmLTlhZmQ3NzQwMTg2OSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.BYoUTVyHCLiKXZ6gLVOSkzQXnxu1hpoCYZEIQ-zpa3jqJaZnj6u2bC66itZU00k_3uwYvpsFk2iKh-tYnaVL3QtlRjP_V-ddA49Jxd-abZNQmxJIQK4VmbHMJ3s3Leea9ENXWkTFDxfYHq7pPJwKmjk0Rzp-oC_OM2OWPCDZKlU" />
+                  </map>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="projectName" value="mark" />
+        </HeaderGroup>
       </list>
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.web.InspectionResultController" />
-        <option name="method" value="excelQueryForPage" />
-        <option name="methodDescription" value="cc_InspectionResultController_queryForPage 稽查分页查询导出" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="query">
+            <entry key="lithiumTemplateDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.panpass.mark.center.service.controller.api.LithiumTemplateController" />
+        <option name="method" value="add" />
+        <option name="methodDescription" value="新增锂电模板" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/lithiumTemplate/add" />
+        <option name="url" value="/lithiumTemplate/add" />
       </ParamGroup>
     </option>
     <option name="projectList">
       <list>
         <option value="storage" />
+        <option value="mark" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
