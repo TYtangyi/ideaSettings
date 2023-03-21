@@ -118,7 +118,7 @@
         <option name="methodDescription" value="cc_InspectionResultController_queryForPage 稽查分页查询导出" />
         <option name="methodType" value="GET" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="/inspection/excelQueryForPage" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="page">
@@ -133,7 +133,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/inspection/excelQueryForPage" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
