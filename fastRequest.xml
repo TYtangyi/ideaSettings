@@ -140,7 +140,7 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="query">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
@@ -148,21 +148,12 @@
           </map>
         </option>
         <option name="className" value="com.panpass.mark.center.service.controller.api.LithiumTemplateController" />
-        <option name="method" value="queryPage" />
-        <option name="methodDescription" value="锂电模板列表" />
+        <option name="method" value="edit" />
+        <option name="methodDescription" value="锂电模板编辑" />
         <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/lithiumTemplate/queryPage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/lithiumTemplate/queryPage" />
+        <option name="originUrl" value="/lithiumTemplate/edit" />
+        <option name="url" value="/lithiumTemplate/edit" />
       </ParamGroup>
     </option>
     <option name="projectList">
