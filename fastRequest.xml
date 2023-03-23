@@ -126,7 +126,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY3OTQ2NTIyNCwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjhkYjU4M2Q3LTg1ZTAtNDRhZi04NmI0LTUyZGJhMDdkNTkzOCIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.q0BtxSoP0DoM91_hM1a6V7mH-gS4eXtnOg4hl8FBwgrp6HfII1aMnWkPdAqXCBy0gd1eNO4MputtUyR7yvU5KbxmwnaIwnjD8KTyY8dF-ZIWfStZPAvbElQuaM9aausmlF0ZlJYWupj7nqr9kN3sYve-mx07_T7dlz1kp3heKx8" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY3OTU2OTk0NCwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjA1OTllMWQ4LTA0ZjQtNDMyNS04YzFhLTNhYjlkMzcxZDNhOSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.dMgrJxWJCX-5YT3EDEYGJBvG76pIK4OJn3hZE14Bsd-mTHWi4ymbusP97PDAIgaiaeU9J7pfC-cH8ckhxtstESYt4BnsVnTMSKN0CrTS8HILF4PNtWn8KgtmeI8VIlzTp0G0GfGx17YLhG3ozMiKdfMamxPaoOtdoUXb5gsSwQY" />
                   </map>
                 </value>
               </entry>
@@ -147,13 +147,22 @@
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.LithiumTemplateController" />
-        <option name="method" value="edit" />
-        <option name="methodDescription" value="锂电模板编辑" />
+        <option name="className" value="com.panpass.mark.center.service.controller.api.RawMaterialOrderController" />
+        <option name="method" value="importExcel" />
+        <option name="methodDescription" value="原辅料数码导入" />
         <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/lithiumTemplate/edit" />
-        <option name="url" value="/lithiumTemplate/edit" />
+        <option name="originUrl" value="/rawMaterialOrder/importExcel" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="file">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/rawMaterialOrder/importExcel" />
       </ParamGroup>
     </option>
     <option name="projectList">
