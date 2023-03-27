@@ -98,9 +98,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8099" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -111,11 +111,7 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev">
-                <value>
-                  <map />
-                </value>
-              </entry>
+              <entry key="dev" />
             </map>
           </option>
           <option name="projectName" value="storage" />
@@ -140,29 +136,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="dto">
+            <entry key="baseParam">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.RawMaterialOrderController" />
-        <option name="method" value="importExcel" />
-        <option name="methodDescription" value="原辅料数码导入" />
+        <option name="className" value="com.panpass.storage.service.controller.yuanqi.SyncTradeBillController" />
+        <option name="method" value="syncTradeBill" />
+        <option name="methodDescription" value="同步出入库单据以及数码" />
         <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/importExcel" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="file">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/rawMaterialOrder/importExcel" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/sync/storage/syncTradeBill" />
+        <option name="url" value="/sync/storage/syncTradeBill" />
       </ParamGroup>
     </option>
     <option name="projectList">
