@@ -98,9 +98,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8099" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -136,19 +136,19 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="baseParam">
+            <entry key="ccProductOrderUploadDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.LithiumTemplateController" />
-        <option name="method" value="add" />
-        <option name="methodDescription" value="新增锂电模板" />
+        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
+        <option name="method" value="productionLineUploadBack" />
+        <option name="methodDescription" value="产线单据数码回传" />
         <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/lithiumTemplate/add" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="" />
         <option name="url" value="" />
       </ParamGroup>
     </option>
