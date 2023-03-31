@@ -24,6 +24,17 @@
           </option>
           <option name="name" value="mark" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8093" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="prod" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -98,9 +109,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8093" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="prod" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -136,26 +147,27 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="ccProductOrderUploadDTO">
+            <entry key="baseParam">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
-        <option name="method" value="productionLineUploadBack" />
-        <option name="methodDescription" value="产线单据数码回传" />
+        <option name="className" value="com.panpass.prod.service.controller.yuanqi.SyncProduceOrderController" />
+        <option name="method" value="updateProdOrderStatus" />
+        <option name="methodDescription" value="更新生产计划单状态" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="prod-service" />
+        <option name="originUrl" value="/sync/produce/updateProdOrderStatus" />
+        <option name="url" value="/sync/produce/updateProdOrderStatus" />
       </ParamGroup>
     </option>
     <option name="projectList">
       <list>
         <option value="storage" />
         <option value="mark" />
+        <option value="prod" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
