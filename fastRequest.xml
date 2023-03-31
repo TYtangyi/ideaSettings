@@ -122,7 +122,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MDI2MjU5MCwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6ImM3YWIyM2M2LTZlMjAtNDBlMS1hY2Y5LWYwOGVjOWEyMTQ1YiIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.XGS4VSE9lxTbYaGLaOEWaZN7au08_BpnrxE0GnBfTFTkGVJWa-PMqXcwBWiETeJZU0_0WD5Lcv68zOnhobEBY6r9dYfs598Qcm_65ueO7raQmno3osIB_pp7p56FqEc2cQSpjsbgWD1hMoFTNifcGXMuN6GNy1O8d59ddc8j9Hg" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="storage" />
@@ -147,20 +153,29 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="trayMarkDTO">
+            <entry key="trayInfoQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="updateTrayMark" />
-        <option name="methodDescription" value="更新实托查询记录" />
+        <option name="className" value="com.panpass.storage.service.controller.web.CcCodeQueryLogController" />
+        <option name="method" value="selectTrayInfoPage" />
+        <option name="methodDescription" value="pda查验数码" />
         <option name="methodType" value="POST" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="/pda/trade/mark/updateTrayMark" />
-        <option name="url" value="/pda/trade/mark/updateTrayMark" />
+        <option name="originUrl" value="/ccCodeQuery/queryForPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/ccCodeQuery/queryForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
