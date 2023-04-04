@@ -109,9 +109,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -139,7 +139,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY3OTkwNjIxMiwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjUzNDc2OGE3LTYzYTMtNGI2NS1iZDAyLTI4OTQyNjIwMjBlYyIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.WvdpwwdnK7ILwrmwNSR-hgE6HB9F_C3TLFrCskcOYHk0xgvZ0fiSqtaqrUd7omp7uGWVmwp3GFUQaX5Ab7wy7iBaN76xdwfpwY2-zwnEcwZzsLaEJACIDzETMGmwuDM_en1BPHc0B0xCIBn7C_85kDI4Ix43kDL8cRk9UmMUktA" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MDU5ODU5MywiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjgyMDExOTNlLTQ4MTQtNGRkOC05ZmYzLTg1NTg4NjljNGQ3ZSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.TSvSzSHC3Qy3K4D7BeaGj4-mB5aRC1DORiiwn83M6xOnAr7jTK21kyFXty-VyqJNpHYENCblKBt83yr94BnoYNv9tMGcaBd8EBRzECkTU9i9oWa2L35UoF3J6lGBEB_STrExcszOYN8l-c6pin-eSwx7wfhFq5MlPcVqicH3V8Y" />
                   </map>
                 </value>
               </entry>
@@ -153,20 +153,29 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="messageDTO">
+            <entry key="replaceMarkLogQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.web.KafkaTestController" />
-        <option name="method" value="handlerProduceLine" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.ReplaceMarkLogController" />
+        <option name="method" value="selectReplacePage" />
+        <option name="methodDescription" value="锂电数码替换列表" />
         <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/kafka/handlerProduceLine" />
-        <option name="url" value="/kafka/handlerProduceLine" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/replaceMarkLog/selectReplacePage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/replaceMarkLog/selectReplacePage" />
       </ParamGroup>
     </option>
     <option name="projectList">
