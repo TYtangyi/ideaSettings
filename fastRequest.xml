@@ -153,29 +153,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="trayInfoQuery">
+            <entry key="trayMarkDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.web.CcCodeQueryLogController" />
-        <option name="method" value="selectTrayInfoPage" />
-        <option name="methodDescription" value="pda查验数码" />
+        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
+        <option name="method" value="updateTrayMark" />
+        <option name="methodDescription" value="更新实托查询记录" />
         <option name="methodType" value="POST" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="/ccCodeQuery/queryForPage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/ccCodeQuery/queryForPage" />
+        <option name="originUrl" value="/pda/trade/mark/updateTrayMark" />
+        <option name="url" value="/pda/trade/mark/updateTrayMark" />
       </ParamGroup>
     </option>
     <option name="projectList">
