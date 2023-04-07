@@ -151,22 +151,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.web.TradeBillController" />
-        <option name="method" value="queryByBillNo" />
-        <option name="methodDescription" value="cc_tradeBill_queryByBillNo 交货单详细信息查询" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="" />
-        <option name="pathParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="billNo">
+            <entry key="ccProductOrderUploadDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
+        <option name="method" value="productionLineUploadBack" />
+        <option name="methodDescription" value="产线单据数码回传" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/productOrderApi/productionLine/uploadBack" />
+        <option name="url" value="/productOrderApi/productionLine/uploadBack" />
       </ParamGroup>
     </option>
     <option name="projectList">
