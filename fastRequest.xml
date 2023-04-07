@@ -124,9 +124,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MDI2MjU5MCwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6ImM3YWIyM2M2LTZlMjAtNDBlMS1hY2Y5LWYwOGVjOWEyMTQ1YiIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.XGS4VSE9lxTbYaGLaOEWaZN7au08_BpnrxE0GnBfTFTkGVJWa-PMqXcwBWiETeJZU0_0WD5Lcv68zOnhobEBY6r9dYfs598Qcm_65ueO7raQmno3osIB_pp7p56FqEc2cQSpjsbgWD1hMoFTNifcGXMuN6GNy1O8d59ddc8j9Hg" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
@@ -151,22 +149,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="ccProductOrderUploadDTO">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
-        <option name="method" value="productionLineUploadBack" />
-        <option name="methodDescription" value="产线单据数码回传" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/productOrderApi/productionLine/uploadBack" />
-        <option name="url" value="/productOrderApi/productionLine/uploadBack" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
+        <option name="method" value="downloadTemplate" />
+        <option name="methodDescription" value="成品列表模板下载" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/endProductMark/downloadTemplate" />
+        <option name="url" value="/endProductMark/downloadTemplate" />
       </ParamGroup>
     </option>
     <option name="projectList">
