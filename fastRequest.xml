@@ -154,8 +154,8 @@
         <option name="methodDescription" value="成品列表模板下载" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/endProductMark/downloadTemplate" />
-        <option name="url" value="/endProductMark/downloadTemplate" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
