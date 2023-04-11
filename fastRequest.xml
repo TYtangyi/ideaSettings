@@ -35,6 +35,17 @@
           </option>
           <option name="name" value="prod" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8905" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="h5" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -122,11 +133,7 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev">
-                <value>
-                  <map />
-                </value>
-              </entry>
+              <entry key="dev" />
             </map>
           </option>
           <option name="projectName" value="storage" />
@@ -149,12 +156,21 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
-        <option name="method" value="downloadTemplate" />
-        <option name="methodDescription" value="成品列表模板下载" />
+        <option name="className" value="com.panpass.h5.center.service.controller.web.AntiFakeController" />
+        <option name="method" value="antiFake" />
+        <option name="methodDescription" value="h5_AntiFakeController_antiFake 防伪查询接口" />
         <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
+        <option name="module" value="h5-service" />
         <option name="originUrl" value="" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="logisInfoQueryBo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
         <option name="url" value="" />
       </ParamGroup>
     </option>
@@ -163,6 +179,7 @@
         <option value="storage" />
         <option value="mark" />
         <option value="prod" />
+        <option value="h5" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
