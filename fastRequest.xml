@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -155,7 +155,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MDU5ODU5MywiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjgyMDExOTNlLTQ4MTQtNGRkOC05ZmYzLTg1NTg4NjljNGQ3ZSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.TSvSzSHC3Qy3K4D7BeaGj4-mB5aRC1DORiiwn83M6xOnAr7jTK21kyFXty-VyqJNpHYENCblKBt83yr94BnoYNv9tMGcaBd8EBRzECkTU9i9oWa2L35UoF3J6lGBEB_STrExcszOYN8l-c6pin-eSwx7wfhFq5MlPcVqicH3V8Y" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MTI2NTUwMCwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjQ0OGU2ZmVlLTE2YWEtNDllNC05ODI0LTYyNTc2N2JlOTBhOSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.TPywQ1rcEk3goq7FxFXt6mskbuD9LtbQaBdSXC593X8PGbq5IZ3DoCPbq8RvlI3m0iTHBAm71acfuIsVU9nkNVo11ZLhWiutlNnQmiFWbxYf6H8yMEHxAh6JFReo6W-EwWisOQ0JRy1_S0ys2X7jxIQVLdT2Nu5npsuf6BLV4OU" />
                   </map>
                 </value>
               </entry>
@@ -167,22 +167,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
+        <option name="method" value="queryMarkForPage" />
+        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/markSelect/queryMarkForPage" />
+        <option name="requestParamMap">
           <map>
-            <entry key="inDTO">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.prevent.center.service.controller.web.AntiChanController" />
-        <option name="method" value="query" />
-        <option name="methodDescription" value="fw_AntiChanController_query 防窜预警列表查询服务" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="prevent-service" />
-        <option name="originUrl" value="/antichan/query" />
-        <option name="url" value="/antichan/query" />
+        <option name="url" value="/markSelect/queryMarkForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
