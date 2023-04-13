@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8093" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prod" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -167,27 +167,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.prod.service.controller.CcProductOrderController" />
-        <option name="method" value="selectFinishOrder" />
-        <option name="methodDescription" value="根据产线编码查询已完成任务单" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
+        <option name="method" value="queryMarkForPage" />
+        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
         <option name="methodType" value="GET" />
-        <option name="module" value="prod-service" />
-        <option name="originUrl" value="" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/markSelect/queryMarkForPage" />
         <option name="requestParamMap">
           <map>
-            <entry key="factoryCode">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="productLineCode">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/markSelect/queryMarkForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
