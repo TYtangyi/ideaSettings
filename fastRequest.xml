@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8093" />
+    <option name="domain" value="http://127.0.0.1:8099" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prod" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -172,7 +172,7 @@
         <option name="methodDescription" value="根据产线编码查询已完成任务单" />
         <option name="methodType" value="GET" />
         <option name="module" value="prod-service" />
-        <option name="originUrl" value="/ccProductOrder/selectFinishOrder" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="factoryCode">
@@ -187,7 +187,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/ccProductOrder/selectFinishOrder" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
