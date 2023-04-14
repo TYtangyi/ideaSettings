@@ -7,7 +7,7 @@
             <list>
               <HostGroup>
                 <option name="env" value="dev" />
-                <option name="url" value="http://127.0.0.1:8099" />
+                <option name="url" value="http://127.0.0.1:8908" />
               </HostGroup>
             </list>
           </option>
@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -167,22 +167,47 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
-        <option name="method" value="queryMarkForPage" />
-        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.TradeMarkPdaApi" />
+        <option name="method" value="checkMark" />
+        <option name="methodDescription" value="cc_TradeMarkPdaApi_checkMark 校验数码" />
         <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/markSelect/queryMarkForPage" />
-        <option name="requestParamMap">
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/pda/trade/mark/checkMark/{billNo}/{productId}/{markCode}/{scanType}/{pdaSin}/{checkType}" />
+        <option name="pathParamMap">
           <map>
+            <entry key="billNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="checkType">
+              <value>
+                <Object />
+              </value>
+            </entry>
             <entry key="markCode">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="pdaSin">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="productId">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="scanType">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/markSelect/queryMarkForPage" />
+        <option name="url" value="/pda/trade/mark/checkMark/CXC202304140004/1526851543462928386/134234732677563343/2/358523027601185/1" />
       </ParamGroup>
     </option>
     <option name="projectList">
