@@ -174,19 +174,14 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.sp.biz.storage.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="checkMark" />
-        <option name="methodDescription" value="cc_TradeMarkPdaApi_checkMark 校验数码" />
+        <option name="method" value="deleteByMark" />
+        <option name="methodDescription" value="cc_TradeMarkPdaApi_deleteByMark 单数码删除" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/trade/mark/checkMark/{billNo}/{productId}/{markCode}/{scanType}/{pdaSin}/{checkType}" />
+        <option name="originUrl" value="/pda/trade/mark/deleteByMark/{billNo}/{productId}/{markCode}/{pdaSin}" />
         <option name="pathParamMap">
           <map>
             <entry key="billNo">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="checkType">
               <value>
                 <Object />
               </value>
@@ -206,14 +201,9 @@
                 <Object />
               </value>
             </entry>
-            <entry key="scanType">
-              <value>
-                <Object />
-              </value>
-            </entry>
           </map>
         </option>
-        <option name="url" value="/pda/trade/mark/checkMark/CXC202304140001/1526851543462928386/134234732677563343/{scanType}/358523027601185/{checkType}" />
+        <option name="url" value="/pda/trade/mark/deleteByMark/CXC202304140001/1526851543462928386/134237959664638618/358523027601185" />
       </ParamGroup>
     </option>
     <option name="projectList">
