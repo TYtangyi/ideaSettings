@@ -173,27 +173,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.PinMarkRecordController" />
-        <option name="method" value="saveRecord" />
-        <option name="methodDescription" value="查询生成的浙品码" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="code">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="pinMarkCode">
+            <entry key="pinMarkUserRecordDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.PinMarkRecordController" />
+        <option name="method" value="selectUserRecordPage" />
+        <option name="methodDescription" value="查询用户浙品码记录列表" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/pinMarkRecord/selectUserRecordPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/pinMarkRecord/selectUserRecordPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
