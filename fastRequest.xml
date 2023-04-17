@@ -133,7 +133,7 @@
     </option>
     <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -178,7 +178,7 @@
         <option name="methodDescription" value="查询生成的浙品码" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/pinMarkRecord/selectPinMarkCode" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="code">
@@ -193,7 +193,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/pinMarkRecord/selectPinMarkCode" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
