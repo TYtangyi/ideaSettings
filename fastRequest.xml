@@ -131,7 +131,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
@@ -173,37 +173,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="deleteByMark" />
-        <option name="methodDescription" value="cc_TradeMarkPdaApi_deleteByMark 单数码删除" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.PinMarkRecordController" />
+        <option name="method" value="saveRecord" />
+        <option name="methodDescription" value="查询生成的浙品码" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/trade/mark/deleteByMark/{billNo}/{productId}/{markCode}/{pdaSin}" />
-        <option name="pathParamMap">
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/pinMarkRecord/selectPinMarkCode" />
+        <option name="requestParamMap">
           <map>
-            <entry key="billNo">
+            <entry key="code">
               <value>
                 <Object />
               </value>
             </entry>
-            <entry key="markCode">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="pdaSin">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="productId">
+            <entry key="pinMarkCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/trade/mark/deleteByMark/CXC202304140001/1526851543462928386/134237959664638618/358523027601185" />
+        <option name="url" value="/pinMarkRecord/selectPinMarkCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
