@@ -161,7 +161,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MTcxODA5MCwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjM4NWY4ZGYwLTA2MzAtNDc1Yi1hZGQ1LTFjNjhiOWQ3MWJkNyIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.MLxdJm7cfm4c2cO-F2a5Vu-tjCsiRy_2V3Z6Wr9TdKDEXxNLVBe3SVzsXg2M8JKxAhQldBst4G3GfGJ8IXYVGWSCCPju51ztmRecHnmpARWQnp_rEUtqXGtHi1tAGwdQMfbFJOkplYXE0_4mUzgTS-gL1oUVay_WgT96qEctGfw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MTczMDQzMiwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjlhMGJkNzhmLTdiN2UtNGI5ZS1iMjliLWM5YTQ1ZjI2OTdkMCIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.YwRzxJpkiSiOO6a7-_6BQ5pZ8EVpQ1bKgY_fc8w3ok830TD65vvOuf9CHr5Q6ZCxvAjE7b4HmqYm5C7svz6qKRmoc0Ta7B8_33KWCRncVXt_H0wzbMJscYZdu9-Bo7So2sy3IzbosIauWA17x9eKqphOagyNA3qZse8-8obT8Rg" />
                   </map>
                 </value>
               </entry>
@@ -173,31 +173,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="query">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
-        <option name="method" value="selectPage" />
-        <option name="methodDescription" value="成品列表查询" />
-        <option name="methodType" value="POST" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.PinMarkRecordController" />
+        <option name="method" value="saveRecord" />
+        <option name="methodDescription" value="查询生成的浙品码" />
+        <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/endProductMark/selectPage" />
+        <option name="originUrl" value="/pinMarkRecord/selectPinMarkCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="page">
+            <entry key="pinMarkCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/endProductMark/selectPage" />
+        <option name="url" value="/pinMarkRecord/selectPinMarkCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
