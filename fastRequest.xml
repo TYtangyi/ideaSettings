@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8905" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -169,26 +169,38 @@
           </option>
           <option name="projectName" value="mark" />
         </HeaderGroup>
+        <HeaderGroup>
+          <option name="envMap">
+            <map>
+              <entry key="dev">
+                <value>
+                  <map />
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="projectName" value="h5" />
+        </HeaderGroup>
       </list>
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
-        <option name="method" value="selectLithiumDetail" />
-        <option name="methodDescription" value="锂电数码查询" />
+        <option name="className" value="com.panpass.h5.center.service.controller.web.AntiFakeController" />
+        <option name="method" value="antiFake" />
+        <option name="methodDescription" value="h5_AntiFakeController_antiFake 防伪查询接口" />
         <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/selectDetailByCode" />
+        <option name="module" value="h5-service" />
+        <option name="originUrl" value="/app/h5/antiFake/antiFake" />
         <option name="requestParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="logisInfoQueryBo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/rawMaterialOrder/selectDetailByCode" />
+        <option name="url" value="/app/h5/antiFake/antiFake" />
       </ParamGroup>
     </option>
     <option name="projectList">
