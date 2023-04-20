@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8905" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="h5" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -185,22 +185,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.h5.center.service.controller.web.AntiFakeController" />
-        <option name="method" value="antiFake" />
-        <option name="methodDescription" value="h5_AntiFakeController_antiFake 防伪查询接口" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="h5-service" />
-        <option name="originUrl" value="/app/h5/antiFake/antiFake" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="logisInfoQueryBo">
+            <entry key="query">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/app/h5/antiFake/antiFake" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
+        <option name="method" value="selectPage" />
+        <option name="methodDescription" value="成品列表查询" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/endProductMark/selectPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/endProductMark/selectPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
