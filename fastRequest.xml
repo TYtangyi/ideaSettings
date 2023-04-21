@@ -186,11 +186,11 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
-        <option name="method" value="exportMarkCodeDetail" />
-        <option name="methodDescription" value="锂电数码导出" />
+        <option name="method" value="selectLithiumDetail" />
+        <option name="methodDescription" value="锂电数码查询" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/exportMarkCodeDetail" />
+        <option name="originUrl" value="/rawMaterialOrder/selectDetailByCode" />
         <option name="requestParamMap">
           <map>
             <entry key="markCode">
@@ -200,7 +200,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/rawMaterialOrder/exportMarkCodeDetail" />
+        <option name="url" value="/rawMaterialOrder/selectDetailByCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
