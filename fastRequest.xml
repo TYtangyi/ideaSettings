@@ -181,22 +181,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
-        <option name="method" value="importTemplate" />
-        <option name="methodDescription" value="成品列表导入" />
-        <option name="methodType" value="POST" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
+        <option name="method" value="selectLithiumDetail" />
+        <option name="methodDescription" value="锂电数码查询" />
+        <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/endProductMark/importTemplate" />
+        <option name="originUrl" value="/rawMaterialOrder/selectDetailByCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="file">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/endProductMark/importTemplate" />
+        <option name="url" value="/rawMaterialOrder/selectDetailByCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
