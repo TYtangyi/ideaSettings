@@ -172,11 +172,7 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev">
-                <value>
-                  <map />
-                </value>
-              </entry>
+              <entry key="dev" />
             </map>
           </option>
           <option name="projectName" value="h5" />
@@ -186,21 +182,21 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
-        <option name="method" value="selectLithiumDetail" />
-        <option name="methodDescription" value="锂电数码查询" />
+        <option name="method" value="selectChildCode" />
+        <option name="methodDescription" value="原辅料数码详情查询下级" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/selectDetailByCode" />
+        <option name="originUrl" value="/rawMaterialOrder/selectChildCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="materialCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/rawMaterialOrder/selectDetailByCode" />
+        <option name="url" value="/rawMaterialOrder/selectChildCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
