@@ -160,9 +160,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MTczMDQzMiwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjlhMGJkNzhmLTdiN2UtNGI5ZS1iMjliLWM5YTQ1ZjI2OTdkMCIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.YwRzxJpkiSiOO6a7-_6BQ5pZ8EVpQ1bKgY_fc8w3ok830TD65vvOuf9CHr5Q6ZCxvAjE7b4HmqYm5C7svz6qKRmoc0Ta7B8_33KWCRncVXt_H0wzbMJscYZdu9-Bo7So2sy3IzbosIauWA17x9eKqphOagyNA3qZse8-8obT8Rg" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
@@ -181,22 +179,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
-        <option name="method" value="selectLithiumDetail" />
-        <option name="methodDescription" value="锂电数码查询" />
-        <option name="methodType" value="GET" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
+        <option name="method" value="getToken" />
+        <option name="methodDescription" value="" />
+        <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/selectDetailByCode" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="markCode">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/rawMaterialOrder/selectDetailByCode" />
+        <option name="originUrl" value="/markSelect/saas/token" />
+        <option name="url" value="/markSelect/saas/token" />
       </ParamGroup>
     </option>
     <option name="projectList">
