@@ -180,12 +180,21 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
-        <option name="method" value="getToken" />
+        <option name="method" value="saasMarkCodeQuery" />
         <option name="methodDescription" value="" />
-        <option name="methodType" value="POST" />
+        <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/markSelect/saas/token" />
-        <option name="url" value="/markSelect/saas/token" />
+        <option name="originUrl" value="/markSelect/saas/queryMark" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="markCode">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/markSelect/saas/queryMark" />
       </ParamGroup>
     </option>
     <option name="projectList">
