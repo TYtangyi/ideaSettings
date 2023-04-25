@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -184,7 +184,7 @@
         <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/markSelect/saas/queryMark" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="markCode">
@@ -194,7 +194,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/markSelect/saas/queryMark" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
