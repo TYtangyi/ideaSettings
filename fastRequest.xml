@@ -175,22 +175,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
-        <option name="method" value="saasMarkCodeQuery" />
-        <option name="methodDescription" value="" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="query">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
+        <option name="method" value="selectPage" />
+        <option name="methodDescription" value="成品列表查询" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/endProductMark/selectPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/endProductMark/selectPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
