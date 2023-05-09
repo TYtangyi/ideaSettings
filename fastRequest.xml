@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -158,7 +158,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MzYwNDc0NiwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6ImYzOTI0YmQ2LTg0MDktNDU5My1hMDE5LTQ1ZmRkNmE4NjcwNCIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.gbuHqboqOeLYynoa5_mRxpztb3lvSe2cb2nqxTn6fQ2s5vsLtEgTqd1KLn44xtQ7_pHCq7ID_uznGmaBTgaEnvBpEtmSdkouOgJH2G-nhMgpNH-TbcC9mTQdnXlB6Oq3f86amkopBOUNWnFYPxIfFzpy-4fayWClHIRIb9MqMfc" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="mark" />
@@ -175,31 +181,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="query">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
-        <option name="method" value="selectPage" />
-        <option name="methodDescription" value="成品列表查询" />
-        <option name="methodType" value="POST" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.PinMarkRecordController" />
+        <option name="method" value="saveRecord" />
+        <option name="methodDescription" value="查询生成的浙品码" />
+        <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
+        <option name="originUrl" value="/pinMarkRecord/selectPinMarkCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="page">
+            <entry key="pinMarkCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/pinMarkRecord/selectPinMarkCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
