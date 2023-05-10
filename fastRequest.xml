@@ -131,9 +131,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8093" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="prod" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -181,22 +181,37 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.PinMarkRecordController" />
-        <option name="method" value="saveRecord" />
-        <option name="methodDescription" value="查询生成的浙品码" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.TrayMarkController" />
+        <option name="method" value="replaceMark" />
+        <option name="methodDescription" value="托盘码替换" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
+        <option name="originUrl" value="/trayMark/replaceMark" />
         <option name="requestParamMap">
           <map>
-            <entry key="pinMarkCode">
+            <entry key="chestMark">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="productLineCode">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="realMark">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="timeStr">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/trayMark/replaceMark" />
       </ParamGroup>
     </option>
     <option name="projectList">
