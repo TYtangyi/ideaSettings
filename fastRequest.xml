@@ -9,6 +9,10 @@
                 <option name="env" value="dev" />
                 <option name="url" value="http://127.0.0.1:8908" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="http://127.0.0.1:8099" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="storage" />
@@ -19,6 +23,10 @@
               <HostGroup>
                 <option name="env" value="dev" />
                 <option name="url" value="http://127.0.0.1:8906" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
               </HostGroup>
             </list>
           </option>
@@ -31,6 +39,10 @@
                 <option name="env" value="dev" />
                 <option name="url" value="http://127.0.0.1:8093" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="prod" />
@@ -42,6 +54,10 @@
                 <option name="env" value="dev" />
                 <option name="url" value="http://127.0.0.1:8905" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="h5" />
@@ -52,6 +68,10 @@
               <HostGroup>
                 <option name="env" value="dev" />
                 <option name="url" value="http://127.0.0.1:8907" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
               </HostGroup>
             </list>
           </option>
@@ -131,12 +151,13 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
+        <option value="yqsl" />
       </list>
     </option>
     <option name="headerGroupList">
@@ -181,37 +202,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.TrayMarkController" />
-        <option name="method" value="replaceMark" />
-        <option name="methodDescription" value="托盘码替换" />
+        <option name="className" value="com.panpass.storage.service.controller.web.TradeBillController" />
+        <option name="method" value="queryByBillNo" />
+        <option name="methodDescription" value="cc_tradeBill_queryByBillNo 交货单详细信息查询" />
         <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/trayMark/replaceMark" />
-        <option name="requestParamMap">
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/tradeBill/queryByBillNo/{billNo}" />
+        <option name="pathParamMap">
           <map>
-            <entry key="chestMark">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="productLineCode">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="realMark">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="timeStr">
+            <entry key="billNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/trayMark/replaceMark" />
+        <option name="url" value="/tradeBill/queryByBillNo/CXC202304110002" />
       </ParamGroup>
     </option>
     <option name="projectList">
