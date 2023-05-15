@@ -1,22 +1,24 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1681465956691" />
+    <option name="lastTrimTime" value="1684118505396" />
   </component>
   <component name="Translation.Settings">
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="596" />
+    <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="序号" />
+      <item value="x" />
       <item value="减少" />
       <item value="synonym" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="10" />
-        <entry key="ENGLISH" value="9" />
+        <entry key="CHINESE" value="18" />
+        <entry key="ENGLISH" value="17" />
       </map>
     </option>
   </component>
