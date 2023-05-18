@@ -207,7 +207,7 @@
         <option name="methodDescription" value="产品异常数码查询" />
         <option name="methodType" value="GET" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="/tradeBill/selectErrorCodes" />
+        <option name="originUrl" value="" />
         <option name="pathParamMap">
           <map>
             <entry key="billNo">
