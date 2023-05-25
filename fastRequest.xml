@@ -202,22 +202,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.web.TradeBillController" />
-        <option name="method" value="selectErrorCodes" />
-        <option name="methodDescription" value="产品异常数码查询" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="" />
-        <option name="pathParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="billNo">
+            <entry key="baseParam">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.panpass.prod.service.controller.yuanqi.SyncProduceOrderController" />
+        <option name="method" value="updateProdOrderStatus" />
+        <option name="methodDescription" value="更新生产任务单状态" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="prod-service" />
+        <option name="originUrl" value="/sync/produce/updateProdOrderStatus" />
+        <option name="url" value="/sync/produce/updateProdOrderStatus" />
       </ParamGroup>
     </option>
     <option name="projectList">
