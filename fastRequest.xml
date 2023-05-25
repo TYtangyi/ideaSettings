@@ -77,6 +77,21 @@
           </option>
           <option name="name" value="prevent" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8090" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="market" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -151,9 +166,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8090" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="market" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -204,20 +219,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="baseParam">
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.prod.service.controller.yuanqi.SyncProduceOrderController" />
-        <option name="method" value="updateProdOrderStatus" />
-        <option name="methodDescription" value="更新生产任务单状态" />
+        <option name="className" value="com.panpass.market.center.server.controller.web.ExternalRequestController" />
+        <option name="method" value="checkMark" />
+        <option name="methodDescription" value="第三方查询数码真伪" />
         <option name="methodType" value="POST" />
-        <option name="module" value="prod-service" />
-        <option name="originUrl" value="/sync/produce/updateProdOrderStatus" />
-        <option name="url" value="/sync/produce/updateProdOrderStatus" />
+        <option name="module" value="market-center-service" />
+        <option name="originUrl" value="/markInfo/checkMark" />
+        <option name="url" value="/markInfo/checkMark" />
       </ParamGroup>
     </option>
     <option name="projectList">
@@ -227,6 +242,7 @@
         <option value="prod" />
         <option value="h5" />
         <option value="prevent" />
+        <option value="market" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
