@@ -166,9 +166,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8090" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="market" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -231,8 +231,8 @@
         <option name="methodDescription" value="第三方查询数码真伪" />
         <option name="methodType" value="POST" />
         <option name="module" value="market-center-service" />
-        <option name="originUrl" value="/markInfo/checkMark" />
-        <option name="url" value="/markInfo/checkMark" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
