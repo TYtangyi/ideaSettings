@@ -92,6 +92,21 @@
           </option>
           <option name="name" value="market" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8910" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="wx" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -166,9 +181,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8910" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="wx" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -217,22 +232,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.wxservice.controller.openapi.OpenWechatController" />
+        <option name="method" value="getWxToken" />
+        <option name="methodDescription" value="第三方获取签名" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-wxservice-center" />
+        <option name="originUrl" value="openwx/getWXToken" />
+        <option name="requestParamMap">
           <map>
-            <entry key="ccProductOrderUploadDTO">
+            <entry key="url">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
-        <option name="method" value="productionLineUploadBack" />
-        <option name="methodDescription" value="产线单据数码回传" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/productOrderApi/productionLine/uploadBack" />
-        <option name="url" value="/productOrderApi/productionLine/uploadBack" />
+        <option name="url" value="/openwx/getWXToken" />
       </ParamGroup>
     </option>
     <option name="projectList">
@@ -243,6 +258,7 @@
         <option value="h5" />
         <option value="prevent" />
         <option value="market" />
+        <option value="wx" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
