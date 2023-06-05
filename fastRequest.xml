@@ -238,15 +238,6 @@
         <option name="methodType" value="GET" />
         <option name="module" value="sp-wxservice-center" />
         <option name="originUrl" value="openwx/getWXToken" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="url">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
         <option name="url" value="/openwx/getWXToken" />
       </ParamGroup>
     </option>
