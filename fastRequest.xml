@@ -237,8 +237,8 @@
         <option name="methodDescription" value="第三方获取签名" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-wxservice-center" />
-        <option name="originUrl" value="openwx/getWXToken" />
-        <option name="url" value="/openwx/getWXToken" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
