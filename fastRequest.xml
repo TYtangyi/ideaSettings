@@ -181,9 +181,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8905" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -232,27 +232,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.web.KafkaTestController" />
-        <option name="method" value="markToStoreTopic" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.panpass.h5.center.service.controller.web.AntiFakeController" />
+        <option name="method" value="antiFake" />
+        <option name="methodDescription" value="h5_AntiFakeController_antiFake 防伪查询接口" />
         <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/kafka/markToStore" />
+        <option name="module" value="h5-service" />
+        <option name="originUrl" value="/app/h5/antiFake/antiFake" />
         <option name="requestParamMap">
           <map>
-            <entry key="key">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="message">
+            <entry key="logisInfoQueryBo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/kafka/markToStore" />
+        <option name="url" value="/app/h5/antiFake/antiFake" />
       </ParamGroup>
     </option>
     <option name="projectList">
