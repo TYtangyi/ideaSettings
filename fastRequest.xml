@@ -181,9 +181,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -232,13 +232,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.wxservice.controller.openapi.OpenWechatController" />
-        <option name="method" value="getWxToken" />
-        <option name="methodDescription" value="第三方获取签名" />
+        <option name="className" value="com.panpass.storage.service.controller.web.KafkaTestController" />
+        <option name="method" value="markToStoreTopic" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-wxservice-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/kafka/markToStore" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="key">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="message">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/kafka/markToStore" />
       </ParamGroup>
     </option>
     <option name="projectList">
