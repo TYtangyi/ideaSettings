@@ -237,8 +237,8 @@
         <option name="methodDescription" value="批量查询上传数码量" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/productOrderApi/uploadMarkCount/query" />
-        <option name="url" value="/productOrderApi/uploadMarkCount/query" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
