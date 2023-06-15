@@ -1,15 +1,22 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1685331057537" />
+    <option name="lastTrimTime" value="1686812267542" />
   </component>
   <component name="Translation.Settings">
+    <option name="primaryLanguage" value="CHINESE" />
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="592" />
+    <option name="newTranslationDialogHeight" value="256" />
+    <option name="newTranslationDialogWidth" value="570" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="算法" />
+      <item value="分治算法" />
+      <item value="fen'zhi" />
+      <item value="分治" />
+      <item value="简单" />
       <item value="Paxos" />
       <item value="序号" />
       <item value="x" />
@@ -18,8 +25,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="19" />
-        <entry key="ENGLISH" value="18" />
+        <entry key="CHINESE" value="70" />
+        <entry key="ENGLISH" value="69" />
       </map>
     </option>
   </component>
