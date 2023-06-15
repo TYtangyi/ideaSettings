@@ -8,14 +8,14 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="570" />
+    <option name="newTranslationDialogWidth" value="568" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="分治" />
       <item value="算法" />
       <item value="分治算法" />
       <item value="fen'zhi" />
-      <item value="分治" />
       <item value="简单" />
       <item value="Paxos" />
       <item value="序号" />
@@ -25,8 +25,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="70" />
-        <entry key="ENGLISH" value="69" />
+        <entry key="CHINESE" value="76" />
+        <entry key="ENGLISH" value="75" />
       </map>
     </option>
   </component>
