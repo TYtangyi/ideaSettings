@@ -196,9 +196,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="domain" value="http://127.0.0.1:8905" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -247,13 +247,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.basic.data.controller.web.DemoController" />
-        <option name="method" value="getQd" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
+        <option name="method" value="appAntiFake" />
+        <option name="methodDescription" value="h5_AntiFakeController_appAntiFake APP防伪查询接口" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="/orgInfo/getQd" />
-        <option name="url" value="/orgInfo/getQd" />
+        <option name="module" value="sp-h5-center" />
+        <option name="originUrl" value="/app/h5/antiFake/appAntiFake" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="logisInfoQueryBo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/app/h5/antiFake/appAntiFake" />
       </ParamGroup>
     </option>
     <option name="projectList">
