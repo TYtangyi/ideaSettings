@@ -112,7 +112,7 @@
             <list>
               <HostGroup>
                 <option name="env" value="dev" />
-                <option name="url" value="http://127.0.0.1:8903" />
+                <option name="url" value="http://127.0.0.1:8092" />
               </HostGroup>
               <HostGroup>
                 <option name="env" value="yqsl" />
@@ -243,26 +243,38 @@
           </option>
           <option name="projectName" value="h5" />
         </HeaderGroup>
+        <HeaderGroup>
+          <option name="envMap">
+            <map>
+              <entry key="dev">
+                <value>
+                  <map />
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="projectName" value="basic" />
+        </HeaderGroup>
       </list>
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
-        <option name="method" value="appAntiFake" />
-        <option name="methodDescription" value="h5_AntiFakeController_appAntiFake APP防伪查询接口" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="/app/h5/antiFake/appAntiFake" />
+        <option name="className" value="com.panpass.basic.center.service.controller.web.SysBusinessConfigController" />
+        <option name="method" value="editConfig" />
+        <option name="methodDescription" value="系统配置编辑" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/sysBusinessConfig/edit" />
         <option name="requestParamMap">
           <map>
-            <entry key="logisInfoQueryBo">
+            <entry key="sysBusinessConfigDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/app/h5/antiFake/appAntiFake" />
+        <option name="url" value="/sysBusinessConfig/edit" />
       </ParamGroup>
     </option>
     <option name="projectList">
