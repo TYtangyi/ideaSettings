@@ -8,10 +8,12 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="562" />
+    <option name="newTranslationDialogWidth" value="560" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="生产入库" />
+      <item value="入库" />
       <item value="库房不匹配类型" />
       <item value="库房bu类型" />
       <item value="出库类型" />
@@ -52,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="167" />
-        <entry key="ENGLISH" value="166" />
+        <entry key="CHINESE" value="172" />
+        <entry key="ENGLISH" value="171" />
       </map>
     </option>
   </component>
