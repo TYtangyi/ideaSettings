@@ -260,7 +260,7 @@
         <option name="methodDescription" value="系统配置编辑" />
         <option name="methodType" value="POST" />
         <option name="module" value="basic-service" />
-        <option name="originUrl" value="/sysBusinessConfig/edit" />
+        <option name="originUrl" value="/businessConfig/edit" />
         <option name="requestParamMap">
           <map>
             <entry key="sysBusinessConfigDTO">
@@ -270,7 +270,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/sysBusinessConfig/edit" />
+        <option name="url" value="/businessConfig/edit" />
       </ParamGroup>
     </option>
     <option name="projectList">
