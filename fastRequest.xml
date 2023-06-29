@@ -269,8 +269,8 @@
         <option name="methodDescription" value="系统配置编辑" />
         <option name="methodType" value="POST" />
         <option name="module" value="basic-service" />
-        <option name="originUrl" value="/businessConfig/edit" />
-        <option name="url" value="/businessConfig/edit" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
