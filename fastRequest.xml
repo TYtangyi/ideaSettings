@@ -255,22 +255,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcProductOrderController" />
-        <option name="method" value="orderProductFinished" />
-        <option name="methodDescription" value="cc_productOrder_orderfinished 生产任务单完结(已下载进行中-&gt;回传完成)" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccProductOrder/orderfinished" />
+        <option name="className" value="com.panpass.basic.center.service.controller.web.SysBusinessConfigController" />
+        <option name="method" value="selectBusinessConfig" />
+        <option name="methodDescription" value="系统配置查询" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/businessConfig/selectConfig" />
         <option name="requestParamMap">
           <map>
-            <entry key="orderNo">
+            <entry key="configType">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/ccProductOrder/orderfinished" />
+        <option name="url" value="/businessConfig/selectConfig" />
       </ParamGroup>
     </option>
     <option name="projectList">
