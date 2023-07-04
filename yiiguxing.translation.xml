@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1687662633012" />
+    <option name="lastTrimTime" value="1688461535888" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -8,10 +8,42 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="554" />
+    <option name="newTranslationDialogWidth" value="536" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="手动" />
+      <item value="自动" />
+      <item value="自动入库" />
+      <item value="zi" />
+      <item value="入库类型" />
+      <item value="入库" />
+      <item value="入库mo" />
+      <item value="ru" />
+      <item value="gong" />
+      <item value="单位" />
+      <item value="dan'wei" />
+      <item value="渠道" />
+      <item value="少扫" />
+      <item value="shao扫" />
+      <item value="扫" />
+      <item value="漏扫" />
+      <item value="lou'sao" />
+      <item value="lo" />
+      <item value="收货方不一致" />
+      <item value="收货方bu" />
+      <item value="收货方" />
+      <item value="shoh" />
+      <item value="采购入库" />
+      <item value="采购" />
+      <item value="CAI" />
+      <item value="返工" />
+      <item value="fan'gong" />
+      <item value="fan" />
+      <item value="模式" />
+      <item value="调拨模式" />
+      <item value="调拨" />
+      <item value="diao'bo" />
       <item value="仓储" />
       <item value="仓储模式" />
       <item value="生产模式" />
@@ -28,45 +60,13 @@
       <item value="销售出库类型" />
       <item value="销售出库lei'o'xi" />
       <item value="生产入库" />
-      <item value="入库" />
       <item value="库房不匹配类型" />
       <item value="库房bu类型" />
-      <item value="出库类型" />
-      <item value="chu" />
-      <item value="chu'l" />
-      <item value="扫码" />
-      <item value="扫码数量" />
-      <item value="扫码s" />
-      <item value="s" />
-      <item value="生产入库类型" />
-      <item value="生产类型" />
-      <item value="生产" />
-      <item value="终端" />
-      <item value="经销商" />
-      <item value="供应" />
-      <item value="供应商" />
-      <item value="供" />
-      <item value="供应商创建类型" />
-      <item value="gong'ying创建类型" />
-      <item value="gong创建类型" />
-      <item value="创建类型" />
-      <item value="渠道创建类型" />
-      <item value="渠道类型" />
-      <item value="业务" />
-      <item value="动态规划" />
-      <item value="do" />
-      <item value="dong'tai" />
-      <item value="分治" />
-      <item value="算法" />
-      <item value="分治算法" />
-      <item value="fen'zhi" />
-      <item value="Paxos" />
-      <item value="序号" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="220" />
-        <entry key="ENGLISH" value="219" />
+        <entry key="CHINESE" value="317" />
+        <entry key="ENGLISH" value="316" />
       </map>
     </option>
   </component>
