@@ -8,10 +8,13 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="534" />
+    <option name="newTranslationDialogWidth" value="530" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="出库" />
+      <item value="销售" />
+      <item value="销售出库" />
       <item value="一步法" />
       <item value="yi'bu'fa" />
       <item value="yi'bu'fe" />
@@ -57,16 +60,13 @@
       <item value="建单类型" />
       <item value="jian'dan" />
       <item value="简单" />
-      <item value="销售" />
-      <item value="销售出库" />
-      <item value="出库" />
       <item value="销售出库类型" />
       <item value="销售出库lei'o'xi" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="326" />
-        <entry key="ENGLISH" value="325" />
+        <entry key="CHINESE" value="345" />
+        <entry key="ENGLISH" value="344" />
       </map>
     </option>
   </component>
