@@ -8,10 +8,12 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="520" />
+    <option name="newTranslationDialogWidth" value="518" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="允许入库" />
+      <item value="允许" />
       <item value="扫码" />
       <item value="sao" />
       <item value="无单" />
@@ -60,13 +62,11 @@
       <item value="fan" />
       <item value="模式" />
       <item value="调拨模式" />
-      <item value="调拨" />
-      <item value="diao'bo" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="389" />
-        <entry key="ENGLISH" value="388" />
+        <entry key="CHINESE" value="395" />
+        <entry key="ENGLISH" value="394" />
       </map>
     </option>
   </component>
