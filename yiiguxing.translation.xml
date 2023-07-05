@@ -8,10 +8,18 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="530" />
+    <option name="newTranslationDialogWidth" value="522" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="自动" />
+      <item value="修正" />
+      <item value="自动修正" />
+      <item value="异常码标记" />
+      <item value="异常码" />
+      <item value="yi'chang'ma" />
+      <item value="yi'chang" />
+      <item value="yi" />
       <item value="出库" />
       <item value="销售" />
       <item value="销售出库" />
@@ -19,7 +27,6 @@
       <item value="yi'bu'fa" />
       <item value="yi'bu'fe" />
       <item value="手动" />
-      <item value="自动" />
       <item value="自动入库" />
       <item value="zi" />
       <item value="入库类型" />
@@ -55,18 +62,11 @@
       <item value="生产模式" />
       <item value="shen" />
       <item value="库房不匹配" />
-      <item value="库房bu" />
-      <item value="建单" />
-      <item value="建单类型" />
-      <item value="jian'dan" />
-      <item value="简单" />
-      <item value="销售出库类型" />
-      <item value="销售出库lei'o'xi" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="345" />
-        <entry key="ENGLISH" value="344" />
+        <entry key="CHINESE" value="368" />
+        <entry key="ENGLISH" value="367" />
       </map>
     </option>
   </component>
