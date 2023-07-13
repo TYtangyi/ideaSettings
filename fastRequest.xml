@@ -260,7 +260,7 @@
         <option name="methodDescription" value="系统配置编辑" />
         <option name="methodType" value="GET" />
         <option name="module" value="basic-service" />
-        <option name="originUrl" value="/businessConfig/edit" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="configType">
