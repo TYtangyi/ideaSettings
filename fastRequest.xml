@@ -122,6 +122,21 @@
           </option>
           <option name="name" value="basic" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="http://127.0.0.1:8091" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="uums" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -196,9 +211,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="domain" value="http://127.0.0.1:8091" />
     <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="uums" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -251,26 +266,47 @@
           </option>
           <option name="projectName" value="basic" />
         </HeaderGroup>
+        <HeaderGroup>
+          <option name="envMap">
+            <map>
+              <entry key="yqsl">
+                <value>
+                  <map>
+                    <entry key="client-id" value="08eca62ee86697b7842b03a908467b5b" />
+                    <entry key="client-secret" value="e10adc3949ba59abbe56e057f20f883e" />
+                    <entry key="sotype" value="8" />
+                  </map>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="projectName" value="uums" />
+        </HeaderGroup>
       </list>
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.web.InspectionResultController" />
-        <option name="method" value="inspection" />
-        <option name="methodDescription" value="cc_InspectionResultController_inspection 通过数码稽查" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/inspection/inspection" />
+        <option name="className" value="com.panpass.uums.center.service.controller.OauthUserController" />
+        <option name="method" value="webOauthToken" />
+        <option name="methodDescription" value="web端获取认证token" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="uums-service" />
+        <option name="originUrl" value="/access/authorize" />
         <option name="requestParamMap">
           <map>
-            <entry key="query">
+            <entry key="password">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="userAccount">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/inspection/inspection" />
+        <option name="url" value="/access/authorize" />
       </ParamGroup>
     </option>
     <option name="projectList">
@@ -283,6 +319,7 @@
         <option value="market" />
         <option value="wx" />
         <option value="basic" />
+        <option value="uums" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
