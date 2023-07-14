@@ -12,6 +12,8 @@
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="对接" />
+      <item value="dui'jie" />
       <item value="外部查询" />
       <item value="外部diao" />
       <item value="外部" />
@@ -60,13 +62,11 @@
       <item value="shao扫" />
       <item value="扫" />
       <item value="漏扫" />
-      <item value="lou'sao" />
-      <item value="lo" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="462" />
-        <entry key="ENGLISH" value="461" />
+        <entry key="CHINESE" value="469" />
+        <entry key="ENGLISH" value="468" />
       </map>
     </option>
   </component>
