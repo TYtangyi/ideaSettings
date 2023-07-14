@@ -286,27 +286,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.uums.center.service.controller.OauthUserController" />
-        <option name="method" value="webOauthToken" />
-        <option name="methodDescription" value="web端获取认证token" />
+        <option name="className" value="com.panpass.basic.center.service.controller.web.JcFileUploadController" />
+        <option name="method" value="uploadImg" />
+        <option name="methodDescription" value="上传图片" />
         <option name="methodType" value="POST" />
-        <option name="module" value="uums-service" />
-        <option name="originUrl" value="/access/authorize" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/jc/file/upload/uploadImg" />
         <option name="requestParamMap">
           <map>
-            <entry key="password">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="userAccount">
+            <entry key="file">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/access/authorize" />
+        <option name="url" value="/jc/file/upload/uploadImg" />
       </ParamGroup>
     </option>
     <option name="projectList">
