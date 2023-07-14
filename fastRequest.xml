@@ -211,9 +211,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -242,7 +242,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4MzYxOTA0NiwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjA5YjMyM2ZiLWY2YjEtNDMwZi1hMmJkLTVhMDFlMDdkZmZkMSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.GCLXZnxgdhnkVzzNaP5E7S86CVGlJkHmZFW-1tzIjxGmNRGYtBmWJr1xFxcu1uRr22bl3D9F_V5TBKs9avY2NenMS_7w9Dy_lbmCblbA0b7p2n4RiHbnLv7-97PzmqtXrZKGt4VzedEnr6x1UHZy9glF50mbdUlWkSQbWnyQ7Rg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiamMwMDEiLCJzb3R5cGUiOiIyMCIsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE2ODk5MDY0NjgsImF1dGhvcml0aWVzIjpbIkpDWENYIl0sImp0aSI6ImI1NDY4NjQ0LTVlOTMtNDQxMC04ZWI4LWIxMjBkOWUwMTIzNiIsImNsaWVudF9pZCI6IjA4ZWNhNjJlZTg2Njk3Yjc4NDJiMDNhOTA4NDY3YjViIn0.RjJyLStOW4VjHZbAoP0itpRRzAxQ9wRCLvsvPVlNAHerCRFng2T56WqeiWOVhdnm-wqqAz-USoHPPrHY5VxC2l-w4kNW1pSF_aV1Hf4J_X1FKLUgxCS-ozJ2eVyGbmWifjPoeZTXx-w3TPibjo9-cGObIndmid8IZVEnYVQapmE" />
                   </map>
                 </value>
               </entry>
@@ -290,22 +290,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.storage.service.controller.web.InspectionResultController" />
+        <option name="method" value="inspection" />
+        <option name="methodDescription" value="cc_InspectionResultController_inspection 通过数码稽查" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/inspection/inspection" />
+        <option name="requestParamMap">
           <map>
-            <entry key="baseParamBO">
+            <entry key="query">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
-        <option name="method" value="queryCodeByInventCode" />
-        <option name="methodDescription" value="根据虚拟托码查询箱码" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/yq/docking/queryCodeByInventCode" />
-        <option name="url" value="/yq/docking/queryCodeByInventCode" />
+        <option name="url" value="/inspection/inspection" />
       </ParamGroup>
     </option>
     <option name="projectList">
