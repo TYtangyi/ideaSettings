@@ -8,10 +8,12 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="508" />
+    <option name="newTranslationDialogWidth" value="506" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="稽查" />
+      <item value="稽查l" />
       <item value="对接" />
       <item value="dui'jie" />
       <item value="外部查询" />
@@ -60,13 +62,11 @@
       <item value="渠道" />
       <item value="少扫" />
       <item value="shao扫" />
-      <item value="扫" />
-      <item value="漏扫" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="469" />
-        <entry key="ENGLISH" value="468" />
+        <entry key="CHINESE" value="475" />
+        <entry key="ENGLISH" value="474" />
       </map>
     </option>
   </component>
