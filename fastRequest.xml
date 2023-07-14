@@ -211,9 +211,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8091" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="uums" />
+    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -261,7 +261,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4OTMyMjA2NywiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6ImRhN2I0NTQxLTcyMzctNDQxYy1hYmZiLTZjYzZhZGU4MTRiMSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.jITiUDiQFEvrL-ARfvsANBfZYxifmQgl3HlXiQRCMityrVA91w_oexKh5Riapy2hSDtZeadns4nwgnkbNfkguX4b8-YeKSVsBvbRJR61L8-_hE9zRg0Sqr9Bz9coxwkWBIanySoZIST4Y69ZyXDgJ9z_Um9Kz3FG33hWH15WcXU" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="basic" />
