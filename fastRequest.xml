@@ -211,9 +211,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -263,9 +263,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY4OTMyMjA2NywiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6ImRhN2I0NTQxLTcyMzctNDQxYy1hYmZiLTZjYzZhZGU4MTRiMSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.jITiUDiQFEvrL-ARfvsANBfZYxifmQgl3HlXiQRCMityrVA91w_oexKh5Riapy2hSDtZeadns4nwgnkbNfkguX4b8-YeKSVsBvbRJR61L8-_hE9zRg0Sqr9Bz9coxwkWBIanySoZIST4Y69ZyXDgJ9z_Um9Kz3FG33hWH15WcXU" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
@@ -292,22 +290,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.basic.center.service.controller.web.JcFileUploadController" />
-        <option name="method" value="uploadImg" />
-        <option name="methodDescription" value="上传图片" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="basic-service" />
-        <option name="originUrl" value="/jc/file/upload/uploadImg" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="file">
+            <entry key="baseParamBO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/jc/file/upload/uploadImg" />
+        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
+        <option name="method" value="queryCodeByInventCode" />
+        <option name="methodDescription" value="根据虚拟托码查询箱码" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/yq/docking/queryCodeByInventCode" />
+        <option name="url" value="/yq/docking/queryCodeByInventCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
