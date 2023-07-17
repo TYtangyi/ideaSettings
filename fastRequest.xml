@@ -211,7 +211,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8099" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
@@ -290,22 +290,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.SyncProductController" />
-        <option name="method" value="selectMarkInfo" />
-        <option name="methodDescription" value="查询生产任务单关联产品数码" />
+        <option name="className" value="com.panpass.storage.service.controller.web.InspectionResultController" />
+        <option name="method" value="queryMarkInfoByCode" />
+        <option name="methodDescription" value="查询数码产品信息" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/syncProduct/selectProdInfo" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/inspection/queryMarkInfoByCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="prodTaskNo">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/syncProduct/selectProdInfo" />
+        <option name="url" value="/inspection/queryMarkInfoByCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
