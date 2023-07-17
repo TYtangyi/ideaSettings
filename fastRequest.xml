@@ -227,9 +227,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY4NjIwNzYzOSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJmZDNlZjI4ZC00Y2E2LTRmNzktODQ2Ni1jNjVjM2U2MDliNDAiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.pX1yUMDn3T7qflYtAeAWoAgYHpOY8P9sBHdlxQcP2iYl_LDxBOX5AujKwSVv5H1c5GafCqBIAWaUp5swJKAxu3kFFFpMx1nLKW9bW_VJgnDZg36Z7B_9U-juZbP-U33WzJJEurbrz3EUSFpIVHzmz3u6DtHTFYMRaKhSJ4r0-OnMCDTS9ifnzh-nZ4piZ-4EOj5P0wYys133edXHInJEsd43ZhiB2uFEs4YQaQZrCuzzIqVMrL2ew65rJISouRjtPbN2_UVMzxsy6ZSNBqnDJnN_jNqtQcN5wec2WKlfLOnrlIBAcbHEAxd-NSYZ5Ni1dK2nvEQqJvN-GeCWp1Q3SQ" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
