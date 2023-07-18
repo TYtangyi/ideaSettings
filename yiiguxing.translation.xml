@@ -8,10 +8,13 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="496" />
+    <option name="newTranslationDialogWidth" value="492" />
     <option name="newTranslationDialogX" value="757" />
     <option name="newTranslationDialogY" value="447" />
     <histories>
+      <item value="开" />
+      <item value="kai" />
+      <item value="capacity" />
       <item value="visible" />
       <item value="Whether it is turned on or not" />
       <item value="是否已开" />
@@ -59,14 +62,11 @@
       <item value="自动" />
       <item value="修正" />
       <item value="自动修正" />
-      <item value="异常码标记" />
-      <item value="异常码" />
-      <item value="yi'chang'ma" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="529" />
-        <entry key="ENGLISH" value="528" />
+        <entry key="CHINESE" value="534" />
+        <entry key="ENGLISH" value="533" />
       </map>
     </option>
   </component>
