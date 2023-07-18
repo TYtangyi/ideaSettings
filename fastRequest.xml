@@ -226,9 +226,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8915" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="oldData" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -295,22 +295,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcProductOrderController" />
-        <option name="method" value="orderProductFinished" />
-        <option name="methodDescription" value="cc_productOrder_orderfinished 生产任务单完结(已下载进行中-&gt;回传完成)" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
+        <option name="className" value="com.sp.biz.oldData.controller.ReCodeRecordController" />
+        <option name="method" value="queryInfoByCode" />
+        <option name="methodDescription" value="查询数码产品信息" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-oldData-center" />
+        <option name="originUrl" value="/oldData/record/queryInfoByCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="orderNo">
+            <entry key="code">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/oldData/record/queryInfoByCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
