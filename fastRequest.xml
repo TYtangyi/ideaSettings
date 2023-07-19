@@ -335,11 +335,11 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.wechat.controller.WechatOfficialConfigController" />
-        <option name="method" value="officialUpdate" />
-        <option name="methodDescription" value="公众号配置修改" />
+        <option name="method" value="officialSave" />
+        <option name="methodDescription" value="公众号配置添加" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-wechat-center" />
-        <option name="originUrl" value="/wechatOfficialConfig/officialUpdate" />
+        <option name="originUrl" value="/wechatOfficialConfig/officialSave" />
         <option name="requestParamMap">
           <map>
             <entry key="validResult">
@@ -349,7 +349,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/wechatOfficialConfig/officialUpdate" />
+        <option name="url" value="/wechatOfficialConfig/officialSave" />
       </ParamGroup>
     </option>
     <option name="projectList">
