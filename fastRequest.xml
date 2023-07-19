@@ -152,6 +152,21 @@
           </option>
           <option name="name" value="oldData" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8092" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="config" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -226,9 +241,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8910" />
+    <option name="domain" value="http://127.0.0.1:8092" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="wx" />
+    <option name="enableProject" value="config" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -295,11 +310,11 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.wxservice.controller.openapi.WxOpenController" />
+        <option name="className" value="com.panpass.market.config.server.controller.wechat.WxOpenController" />
         <option name="method" value="autoAuthView" />
         <option name="methodDescription" value="微信第三方授权" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-wxservice-center" />
+        <option name="module" value="market-config-service" />
         <option name="originUrl" value="/third/api/auth/goview" />
         <option name="requestParamMap">
           <map>
@@ -325,6 +340,7 @@
         <option value="basic" />
         <option value="uums" />
         <option value="oldData" />
+        <option value="config" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
