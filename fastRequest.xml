@@ -241,7 +241,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="domain" value="http://127.0.0.1:8910" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="config" />
     <option name="envList">
@@ -310,22 +310,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.market.config.server.controller.wechat.WxOpenController" />
-        <option name="method" value="autoAuthView" />
-        <option name="methodDescription" value="微信第三方授权" />
+        <option name="className" value="com.panpass.wxservice.controller.openapi.WechatOfficialConfigController" />
+        <option name="method" value="officialList" />
+        <option name="methodDescription" value="公众号配置列表" />
         <option name="methodType" value="GET" />
-        <option name="module" value="market-config-service" />
-        <option name="originUrl" value="/third/api/auth/goview" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="model">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/third/api/auth/goview" />
+        <option name="module" value="sp-wxservice-center" />
+        <option name="originUrl" value="/wechatOfficialConfig/officialList" />
+        <option name="url" value="/wechatOfficialConfig/officialList" />
       </ParamGroup>
     </option>
     <option name="projectList">
