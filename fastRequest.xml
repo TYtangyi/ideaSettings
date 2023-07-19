@@ -226,9 +226,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8915" />
+    <option name="domain" value="http://127.0.0.1:8910" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="oldData" />
+    <option name="enableProject" value="wx" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -295,22 +295,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.oldData.controller.ReCodeRecordController" />
-        <option name="method" value="queryInfoByCode" />
-        <option name="methodDescription" value="查询数码产品信息" />
+        <option name="className" value="com.panpass.wxservice.controller.openapi.WxOpenController" />
+        <option name="method" value="autoAuthView" />
+        <option name="methodDescription" value="微信第三方授权" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-oldData-center" />
-        <option name="originUrl" value="/oldData/record/queryInfoByCode" />
+        <option name="module" value="sp-wxservice-center" />
+        <option name="originUrl" value="/third/api/auth/goview" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
+            <entry key="model">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/oldData/record/queryInfoByCode" />
+        <option name="url" value="/third/api/auth/goview" />
       </ParamGroup>
     </option>
     <option name="projectList">
