@@ -167,6 +167,21 @@
           </option>
           <option name="name" value="config" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8916" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="wechat" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -241,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8910" />
+    <option name="domain" value="http://127.0.0.1:8916" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="config" />
+    <option name="enableProject" value="wechat" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -310,11 +325,11 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.wxservice.controller.openapi.WechatOfficialConfigController" />
+        <option name="className" value="com.sp.biz.wechat.controller.WechatOfficialConfigController" />
         <option name="method" value="officialList" />
         <option name="methodDescription" value="公众号配置列表" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-wxservice-center" />
+        <option name="module" value="sp-wechat-center" />
         <option name="originUrl" value="/wechatOfficialConfig/officialList" />
         <option name="url" value="/wechatOfficialConfig/officialList" />
       </ParamGroup>
@@ -332,6 +347,7 @@
         <option value="uums" />
         <option value="oldData" />
         <option value="config" />
+        <option value="wechat" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
