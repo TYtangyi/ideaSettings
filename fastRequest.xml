@@ -325,13 +325,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
+        <option name="bodyParamMap">
+          <map>
+            <entry key="request">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
         <option name="className" value="com.sp.biz.wechat.controller.WechatOfficialConfigController" />
-        <option name="method" value="officialList" />
-        <option name="methodDescription" value="公众号配置列表" />
-        <option name="methodType" value="GET" />
+        <option name="method" value="officialSave" />
+        <option name="methodDescription" value="公众号配置添加" />
+        <option name="methodType" value="POST" />
         <option name="module" value="sp-wechat-center" />
-        <option name="originUrl" value="/wechatOfficialConfig/officialList" />
-        <option name="url" value="/wechatOfficialConfig/officialList" />
+        <option name="originUrl" value="/wechatOfficialConfig/officialSave" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="validResult">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/wechatOfficialConfig/officialSave" />
       </ParamGroup>
     </option>
     <option name="projectList">
