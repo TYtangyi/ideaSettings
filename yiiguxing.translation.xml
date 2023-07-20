@@ -8,10 +8,12 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="492" />
-    <option name="newTranslationDialogX" value="757" />
-    <option name="newTranslationDialogY" value="447" />
+    <option name="newTranslationDialogWidth" value="490" />
+    <option name="newTranslationDialogX" value="801" />
+    <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="跳转" />
+      <item value="tiao'zhuan" />
       <item value="开" />
       <item value="kai" />
       <item value="capacity" />
@@ -60,13 +62,11 @@
       <item value="无单扫码" />
       <item value="wu'dan" />
       <item value="自动" />
-      <item value="修正" />
-      <item value="自动修正" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="534" />
-        <entry key="ENGLISH" value="533" />
+        <entry key="CHINESE" value="544" />
+        <entry key="ENGLISH" value="543" />
       </map>
     </option>
   </component>
