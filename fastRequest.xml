@@ -256,7 +256,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8916" />
+    <option name="domain" value="http://127.0.0.1:8099" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="wechat" />
     <option name="envList">
@@ -325,22 +325,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.olddata.controller.ReCodeRecordController" />
-        <option name="method" value="queryByCode" />
-        <option name="methodDescription" value="查询数码订单记录" />
+        <option name="className" value="com.panpass.storage.service.controller.web.InspectionResultController" />
+        <option name="method" value="queryMarkInfoByCode" />
+        <option name="methodDescription" value="查询数码产品信息" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-olddata-center" />
-        <option name="originUrl" value="/olddata/record/queryByCode" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/inspection/queryMarkInfoByCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/olddata/record/queryByCode" />
+        <option name="url" value="/inspection/queryMarkInfoByCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
