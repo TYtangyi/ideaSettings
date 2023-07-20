@@ -325,22 +325,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.wechat.controller.WechatOfficialConfigController" />
-        <option name="method" value="officialUpdate" />
-        <option name="methodDescription" value="公众号配置修改" />
+        <option name="className" value="com.sp.biz.olddata.controller.ReCodeRecordController" />
+        <option name="method" value="queryByCode" />
+        <option name="methodDescription" value="查询数码订单记录" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-wechat-center" />
-        <option name="originUrl" value="/wechatOfficialConfig/officialUpdate" />
+        <option name="module" value="sp-olddata-center" />
+        <option name="originUrl" value="/olddata/record/queryByCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="model">
+            <entry key="code">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/third/api/auth/goview" />
+        <option name="url" value="/olddata/record/queryByCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
