@@ -325,12 +325,12 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.wechat.controller.WxOpenController" />
-        <option name="method" value="autoAuthView" />
-        <option name="methodDescription" value="微信第三方授权" />
+        <option name="className" value="com.sp.biz.wechat.controller.WechatOfficialConfigController" />
+        <option name="method" value="officialUpdate" />
+        <option name="methodDescription" value="公众号配置修改" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-wechat-center" />
-        <option name="originUrl" value="/third/api/auth/goview" />
+        <option name="originUrl" value="/wechatOfficialConfig/officialUpdate" />
         <option name="requestParamMap">
           <map>
             <entry key="model">
