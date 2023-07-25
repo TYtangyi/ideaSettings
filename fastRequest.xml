@@ -256,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8916" />
+    <option name="domain" value="http://127.0.0.1:8905" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="wechat" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -340,7 +340,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/R/#/wxscan/antiNum_ipo9f" />
+        <option name="url" value="/R/#/wxscan/2106X36872CHSF9JV5" />
       </ParamGroup>
     </option>
     <option name="projectList">
