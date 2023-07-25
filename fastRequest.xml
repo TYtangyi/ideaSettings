@@ -256,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8905" />
+    <option name="domain" value="http://127.0.0.1:8915" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="h5" />
+    <option name="enableProject" value="oldData" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -325,22 +325,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiEntranceController" />
-        <option name="method" value="toIndex" />
-        <option name="methodDescription" value="防伪扫码重定向" />
+        <option name="className" value="com.sp.biz.olddata.controller.ReCodeRecordController" />
+        <option name="method" value="queryInfoByCode" />
+        <option name="methodDescription" value="查询数码产品信息" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="/R/wxscan/{antiNum}" />
-        <option name="pathParamMap">
+        <option name="module" value="sp-olddata-center" />
+        <option name="originUrl" value="/olddata/record/queryInfoByCode" />
+        <option name="requestParamMap">
           <map>
-            <entry key="antiNum">
+            <entry key="code">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/R/wxscan/11111" />
+        <option name="url" value="/olddata/record/queryInfoByCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
