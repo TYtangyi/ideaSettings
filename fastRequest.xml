@@ -330,7 +330,7 @@
         <option name="methodDescription" value="防伪扫码重定向" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="/R/{antiNum}" />
+        <option name="originUrl" value="/R/#/wxscan/{antiNum}" />
         <option name="pathParamMap">
           <map>
             <entry key="antiNum">
@@ -340,7 +340,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/R/antiNum_fb92w" />
+        <option name="url" value="/R/#/wxscan/antiNum_ipo9f" />
       </ParamGroup>
     </option>
     <option name="projectList">
