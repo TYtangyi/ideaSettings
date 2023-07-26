@@ -256,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8915" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="oldData" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -325,22 +325,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.olddata.controller.ReCodeRecordController" />
-        <option name="method" value="queryInfoByCode" />
-        <option name="methodDescription" value="查询数码产品信息" />
+        <option name="className" value="com.sp.biz.storage.controller.web.SyncProductController" />
+        <option name="method" value="selectTradeBillProduct" />
+        <option name="methodDescription" value="查询发货数据" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-olddata-center" />
-        <option name="originUrl" value="/olddata/record/queryInfoByCode" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/syncProduct/selectMarkInfo" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
+            <entry key="billNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/olddata/record/queryInfoByCode" />
+        <option name="url" value="/syncProduct/selectMarkInfo" />
       </ParamGroup>
     </option>
     <option name="projectList">
