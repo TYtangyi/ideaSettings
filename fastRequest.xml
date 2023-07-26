@@ -326,21 +326,21 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.sp.biz.storage.controller.web.SyncProductController" />
-        <option name="method" value="selectTradeBillProduct" />
-        <option name="methodDescription" value="查询发货数据" />
+        <option name="method" value="selectMarkInfo" />
+        <option name="methodDescription" value="查询生产任务单关联产品数码" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/syncProduct/selectMarkInfo" />
+        <option name="originUrl" value="/syncProduct/selectProdInfo" />
         <option name="requestParamMap">
           <map>
-            <entry key="billNo">
+            <entry key="prodTaskNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/syncProduct/selectMarkInfo" />
+        <option name="url" value="/syncProduct/selectProdInfo" />
       </ParamGroup>
     </option>
     <option name="projectList">
