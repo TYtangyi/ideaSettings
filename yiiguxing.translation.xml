@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1689579962905" />
+    <option name="lastTrimTime" value="1690350854328" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -8,10 +8,23 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="490" />
+    <option name="newTranslationDialogWidth" value="486" />
     <option name="newTranslationDialogX" value="801" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="符合" />
+      <item value="不符合" />
+      <item value="bu" />
+      <item value="流向" />
+      <item value="流向不符合" />
+      <item value="liu'xiang" />
+      <item value="数码流向不符合" />
+      <item value="数码流向bu'fu'he" />
+      <item value="数码流向bu'fu'b" />
+      <item value="数码流向bu'fu'b'h'ne" />
+      <item value="数码liu'xiang" />
+      <item value="数码" />
+      <item value="数码刘翔" />
       <item value="跳转" />
       <item value="tiao'zhuan" />
       <item value="开" />
@@ -49,24 +62,11 @@
       <item value="程序" />
       <item value="第三方程序" />
       <item value="第三方" />
-      <item value="di" />
-      <item value="小程序" />
-      <item value="xiao'cheng'xu" />
-      <item value="产线" />
-      <item value="联动" />
-      <item value="允许入库" />
-      <item value="允许" />
-      <item value="扫码" />
-      <item value="sao" />
-      <item value="无单" />
-      <item value="无单扫码" />
-      <item value="wu'dan" />
-      <item value="自动" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="544" />
-        <entry key="ENGLISH" value="543" />
+        <entry key="CHINESE" value="564" />
+        <entry key="ENGLISH" value="563" />
       </map>
     </option>
   </component>
