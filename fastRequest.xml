@@ -256,8 +256,8 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
-    <option name="enableEnv" value="dev" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
     <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
