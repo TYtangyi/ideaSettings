@@ -256,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -325,22 +325,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.web.InspectionResultController" />
-        <option name="method" value="inspection" />
-        <option name="methodDescription" value="cc_InspectionResultController_inspection 通过数码稽查" />
+        <option name="className" value="com.panpass.basic.center.service.controller.web.SysBusinessConfigController" />
+        <option name="method" value="getRedisValue" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/inspection/inspection" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="query">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/inspection/inspection" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/businessConfig/getRedisValue" />
+        <option name="url" value="/businessConfig/getRedisValue" />
       </ParamGroup>
     </option>
     <option name="projectList">
