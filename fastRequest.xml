@@ -325,22 +325,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.storage.service.controller.web.InspectionResultController" />
+        <option name="method" value="inspection" />
+        <option name="methodDescription" value="cc_InspectionResultController_inspection 通过数码稽查" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/inspection/inspection" />
+        <option name="requestParamMap">
           <map>
-            <entry key="sysBusinessConfigDTO">
+            <entry key="query">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.basic.center.service.controller.web.SysBusinessConfigController" />
-        <option name="method" value="editConfig" />
-        <option name="methodDescription" value="系统配置编辑" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="basic-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="url" value="/inspection/inspection" />
       </ParamGroup>
     </option>
     <option name="projectList">
