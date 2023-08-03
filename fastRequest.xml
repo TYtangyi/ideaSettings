@@ -331,12 +331,12 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.TradeBillController" />
-        <option name="method" value="getProductionInfoByBatNo" />
-        <option name="methodDescription" value="cc_tadeBill_getProductionInfoByBatNo 批次号下拉框选择-销售出库单查询" />
+        <option name="className" value="com.panpass.basic.center.service.controller.web.SysBusinessConfigController" />
+        <option name="method" value="editConfig" />
+        <option name="methodDescription" value="系统配置编辑" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tradeBill/getProductionInfoByBatNo" />
+        <option name="originUrl" value="/businessConfig/edit" />
         <option name="requestParamMap">
           <map>
             <entry key="batchNo">
