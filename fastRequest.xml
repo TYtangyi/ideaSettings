@@ -273,7 +273,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUUyIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MDk3NDExOSwiYXV0aG9yaXRpZXMiOlsiMTM5MDQ5ODc5OTQ5MDEwOTQ0MiIsIjEzODQ3Mzc2Mjc5MTAzNzc0NzMiLCIxMzkyMzEwMDgzOTU3MjMxNjE3IiwiMTM0NjY1MDk3NDY0MzY3NTEzOCIsIjEzOTE3MjkwNDI0OTg0NTc2MDIiXSwianRpIjoiY2FkODQ2N2QtMjQ2YS00ODcwLTgyYjMtNjQ2OGJkNWRhYmZhIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.gLbmB8SZRFqKDp8DGFGvuiYr_CUTD-56qc3NYUBc77_801p2kvAr1iPUW_MzQnX1VLgyeRsSzLNxTN-RlrMAa9ZGGCFYHlWvGFC0jvKy16zaE7l5W3AYO1pxA29YGdJa7h050kQdUbEGdDpqpeb9sMTEqwI5QhqM1Ts6XNx5zBkDXf2OUBcdARoyfyFMG4XygzD1EF67qrwu3A5dSCgXgw04T0oCd_f1WpOwTO_biVo6fQdCB-AcM7LdrzIJV7wUEhgn11k4fxskYc-io7XqPeev6zqMm5zXfcY89RtSySmaBTaXYRMlBl7efMFQ8CsSMRUlaoX7v6hk8R9N1yNAhA" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUUyIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MTE0Mzc1MywiYXV0aG9yaXRpZXMiOlsiMTM5MDQ5ODc5OTQ5MDEwOTQ0MiIsIjEzODQ3Mzc2Mjc5MTAzNzc0NzMiLCIxMzkyMzEwMDgzOTU3MjMxNjE3IiwiMTM0NjY1MDk3NDY0MzY3NTEzOCIsIjEzOTE3MjkwNDI0OTg0NTc2MDIiXSwianRpIjoiYTQzYTAzYmEtNzgzMi00NzExLThjNjQtOTg4Y2JhODIzNzNiIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.BZ0GX-dAYBIiShp5yIZN_xmwMV49NboEcz_dNBzHACpZeSBBcLSG-EXXSX3JWnN38MidLBZ7D7lHz3p1ll7WUjVv8_0qe1LyNejT-OdL-XI7nIvaRalx_PBlWHyBYLp9WS0zpjoiQ4m0gaWMzL3wDkkE_RwpjRW5E8bpTtxKTZxTXMS5NyK-mWKtb1HOn-wmwSstjXr7Jxdtqas3RjsyafnHpl1cZDGUQY94JsNs4NJ9NgCBnbDgxFMvq_WH7nVtQS_-0txvzzLs_kPFlk4YJ7z-O2XA03YTAxh9Gu9pzvRNbKgCuUw3_PQj9eiv-XoczXscxX2CYE2qgwMmOxNeyw" />
                   </map>
                 </value>
               </entry>
@@ -331,22 +331,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.basic.center.service.controller.web.SysBusinessConfigController" />
-        <option name="method" value="editConfig" />
-        <option name="methodDescription" value="系统配置编辑" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/businessConfig/edit" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="batchNo">
+            <entry key="tradeBillAO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/tradeBill/getProductionInfoByBatNo" />
+        <option name="className" value="com.sp.biz.storage.controller.web.TradeBillController" />
+        <option name="method" value="insertTradeBillByProduction" />
+        <option name="methodDescription" value="cc_tadeBill_insertTradeBillByProduction 根据生产任务单创建" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/tradeBill/insertTradeBillByProduction" />
+        <option name="url" value="/tradeBill/insertTradeBillByProduction" />
       </ParamGroup>
     </option>
     <option name="projectList">

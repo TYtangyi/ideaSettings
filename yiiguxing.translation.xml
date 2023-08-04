@@ -8,10 +8,16 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="484" />
-    <option name="newTranslationDialogX" value="801" />
-    <option name="newTranslationDialogY" value="450" />
+    <option name="newTranslationDialogWidth" value="482" />
+    <option name="newTranslationDialogX" value="2345" />
+    <option name="newTranslationDialogY" value="170" />
     <histories>
+      <item value="下游" />
+      <item value="xia" />
+      <item value="xiao'you" />
+      <item value="联动下游入库" />
+      <item value="联动下游" />
+      <item value="联动xia" />
       <item value="销售退回" />
       <item value="销售" />
       <item value="符合" />
@@ -56,17 +62,11 @@
       <item value="稽查" />
       <item value="稽查l" />
       <item value="对接" />
-      <item value="dui'jie" />
-      <item value="外部查询" />
-      <item value="外部diao" />
-      <item value="外部" />
-      <item value="waib" />
-      <item value="程序" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="572" />
-        <entry key="ENGLISH" value="571" />
+        <entry key="CHINESE" value="596" />
+        <entry key="ENGLISH" value="595" />
       </map>
     </option>
   </component>
