@@ -273,7 +273,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUUyIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MTE1OTQ5NiwiYXV0aG9yaXRpZXMiOlsiMTM5MDQ5ODc5OTQ5MDEwOTQ0MiIsIjEzODQ3Mzc2Mjc5MTAzNzc0NzMiLCIxMzkyMzEwMDgzOTU3MjMxNjE3IiwiMTM0NjY1MDk3NDY0MzY3NTEzOCIsIjEzOTE3MjkwNDI0OTg0NTc2MDIiXSwianRpIjoiMWY3MWE2ZjYtMjVlNi00N2IyLWE4MDgtMjdiNDhhZGY0YWQzIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.h0HfQ4a-Gm7VS5DuWefukmJepFcuRJYrmAO9NinXDeTbmppNHOa4mJpBl7z7REF5QHOo783pkhaslOVD4ef4gPu8kR12oThz3r-7Nr9LetSNY1JUGbIBbjZ4uHppwWjnqVkcE4ptwSSWmViPW3RFkH_kHxbC71vgHL7tUljL25dP7QfiebZBBDdTREbpgbyeZxIFMls1ABiPTbByKBGCjgljm5EBz9Pf-hyM2xw8VEWTeMJz3jtcYurtlktB6J2vx67bp34F7j5Rov2r4GSxq6MWL_vkwo_FIi2GaGxu6FpIg90WCBnKVZcfyIHf_BDpv3Kd-WC0YCGP-U0ww__VCQ" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MTU2MzgzNSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI3MWE3ZDk3NC1lN2ExLTQxZWUtODE4NC1iNDAyNDJjZTRjNWYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.H76ydzVPBT4jflteQkeLS7Vy8ZBHnnxNqhG9Q0xt7NmkFvX6ZhEEgd-Ep-x0qoc4y1qV6LbEvfbOtC9YJ8eneLHh_GNkksTn6dDU0Ote9rH5sRCwUg1BoYYu0NJxrmGWszHhmKFZ96OzOA_AlV-rCmmTPxjdBlRxlFfPD26owBj9flCYux-GK57SXfjk2aXQQRtSRK0m71c6rcjKn8kyMCx2IR6vIBgXRfuUI78xFQmu5c9nsmnh7Ehf04j07ct27bl7SwbnE9RAePiJJlraW_VFD65pPgboKsMMkUi7ScwzByYXUGCZdQ-A69ILSdzSjBVC8FM4mlDgerVVn82q8A" />
                   </map>
                 </value>
               </entry>
@@ -331,22 +331,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="tradeBillAO">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.TradeBillController" />
-        <option name="method" value="insertTradeBillByProduction" />
-        <option name="methodDescription" value="cc_tadeBill_insertTradeBillByProduction 根据生产任务单创建" />
+        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
+        <option name="method" value="queryUploadNum" />
+        <option name="methodDescription" value="批量查询上传数码量" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="originUrl" value="/productOrderApi/uploadMarkCount/query" />
+        <option name="url" value="/productOrderApi/uploadMarkCount/query" />
       </ParamGroup>
     </option>
     <option name="projectList">
