@@ -258,7 +258,7 @@
     </option>
     <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -273,7 +273,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUUyIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MTE0Mzc1MywiYXV0aG9yaXRpZXMiOlsiMTM5MDQ5ODc5OTQ5MDEwOTQ0MiIsIjEzODQ3Mzc2Mjc5MTAzNzc0NzMiLCIxMzkyMzEwMDgzOTU3MjMxNjE3IiwiMTM0NjY1MDk3NDY0MzY3NTEzOCIsIjEzOTE3MjkwNDI0OTg0NTc2MDIiXSwianRpIjoiYTQzYTAzYmEtNzgzMi00NzExLThjNjQtOTg4Y2JhODIzNzNiIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.BZ0GX-dAYBIiShp5yIZN_xmwMV49NboEcz_dNBzHACpZeSBBcLSG-EXXSX3JWnN38MidLBZ7D7lHz3p1ll7WUjVv8_0qe1LyNejT-OdL-XI7nIvaRalx_PBlWHyBYLp9WS0zpjoiQ4m0gaWMzL3wDkkE_RwpjRW5E8bpTtxKTZxTXMS5NyK-mWKtb1HOn-wmwSstjXr7Jxdtqas3RjsyafnHpl1cZDGUQY94JsNs4NJ9NgCBnbDgxFMvq_WH7nVtQS_-0txvzzLs_kPFlk4YJ7z-O2XA03YTAxh9Gu9pzvRNbKgCuUw3_PQj9eiv-XoczXscxX2CYE2qgwMmOxNeyw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUUyIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MTE1OTQ5NiwiYXV0aG9yaXRpZXMiOlsiMTM5MDQ5ODc5OTQ5MDEwOTQ0MiIsIjEzODQ3Mzc2Mjc5MTAzNzc0NzMiLCIxMzkyMzEwMDgzOTU3MjMxNjE3IiwiMTM0NjY1MDk3NDY0MzY3NTEzOCIsIjEzOTE3MjkwNDI0OTg0NTc2MDIiXSwianRpIjoiMWY3MWE2ZjYtMjVlNi00N2IyLWE4MDgtMjdiNDhhZGY0YWQzIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.h0HfQ4a-Gm7VS5DuWefukmJepFcuRJYrmAO9NinXDeTbmppNHOa4mJpBl7z7REF5QHOo783pkhaslOVD4ef4gPu8kR12oThz3r-7Nr9LetSNY1JUGbIBbjZ4uHppwWjnqVkcE4ptwSSWmViPW3RFkH_kHxbC71vgHL7tUljL25dP7QfiebZBBDdTREbpgbyeZxIFMls1ABiPTbByKBGCjgljm5EBz9Pf-hyM2xw8VEWTeMJz3jtcYurtlktB6J2vx67bp34F7j5Rov2r4GSxq6MWL_vkwo_FIi2GaGxu6FpIg90WCBnKVZcfyIHf_BDpv3Kd-WC0YCGP-U0ww__VCQ" />
                   </map>
                 </value>
               </entry>
@@ -345,8 +345,8 @@
         <option name="methodDescription" value="cc_tadeBill_insertTradeBillByProduction 根据生产任务单创建" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tradeBill/insertTradeBillByProduction" />
-        <option name="url" value="/tradeBill/insertTradeBillByProduction" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">

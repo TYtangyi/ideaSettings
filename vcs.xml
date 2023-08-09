@@ -22,6 +22,10 @@
           <option name="url" value="http://git.panpass.com/ymtzj/diaoyutai/ymt-tss.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/TYtangyi/waynboot-mall.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\workspace" />
