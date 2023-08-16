@@ -256,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8092" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -331,12 +331,21 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
-        <option name="method" value="queryUploadNum" />
-        <option name="methodDescription" value="批量查询上传数码量" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
+        <option name="className" value="com.panpass.basic.center.service.controller.web.SysBusinessConfigController" />
+        <option name="method" value="selectBusinessConfig" />
+        <option name="methodDescription" value="系统配置查询" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/businessConfig/selectConfig" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="configType">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
         <option name="url" value="" />
       </ParamGroup>
     </option>
