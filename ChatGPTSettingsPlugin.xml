@@ -1,5 +1,7 @@
 <application>
   <component name="com.obiscr.chatgpt.settings.OpenAISettingsState">
+    <option name="accessToken" value="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" />
+    <option name="apiKey" value="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" />
     <contentStatesAll>
       <list>
         <ChatGPTContentState>
