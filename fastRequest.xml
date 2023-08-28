@@ -331,31 +331,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="originalProductQuery">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
         <option name="className" value="com.sp.biz.storage.controller.web.CcOriginalProductOrderController" />
-        <option name="method" value="queryOrder" />
-        <option name="methodDescription" value="查询原酒生产领料计划单列表" />
-        <option name="methodType" value="POST" />
+        <option name="method" value="detail" />
+        <option name="methodDescription" value="原酒生产领料计划单详情" />
+        <option name="methodType" value="GET" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/OriginalProduct/queryOrder" />
+        <option name="originUrl" value="/OriginalProduct/detail" />
         <option name="requestParamMap">
           <map>
-            <entry key="page">
+            <entry key="pId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/OriginalProduct/queryOrder" />
+        <option name="url" value="/OriginalProduct/detail" />
       </ParamGroup>
     </option>
     <option name="projectList">
