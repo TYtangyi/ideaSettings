@@ -256,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -273,7 +273,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MTU2MzgzNSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI3MWE3ZDk3NC1lN2ExLTQxZWUtODE4NC1iNDAyNDJjZTRjNWYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.H76ydzVPBT4jflteQkeLS7Vy8ZBHnnxNqhG9Q0xt7NmkFvX6ZhEEgd-Ep-x0qoc4y1qV6LbEvfbOtC9YJ8eneLHh_GNkksTn6dDU0Ote9rH5sRCwUg1BoYYu0NJxrmGWszHhmKFZ96OzOA_AlV-rCmmTPxjdBlRxlFfPD26owBj9flCYux-GK57SXfjk2aXQQRtSRK0m71c6rcjKn8kyMCx2IR6vIBgXRfuUI78xFQmu5c9nsmnh7Ehf04j07ct27bl7SwbnE9RAePiJJlraW_VFD65pPgboKsMMkUi7ScwzByYXUGCZdQ-A69ILSdzSjBVC8FM4mlDgerVVn82q8A" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MzIyMjk1NSwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI0N2I1MTUyOS00NzM0LTQ5ZWYtYmFkZS0yMmJiZWUxZDE4M2EiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.nhv2B5f1nkVhRE3K6y51PXYDmpHTfWhq8mD1x8bH_gpx9lD6ZQfojNsKmxhdg_XqKaV6Vek3zbHuPr-PYNkQ6Ht3AuCIJK1CeZLBsXOxov95On-MG3E8VQ0O6eHOKf3S7b37OHNS4um4FrL27E5e65QUqsi2tKoNrziRnBzuq4eIJo1MFqrLSCQ_6DuuUXwFMBYO1lemxR3eGPjcRgkEsyf7db7HxJ2ZcrOiS_Nr4ynFvjvLyhif3a3fCrEFCzZXSU-GPItJMLcDxo5SqwYWobt5vMiQImIQ72Puj1hzPwl9j6YuftQhAl9bOih4P5mE6NOKEOirGZr8G_dgb9DqPQ" />
                   </map>
                 </value>
               </entry>
@@ -331,22 +331,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.basic.center.service.controller.web.SysBusinessConfigController" />
-        <option name="method" value="selectBusinessConfig" />
-        <option name="methodDescription" value="系统配置查询" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="basic-service" />
-        <option name="originUrl" value="/businessConfig/selectConfig" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="configType">
+            <entry key="ccOriginalProductOrderDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcOriginalProductOrderController" />
+        <option name="method" value="edit" />
+        <option name="methodDescription" value="编辑原酒生产领料计划单" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/OriginalProduct/edit" />
+        <option name="url" value="/OriginalProduct/edit" />
       </ParamGroup>
     </option>
     <option name="projectList">
