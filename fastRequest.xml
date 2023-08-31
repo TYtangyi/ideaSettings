@@ -256,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8907" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="prevent" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -331,22 +331,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
-        <option name="method" value="importBatchExcel" />
-        <option name="methodDescription" value="锂电数码批量导入查询" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/importBatchExcel" />
+        <option name="className" value="com.panpass.prevent.center.service.controller.web.SynthesizeInfoController" />
+        <option name="method" value="search" />
+        <option name="methodDescription" value="fw_SynthesizeInfoController_search 稽查/溯源/物流信息查询" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="prevent-service" />
+        <option name="originUrl" value="/synthesize/search" />
         <option name="requestParamMap">
           <map>
-            <entry key="file">
+            <entry key="code">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/rawMaterialOrder/importBatchExcel" />
+        <option name="url" value="/synthesize/search" />
       </ParamGroup>
     </option>
     <option name="projectList">
