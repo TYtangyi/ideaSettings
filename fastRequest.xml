@@ -256,9 +256,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8905" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -274,6 +274,13 @@
                 <value>
                   <map>
                     <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MzIyMjk1NSwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI0N2I1MTUyOS00NzM0LTQ5ZWYtYmFkZS0yMmJiZWUxZDE4M2EiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.nhv2B5f1nkVhRE3K6y51PXYDmpHTfWhq8mD1x8bH_gpx9lD6ZQfojNsKmxhdg_XqKaV6Vek3zbHuPr-PYNkQ6Ht3AuCIJK1CeZLBsXOxov95On-MG3E8VQ0O6eHOKf3S7b37OHNS4um4FrL27E5e65QUqsi2tKoNrziRnBzuq4eIJo1MFqrLSCQ_6DuuUXwFMBYO1lemxR3eGPjcRgkEsyf7db7HxJ2ZcrOiS_Nr4ynFvjvLyhif3a3fCrEFCzZXSU-GPItJMLcDxo5SqwYWobt5vMiQImIQ72Puj1hzPwl9j6YuftQhAl9bOih4P5mE6NOKEOirGZr8G_dgb9DqPQ" />
+                  </map>
+                </value>
+              </entry>
+              <entry key="yqsl">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY5MzQ1MDMyMywiYXV0aG9yaXRpZXMiOlsiY3MiXSwianRpIjoiYTY2NzEyMDYtOWFmZi00ZWZlLWEyYTQtNDEwYmYwNDBmYjY4IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.kjUUsnF-5-xRVDu93lbqTNNZHecIIR5Ranb0M8iLwAsqMUFjF8gOTFL5QUdNPUjYRL1OCeFaETRaJucrbrnHbYUuTEhVlUkmldFfI2UZLuZzW2FQBmXgvb1yrF9fBDyiQOOXcNoQT1ufRl4b9vSaq5q9Z6zMZKWFiEqrl0IltBs" />
                   </map>
                 </value>
               </entry>
@@ -331,22 +338,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.prevent.center.service.controller.web.SynthesizeInfoController" />
-        <option name="method" value="search" />
-        <option name="methodDescription" value="fw_SynthesizeInfoController_search 稽查/溯源/物流信息查询" />
+        <option name="className" value="com.panpass.h5.center.service.controller.web.AntiFakeController" />
+        <option name="method" value="antiFake" />
+        <option name="methodDescription" value="h5_AntiFakeController_antiFake 防伪查询接口" />
         <option name="methodType" value="GET" />
-        <option name="module" value="prevent-service" />
-        <option name="originUrl" value="/synthesize/search" />
+        <option name="module" value="h5-service" />
+        <option name="originUrl" value="/app/h5/antiFake/antiFake" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
+            <entry key="logisInfoQueryBo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/synthesize/search" />
+        <option name="url" value="/inspection/inspection" />
       </ParamGroup>
     </option>
     <option name="projectList">
