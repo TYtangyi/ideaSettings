@@ -13,6 +13,10 @@
                 <option name="env" value="yqsl" />
                 <option name="url" value="http://127.0.0.1:8099" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="storage" />
@@ -26,6 +30,10 @@
               </HostGroup>
               <HostGroup>
                 <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
                 <option name="url" value="" />
               </HostGroup>
             </list>
@@ -43,6 +51,10 @@
                 <option name="env" value="yqsl" />
                 <option name="url" value="" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="prod" />
@@ -56,6 +68,10 @@
               </HostGroup>
               <HostGroup>
                 <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
                 <option name="url" value="" />
               </HostGroup>
             </list>
@@ -73,6 +89,10 @@
                 <option name="env" value="yqsl" />
                 <option name="url" value="" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="prevent" />
@@ -86,6 +106,10 @@
               </HostGroup>
               <HostGroup>
                 <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
                 <option name="url" value="" />
               </HostGroup>
             </list>
@@ -103,6 +127,10 @@
                 <option name="env" value="yqsl" />
                 <option name="url" value="" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="wx" />
@@ -117,6 +145,10 @@
               <HostGroup>
                 <option name="env" value="yqsl" />
                 <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="http://127.0.0.1:8903" />
               </HostGroup>
             </list>
           </option>
@@ -133,6 +165,10 @@
                 <option name="env" value="yqsl" />
                 <option name="url" value="http://127.0.0.1:8091" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="uums" />
@@ -146,6 +182,10 @@
               </HostGroup>
               <HostGroup>
                 <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
                 <option name="url" value="" />
               </HostGroup>
             </list>
@@ -163,6 +203,10 @@
                 <option name="env" value="yqsl" />
                 <option name="url" value="" />
               </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
             </list>
           </option>
           <option name="name" value="config" />
@@ -176,6 +220,10 @@
               </HostGroup>
               <HostGroup>
                 <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
                 <option name="url" value="" />
               </HostGroup>
             </list>
@@ -256,13 +304,14 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="enableEnv" value="dyt" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
         <option value="yqsl" />
+        <option value="dyt" />
       </list>
     </option>
     <option name="headerGroupList">
@@ -313,7 +362,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUUyIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5MzQ3NzU5NiwiYXV0aG9yaXRpZXMiOlsiMTM5MDQ5ODc5OTQ5MDEwOTQ0MiIsIjEzODQ3Mzc2Mjc5MTAzNzc0NzMiLCIxMzkyMzEwMDgzOTU3MjMxNjE3IiwiMTM0NjY1MDk3NDY0MzY3NTEzOCIsIjEzOTE3MjkwNDI0OTg0NTc2MDIiXSwianRpIjoiZDMxZmZjYzEtMTA4Zi00OGI2LThjNmUtNjE1NjVhODc4Y2QzIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.JU6HhgULXsNsddHdGFk01LJai3JJ3QjP4YcstpUXZdMFoneknc0aP9xh4-wf_n_ORC5mYtcYrWGZqXK8pSi1fkCvg_O37vR5TfgR0H1T1Ab7PVybYwmSAYWcT72vEF1QlvBXD8lIAhktaxaldfvKKa7MLXwRFyFX2A7FxUOimm5SNHM6oHgKvQOCob7Qub0_BPYZFkOMU_EL6MUMD4pUSXqhGAhwgvYakDPQiA9bav19rRA7_-ZNkzaGlJWnmypf9GW7fhZ8IKqAQNn2_pfVRIkviREAPSKve4qG2FJhlmuk1cVos29Ou9VaQHyrC2Ipu-Dc22lIaxA6XfBEWeEP7A" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="basic" />
@@ -338,22 +393,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
-        <option name="method" value="queryMarkForPage" />
-        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/markSelect/queryMarkForPage" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="jcChannelSyncDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/markSelect/queryMarkForPage" />
+        <option name="className" value="com.sp.biz.basic.data.controller.web.JcChannelArchivesController" />
+        <option name="method" value="syncChannel" />
+        <option name="methodDescription" value="第三方同步经销商" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-basicdata-center" />
+        <option name="originUrl" value="/jcChannelArchives/syncChannel" />
+        <option name="url" value="/jcChannelArchives/syncChannel" />
       </ParamGroup>
     </option>
     <option name="projectList">
