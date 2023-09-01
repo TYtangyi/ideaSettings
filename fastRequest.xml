@@ -400,22 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.TradeBillController" />
-        <option name="method" value="queryInfoByCode" />
-        <option name="methodDescription" value="营销码查询信息" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tradeBill/queryInfoByCode" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="jcChannelSyncDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/tradeBill/queryInfoByCode" />
+        <option name="className" value="com.sp.biz.basic.data.controller.web.JcChannelArchivesController" />
+        <option name="method" value="syncChannel" />
+        <option name="methodDescription" value="第三方同步经销商" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-basicdata-center" />
+        <option name="originUrl" value="/jcChannelArchives/syncChannel" />
+        <option name="url" value="/jcChannelArchives/syncChannel" />
       </ParamGroup>
     </option>
     <option name="projectList">
