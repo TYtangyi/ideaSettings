@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -319,11 +319,7 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev">
-                <value>
-                  <map />
-                </value>
-              </entry>
+              <entry key="dev" />
               <entry key="yqsl">
                 <value>
                   <map>
@@ -403,7 +399,7 @@
         <option name="methodDescription" value="营销码查询信息" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tradeBill/queryInfoByCode" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="markCode">
@@ -413,7 +409,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/tradeBill/queryInfoByCode" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
