@@ -394,12 +394,12 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.TradeBillController" />
-        <option name="method" value="queryInfoByCode" />
-        <option name="methodDescription" value="营销码查询信息" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
+        <option name="method" value="queryMarkForPage" />
+        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/markSelect/queryMarkForPage" />
         <option name="requestParamMap">
           <map>
             <entry key="markCode">
@@ -409,7 +409,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/markSelect/queryMarkForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
