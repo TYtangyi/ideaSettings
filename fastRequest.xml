@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -394,22 +394,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
-        <option name="method" value="queryMarkForPage" />
-        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/markSelect/queryMarkForPage" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="ccMixedWineOrderDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/markSelect/queryMarkForPage" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcMixedWineOrderController" />
+        <option name="method" value="add" />
+        <option name="methodDescription" value="新增勾调酒通知单" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
