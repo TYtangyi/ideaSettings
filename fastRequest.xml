@@ -319,7 +319,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5Mzg5ODA2MywiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiIwODQ5NDdhMS02ZWNjLTQ2MTktOTVlYS0yNGJkZGE2YzJkNTYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.VJ_4vWhcoZedKkxIAjNvOsR39OSrxp2und-nAQNUYt3fKSd8nzQcp8oMnXqmyYbFffpI-Awpj5PjgTymGgQFbSQOEP3Lk7-za4fhnP9gvw8G7s6kzOOj0kgpvR6IZRiDYYb0qmo8zBEmpNNgKK2P2ZoxAJwLdvwlUis_fkUUWeN4Oj7wu7otDzGJmm3kzyRGJPkeuW2Rk1i3W2slMNM_56tRRWZuTD7LCoa31EKgtKPDlQ87orgBB9Xolz_dGgqgimz1ok3ANzYvu3gfmoq4KDcS2R4wDaHXvD7QFXoXLO47vW_UIcTgf30YNM8wM57hE-HI_RtqxMAcHV2_EWjkBg" />
+                  </map>
+                </value>
+              </entry>
               <entry key="yqsl">
                 <value>
                   <map>
@@ -408,8 +414,8 @@
         <option name="methodDescription" value="新增勾调酒通知单" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="originUrl" value="/MixedWineOrder/add" />
+        <option name="url" value="/MixedWineOrder/add" />
       </ParamGroup>
     </option>
     <option name="projectList">
