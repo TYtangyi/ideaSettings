@@ -410,12 +410,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.web.CcMixedWineOrderController" />
-        <option name="method" value="add" />
-        <option name="methodDescription" value="新增勾调酒通知单" />
+        <option name="method" value="QualityControl" />
+        <option name="methodDescription" value="质检勾调酒通知单" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/MixedWineOrder/add" />
-        <option name="url" value="/MixedWineOrder/add" />
+        <option name="originUrl" value="/MixedWineOrder/qualityControl" />
+        <option name="url" value="/MixedWineOrder/qualityControl" />
       </ParamGroup>
     </option>
     <option name="projectList">
