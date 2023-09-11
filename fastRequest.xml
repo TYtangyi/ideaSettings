@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5Mzg5ODA2MywiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiIwODQ5NDdhMS02ZWNjLTQ2MTktOTVlYS0yNGJkZGE2YzJkNTYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.VJ_4vWhcoZedKkxIAjNvOsR39OSrxp2und-nAQNUYt3fKSd8nzQcp8oMnXqmyYbFffpI-Awpj5PjgTymGgQFbSQOEP3Lk7-za4fhnP9gvw8G7s6kzOOj0kgpvR6IZRiDYYb0qmo8zBEmpNNgKK2P2ZoxAJwLdvwlUis_fkUUWeN4Oj7wu7otDzGJmm3kzyRGJPkeuW2Rk1i3W2slMNM_56tRRWZuTD7LCoa31EKgtKPDlQ87orgBB9Xolz_dGgqgimz1ok3ANzYvu3gfmoq4KDcS2R4wDaHXvD7QFXoXLO47vW_UIcTgf30YNM8wM57hE-HI_RtqxMAcHV2_EWjkBg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NDQzMjQ4MCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiIzYmRhMWZkMS1iNWIwLTQ0YzgtOWIyMi0zYzVmZTFlNmMxZTMiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.I9C9DfLQ0v2f1CSvsqLW-cYSJuF0YTMKSnoxuy8P02JQG6cZkb6EtDRmdryNEM6HrbONk5hHlYHaToRNti-eMHLXmCkvcxdKOH1fEUGZd_eDjiDPq2ZjMYnJlobQ5tDqzg2-zaz5TSfms-UJy4NDHcK2-NHjHkx6tc1P_BD6TORX_qfaK90_6lxgr4ZvTtDZX4xJtHvYnJRE9XBT2CPNoVUzKjvmtIpF_4hzF8b6hGxXvfqNi08aPZQzQhK8RaNk-8qXE034gRY7cVAEN2fUqhHJZ_8rvgh03cBwgWBuBveTD1X5YiS46bUJBLBnQrKI-xei01EBSVhWJE4QptEmgg" />
                   </map>
                 </value>
               </entry>
@@ -400,22 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
+        <option name="method" value="selectSummary" />
+        <option name="methodDescription" value="查询配料汇总" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/pda/originalProduct/selectSummary" />
+        <option name="requestParamMap">
           <map>
-            <entry key="ccOriginalProductOrderDTO">
+            <entry key="orderNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcOriginalProductOrderController" />
-        <option name="method" value="add" />
-        <option name="methodDescription" value="添加原酒生产领料计划单" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/OriginalProduct/add" />
-        <option name="url" value="/OriginalProduct/add" />
+        <option name="url" value="/pda/originalProduct/selectSummary" />
       </ParamGroup>
     </option>
     <option name="projectList">
