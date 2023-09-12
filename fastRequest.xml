@@ -400,22 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
-        <option name="method" value="selectSummary" />
-        <option name="methodDescription" value="查询配料汇总" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/originalProduct/selectSummary" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="orderNo">
+            <entry key="scanBatchDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/originalProduct/selectSummary" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
+        <option name="method" value="scanBatchNo" />
+        <option name="methodDescription" value="原酒生产配料pda扫码校验" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/pda/originalProduct/scanBatchNo" />
+        <option name="url" value="/pda/originalProduct/scanBatchNo" />
       </ParamGroup>
     </option>
     <option name="projectList">
