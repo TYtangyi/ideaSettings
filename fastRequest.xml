@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NDQzMjQ4MCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiIzYmRhMWZkMS1iNWIwLTQ0YzgtOWIyMi0zYzVmZTFlNmMxZTMiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.I9C9DfLQ0v2f1CSvsqLW-cYSJuF0YTMKSnoxuy8P02JQG6cZkb6EtDRmdryNEM6HrbONk5hHlYHaToRNti-eMHLXmCkvcxdKOH1fEUGZd_eDjiDPq2ZjMYnJlobQ5tDqzg2-zaz5TSfms-UJy4NDHcK2-NHjHkx6tc1P_BD6TORX_qfaK90_6lxgr4ZvTtDZX4xJtHvYnJRE9XBT2CPNoVUzKjvmtIpF_4hzF8b6hGxXvfqNi08aPZQzQhK8RaNk-8qXE034gRY7cVAEN2fUqhHJZ_8rvgh03cBwgWBuBveTD1X5YiS46bUJBLBnQrKI-xei01EBSVhWJE4QptEmgg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NTEwMjgyNywiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiJjNGU3MThmZC1kNWQxLTQzMTItOTFkNi05M2E3NzI4ODM4NjYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.DWBViLD9O19dWDQxelQyLs-kijIM-Gr0d74XAVGnC8XlRbcLBhNkPi_N8uJ3kbH3E6aETu_J6jodT2J6T2bQEe1PrFdfTj8hmE1ilYDIL0qXD16m_KE0Bl2z2WGeSUHotxEz-3lzzbEMQL-9Zt-UIfgv0ensReYxenAv74QYH1klVCLRU0T2Q4gU_tWAXNT_rahC9dAGmeOo2eVk_sS4UGkGFbc31wHe5K0ifasEfMRVOiYz6R7nzIkQ0DyaBYRZTQirKOrklk8DTlhu7iYuq9zYWzQiFuZkwAsf46k1lajcMgxY_r_mrN7PtYrhpwD5IKcFgMnCm5-QFwoe_uJTGQ" />
                   </map>
                 </value>
               </entry>
@@ -402,20 +402,29 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="ccMixedRelationDTO">
+            <entry key="query">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcMixedWineOrderController" />
-        <option name="method" value="isAdd" />
-        <option name="methodDescription" value="是否能添加原酒" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.ProductOrderPdaApi" />
+        <option name="method" value="queryPdaOrder" />
+        <option name="methodDescription" value="PDA根据单号查询单据" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/MixedWineOrder/isAdd" />
-        <option name="url" value="/MixedWineOrder/isAdd" />
+        <option name="originUrl" value="/pda/productOrder/queryPdaOrder" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/pda/productOrder/queryPdaOrder" />
       </ParamGroup>
     </option>
     <option name="projectList">
