@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -400,31 +400,37 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="query">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.sp.biz.storage.controller.pda.ProductOrderPdaApi" />
-        <option name="method" value="queryPdaOrder" />
-        <option name="methodDescription" value="PDA根据单号查询单据" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
+        <option name="method" value="importExcel" />
+        <option name="methodDescription" value="原辅料数码导入" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/rawMaterialOrder/importExcel" />
         <option name="requestParamMap">
           <map>
-            <entry key="page">
+            <entry key="batchNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="file">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="remark">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="templateId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/rawMaterialOrder/importExcel" />
       </ParamGroup>
     </option>
     <option name="projectList">
