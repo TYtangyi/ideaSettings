@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1695115056856" />
+    <option name="lastTrimTime" value="1695708160004" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -12,6 +12,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="勾调酒" />
       <item value="Failed to instantiate" />
       <item value="锂电" />
       <item value="li'dian" />
@@ -61,12 +62,11 @@
       <item value="新数据" />
       <item value="数据" />
       <item value="数据qian'yi" />
-      <item value="数据qi" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="659" />
-        <entry key="ENGLISH" value="657" />
+        <entry key="CHINESE" value="670" />
+        <entry key="ENGLISH" value="668" />
       </map>
     </option>
   </component>
