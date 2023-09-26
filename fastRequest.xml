@@ -400,22 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
-        <option name="method" value="selectLithiumDetail" />
-        <option name="methodDescription" value="锂电数码查询" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/selectDetailByCode" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="replaceMarkLogDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/rawMaterialOrder/selectDetailByCode" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.ReplaceMarkLogController" />
+        <option name="method" value="replace" />
+        <option name="methodDescription" value="锂电数码替换" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/replaceMarkLog/replaceCode" />
+        <option name="url" value="/replaceMarkLog/replaceCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
