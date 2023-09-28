@@ -410,11 +410,11 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
-        <option name="method" value="OriginalStockOut" />
-        <option name="methodDescription" value="原酒生产配料pda出库" />
+        <option name="method" value="editTradeBill" />
+        <option name="methodDescription" value="原酒生产配料pda编辑单据" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/originalProduct/OriginalStockOut" />
+        <option name="originUrl" value="/pda/originalProduct/editTradeBill" />
         <option name="url" value="/pda/originalProduct/OriginalStockOut" />
       </ParamGroup>
     </option>
