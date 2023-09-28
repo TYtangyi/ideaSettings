@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NTgxOTgwMCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiJjZWQ4MGVjMi1mOTU1LTQzMmEtYTA5My1hY2QzZjI2NTdhMWQiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.LM6qKMPfQ34CJIUnmIAaUd1sJskNkcqZj4H-I6iW4DQbl7JnVaairyX4B6Z9V846rDNE802weKuahNOk3knGPFSuWNIyp1xhTot_jNJFaFSvUuotsmvk8Cwel582RY4HfOD2wHf46U-ozEq5afia2oIC-0exwxAgd78Kgus65xIrlAI7MMwK8fVGxTYw94f7YwC3PB817V3nLXJ2svpzq5XPo83DWm8cQAJcHQBTIXcKsh0KLMNAy0cZRmu3WgqBl4pxqjdKVWY_CpzPvZH62tI8WsC0WSTaMrugAGhxyxypNcRk0QigLJvw5X4g5BBU7f6Fq_u9I5VzcvZPJiSZgQ" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NTg4NDA2OSwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI1NmYxYzk5My1iNTdhLTQ2ODgtODcxYy1jMDVjMWQwMDRiOTgiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.pBzYHMbmTQvijfx1H3wVRdQ0eZEG_LeWoHT_dZr9GLdpClIk5zp_RmamVvszSWEedxh9MrVP7DQXBBBaFUmHj5f_zz0amEY1uCC17_MwJxcxgo_DrwKXf1jBOG3u12r9SCo9UdyReKcyx3hmsL2Dsv5ZFRe4wVj70IrSZ2M7uGKzdltq5lUpUgz0Y691YhopOGqnbIwIxShjjXuNxa6LI6aPbw8DSwvrdut4MfuSWH1B8BPDiE5GlTzsNLANogKqQOP2x0ET4gXrIXo6wZg6QKxCTXcHXxyt2SBS8X9T3wL8z_-VGEf5TaTRo2MRHNUkne457v1-7U8OCKucxNhy2Q" />
                   </map>
                 </value>
               </entry>
@@ -410,12 +410,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
-        <option name="method" value="editTradeBill" />
-        <option name="methodDescription" value="原酒生产配料pda编辑单据" />
+        <option name="method" value="ingredientDetail" />
+        <option name="methodDescription" value="原酒生产配料pda详情" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/originalProduct/editTradeBill" />
-        <option name="url" value="/pda/originalProduct/editTradeBill" />
+        <option name="originUrl" value="/pda/originalProduct/ingredientDetail" />
+        <option name="url" value="/pda/originalProduct/ingredientDetail" />
       </ParamGroup>
     </option>
     <option name="projectList">
