@@ -25,7 +25,7 @@
         </ChatGPTContentState>
       </list>
     </contentStatesAll>
-    <option name="easyCodeAccessToken" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1ODA0MjIxLCJpYXQiOjE2OTU3OTU5ODIsImp0aSI6IjJjOWYzMGVlNzljMzQ5M2FhYTIzMmM5ZDBjYTdmM2I5IiwidXNlcl9pZCI6MzEzMzI3fQ.7GS1LjzSFSSTOS3TBBNR3YBf6r7Cd2WdwMOIgAT7wB0" />
-    <option name="easyCodeRefreshToken" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5NzAxMjkyMSwiaWF0IjoxNjk1ODAzMzIxLCJqdGkiOiIyYzNlMGQzYzYwNDA0ZDlkOTU4ZjE4YWI1MjQ1YTc3OCIsInVzZXJfaWQiOjMxMzMyN30.F5FDNtTu2NejNqeWvLNRPRB9DDDMIwdaxRTOkGhLbb4" />
+    <option name="easyCodeAccessToken" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk2NjQ0NDgyLCJpYXQiOjE2OTU4MDMzMjEsImp0aSI6ImIxYzU0YmYxZmM4YzQzYjA5YWJkNjZmNDgyYWMzYzQzIiwidXNlcl9pZCI6MzEzMzI3fQ.O6i963i-hYfUfrTnn5_mlLM5qzz0CVGEyrbNGxQjCM4" />
+    <option name="easyCodeRefreshToken" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5Nzg1MzE4MiwiaWF0IjoxNjk2NjQzNTgyLCJqdGkiOiIxOTcxNWU0Y2QwMTg0YWZkOTU4YTFiZGMyY2ZjNDc4ZiIsInVzZXJfaWQiOjMxMzMyN30.kevpQ6OLabYfEUUp3Mea28Bgk3BQMrQYSnHUkwRZS8g" />
   </component>
 </application>
