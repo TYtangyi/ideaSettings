@@ -400,22 +400,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.storage.controller.web.CcMixedWineOrderController" />
+        <option name="method" value="productFinish" />
+        <option name="methodDescription" value="生产完成" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/MixedWineOrder/productFinish" />
+        <option name="requestParamMap">
           <map>
-            <entry key="mixedWinePdaDTO">
+            <entry key="inboundNum">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="pId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.pda.MixedWineOrderPdaController" />
-        <option name="method" value="editTradeBill" />
-        <option name="methodDescription" value="勾调酒生产配料pda编辑单据" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/mixedWineOrder/editTradeBill" />
-        <option name="url" value="/pda/mixedWineOrder/editTradeBill" />
+        <option name="url" value="/pda/mixedWineOrder/delTradeBill" />
       </ParamGroup>
     </option>
     <option name="projectList">
