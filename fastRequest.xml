@@ -402,29 +402,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="originalProductQuery">
+            <entry key="scanCodeDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcOriginalProductOrderController" />
-        <option name="method" value="queryOrder" />
-        <option name="methodDescription" value="查询原酒生产领料计划单列表" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.ProductOrderPdaApi" />
+        <option name="method" value="scanOutContainerCode" />
+        <option name="methodDescription" value="PDA扫出库酒罐校验" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/OriginalProduct/queryOrder" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/OriginalProduct/queryOrder" />
+        <option name="originUrl" value="/pda/productOrder/scanOutContainerCode" />
+        <option name="url" value="/pda/productOrder/scanOutContainerCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
