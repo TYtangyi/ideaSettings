@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NjgzMDUyNCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiIwY2FjZDE0Ny0xMWIyLTQ5YzYtYTJjNS1hODhkNThkZjJjOTMiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.Tk-hyCQEiLLN7kZvMvaSrCDd9I44m6LlSHAqR39u4bWbdv_OMqs2GEFFuMKBXYVoo6h82Rr35HbJAp-oKdqULBn388N3ZL8AjRQMB2GIkkgefJcFD3Rlssjg5W6_GuU-1WZhh94b_GKI6DtPDCP5eNgiOyg6trc-C3k9ggap7VVawusRnSJZiAzX1Gi7JhytQjEJZeP0nMM3zJsLCwsNhVs4Z3Md9Xgi-GtalBkjGYi7DYehs5c3kvWQE3J7Ll2q5aaAI4aopgjd9xWo6-9BqBs55DEnxxmiKcTCcvlvCcngNis699h3AZFzrKHaBvJGKtPLNY5Mj615cXnadIwxqw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5Njg0ODM0OCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI0Y2Q2NmU0OC03MGQ1LTQzYTctYTkyNS1kYWJjNWM3NmMxY2YiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.roluZC4CdoIYgIJvO9G5YWZyeI4xgaGwJr_d7iR27xGTILz1rorZGlSki3hAJK7MQS5S7A4KZUnXuVzHMbmTFbVtvFN7ObxYEb8ph0B9G3I26v9mSIbeZQAS2WdwQRYh__3-WqtKc7HCuiFLnv9o38XnrFPnAgEIsb5kLfFmoR8_8w85xDW0lET9f6UNGVoeYAA0xkNErZknDSPh-5AgZKHUnIgzwnBXzRtyGq0zIhsDJAqpbxkRU-Z3UB1wD7CORLj5Yj5_yOR4UpjvPNruocGJyGgu9ZZjykuVjiOnP8NQC1f5rSSoAgOUr7vyb2yACc2c7zQLfUXwZay5LFYnAw" />
                   </map>
                 </value>
               </entry>
@@ -400,27 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcMixedWineOrderController" />
-        <option name="method" value="productFinish" />
-        <option name="methodDescription" value="生产完成" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/MixedWineOrder/productFinish" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="inboundNum">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="pId">
+            <entry key="scanCodeDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/mixedWineOrder/delTradeBill" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.ProductOrderPdaApi" />
+        <option name="method" value="scanOutContainerCode" />
+        <option name="methodDescription" value="PDA扫出库酒罐校验" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/pda/productOrder/scanOutContainerCode" />
+        <option name="url" value="/pda/productOrder/scanOutContainerCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
