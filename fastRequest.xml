@@ -402,7 +402,7 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="scanCodeDTO">
+            <entry key="productOrderPdaDTO">
               <value>
                 <Object />
               </value>
@@ -410,12 +410,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.pda.ProductOrderPdaApi" />
-        <option name="method" value="scanOutContainerCode" />
-        <option name="methodDescription" value="PDA扫出库酒罐校验" />
+        <option name="method" value="productStockOut" />
+        <option name="methodDescription" value="罐装酒生产配料pda出库" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/productOrder/scanOutContainerCode" />
-        <option name="url" value="/pda/productOrder/scanOutContainerCode" />
+        <option name="originUrl" value="/pda/productOrder/productStockOut" />
+        <option name="url" value="/pda/productOrder/productStockOut" />
       </ParamGroup>
     </option>
     <option name="projectList">
