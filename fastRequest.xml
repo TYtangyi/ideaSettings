@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NjkxOTMwMywiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI5YmQ3ODFiMS1lMGRjLTQxYTctYjRjYS0zNTZiYThhMWI0MGEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.RJpWQsOzQselFAeomG9b6Y9j7L326cIC_ALiuDUEiRWteiSjDbl1PHQdlqgi9oC1dFE7tbt_bPyk34ovJUbQBwPGFZ4IjVBYFFt6FRBnzbgoERydoUCkpXxomQL5L1mEZtkUogBNerjhKBOr-82igaazD9csJzwuPr_vFKeawbOfC_6X4YHpupreAU3ZzQX8j0xU9Irx4tXywk2wgXKmBXFhLUhNhe2pHJjRfGltj62NH3suIuQ19vl5kJu0raGV3z4yMtVFIgl05GbN0nNNAWeB_XPjpUQMhoIyU2uxvkji1-9QwuRaqCBRlhU3iQMEdoUMScJDp2LacbQa7NDFug" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NjkzNjE2OCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiJiNTcwYTA0MC0zODA3LTQ2ZTUtODY5Yy0zMDI5ZTAyZjM4ZWIiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.Aj3_SsSpKfLT03gaWOfd74oTs_-oafMoJU8cytGbxcxzGVT-3sCI7CBRwimtjbLhqenfskxwlcfQZoWPa1TzUOIy8yNnBzYRGHxrVFPCvAk7D-6n5tLL1RLUfzaeYWVn9PTLzzc6Gv5_aUG7DbH26WAKjadiAzRg-3QehDJ3FZ7JUQgs9uyydUXPh5BTUbYIngkknPyaKgYj6Tg3P55obEhJqAamS-n3NYVRVfHMFI3u3XB5sotla23-mSrUKfIv8vTVI1UpbtUJBNlwnXxtqFklQqIJLLGuLlWpenrauex-lX22LNioHbzrzpvzgRWXHUfydp9UxEJNxlzGnEosGw" />
                   </map>
                 </value>
               </entry>
@@ -402,29 +402,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="ingredientQuery">
+            <entry key="ccOriginalProductOrderDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.YjTradeBillController" />
-        <option name="method" value="selectIngredientPage" />
-        <option name="methodDescription" value="配料出库列表" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcOriginalProductOrderController" />
+        <option name="method" value="edit" />
+        <option name="methodDescription" value="编辑原酒生产领料计划单" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/yjTradeBill/selectIngredientPage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/yjTradeBill/selectIngredientPage" />
+        <option name="originUrl" value="/OriginalProduct/edit" />
+        <option name="url" value="/OriginalProduct/edit" />
       </ParamGroup>
     </option>
     <option name="projectList">
