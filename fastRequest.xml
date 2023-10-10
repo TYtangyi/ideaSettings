@@ -408,6 +408,11 @@
         <option name="originUrl" value="/pda/originalProduct/ingredientBill" />
         <option name="requestParamMap">
           <map>
+            <entry key="billType">
+              <value>
+                <Object />
+              </value>
+            </entry>
             <entry key="orderNo">
               <value>
                 <Object />
