@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5Njg0ODM0OCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI0Y2Q2NmU0OC03MGQ1LTQzYTctYTkyNS1kYWJjNWM3NmMxY2YiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.roluZC4CdoIYgIJvO9G5YWZyeI4xgaGwJr_d7iR27xGTILz1rorZGlSki3hAJK7MQS5S7A4KZUnXuVzHMbmTFbVtvFN7ObxYEb8ph0B9G3I26v9mSIbeZQAS2WdwQRYh__3-WqtKc7HCuiFLnv9o38XnrFPnAgEIsb5kLfFmoR8_8w85xDW0lET9f6UNGVoeYAA0xkNErZknDSPh-5AgZKHUnIgzwnBXzRtyGq0zIhsDJAqpbxkRU-Z3UB1wD7CORLj5Yj5_yOR4UpjvPNruocGJyGgu9ZZjykuVjiOnP8NQC1f5rSSoAgOUr7vyb2yACc2c7zQLfUXwZay5LFYnAw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NjkxOTMwMywiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI5YmQ3ODFiMS1lMGRjLTQxYTctYjRjYS0zNTZiYThhMWI0MGEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.RJpWQsOzQselFAeomG9b6Y9j7L326cIC_ALiuDUEiRWteiSjDbl1PHQdlqgi9oC1dFE7tbt_bPyk34ovJUbQBwPGFZ4IjVBYFFt6FRBnzbgoERydoUCkpXxomQL5L1mEZtkUogBNerjhKBOr-82igaazD9csJzwuPr_vFKeawbOfC_6X4YHpupreAU3ZzQX8j0xU9Irx4tXywk2wgXKmBXFhLUhNhe2pHJjRfGltj62NH3suIuQ19vl5kJu0raGV3z4yMtVFIgl05GbN0nNNAWeB_XPjpUQMhoIyU2uxvkji1-9QwuRaqCBRlhU3iQMEdoUMScJDp2LacbQa7NDFug" />
                   </map>
                 </value>
               </entry>
@@ -400,22 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
+        <option name="method" value="ingredientBill" />
+        <option name="methodDescription" value="原酒、勾调酒、罐装酒配料pda查询关联出库单" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/pda/originalProduct/ingredientBill" />
+        <option name="requestParamMap">
           <map>
-            <entry key="productOrderPdaDTO">
+            <entry key="orderNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.pda.ProductOrderPdaApi" />
-        <option name="method" value="editTradeBill" />
-        <option name="methodDescription" value="罐装酒生产配料pda编辑单据" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/productOrder/editTradeBill" />
-        <option name="url" value="/pda/productOrder/editTradeBill" />
+        <option name="url" value="/pda/originalProduct/ingredientBill" />
       </ParamGroup>
     </option>
     <option name="projectList">
