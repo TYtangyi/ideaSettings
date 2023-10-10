@@ -400,27 +400,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
-        <option name="method" value="ingredientBill" />
-        <option name="methodDescription" value="原酒、勾调酒、罐装酒配料pda查询关联出库单" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/originalProduct/ingredientBill" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="billType">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="orderNo">
+            <entry key="ingredientQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/originalProduct/ingredientBill" />
+        <option name="className" value="com.sp.biz.storage.controller.web.YjTradeBillController" />
+        <option name="method" value="selectIngredientPage" />
+        <option name="methodDescription" value="配料出库列表" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/yjTradeBill/selectIngredientPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/yjTradeBill/selectIngredientPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
