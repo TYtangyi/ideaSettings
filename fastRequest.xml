@@ -400,22 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.storage.controller.web.YjTradeBillController" />
+        <option name="method" value="ingredientDetail" />
+        <option name="methodDescription" value="配料出库详情" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/yjTradeBill/ingredientDetail" />
+        <option name="requestParamMap">
           <map>
-            <entry key="scanCodeDTO">
+            <entry key="billNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.pda.MixedWineOrderPdaController" />
-        <option name="method" value="mixedStockOut" />
-        <option name="methodDescription" value="勾调酒生产配料pda出库" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/mixedWineOrder/mixedStockOut" />
-        <option name="url" value="/pda/mixedWineOrder/scanInContainerCode" />
+        <option name="url" value="/yjTradeBill/ingredientDetail" />
       </ParamGroup>
     </option>
     <option name="projectList">
