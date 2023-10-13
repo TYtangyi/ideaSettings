@@ -410,11 +410,11 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.pda.MixedWineOrderPdaController" />
-        <option name="method" value="scanInContainerCode" />
-        <option name="methodDescription" value="勾调酒生产配料pda扫入库酒罐码校验" />
+        <option name="method" value="mixedStockOut" />
+        <option name="methodDescription" value="勾调酒生产配料pda出库" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/mixedWineOrder/scanInContainerCode" />
+        <option name="originUrl" value="/pda/mixedWineOrder/mixedStockOut" />
         <option name="url" value="/pda/mixedWineOrder/scanInContainerCode" />
       </ParamGroup>
     </option>
