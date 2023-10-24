@@ -400,13 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.TestJobController" />
-        <option name="method" value="testJob" />
-        <option name="methodDescription" value="" />
+        <option name="bodyParamMap">
+          <map>
+            <entry key="query">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
+        <option name="method" value="exportTemplate" />
+        <option name="methodDescription" value="成品列表导出" />
         <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/testJob/syncSale" />
-        <option name="url" value="/testJob/syncSale" />
+        <option name="originUrl" value="/endProductMark/exportTemplate" />
+        <option name="url" value="/endProductMark/exportTemplate" />
       </ParamGroup>
     </option>
     <option name="projectList">
