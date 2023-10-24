@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -400,22 +400,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="dto">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.sp.biz.prevent.controller.web.AntiFakeController" />
-        <option name="method" value="selectAntiDetail" />
-        <option name="methodDescription" value="防伪个数详情查询" />
+        <option name="className" value="com.panpass.mark.center.service.controller.api.TestJobController" />
+        <option name="method" value="testJob" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-prevent-center" />
-        <option name="originUrl" value="/antifake/selectAntiDetail" />
-        <option name="url" value="/antifake/selectAntiDetail" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/testJob/syncSale" />
+        <option name="url" value="/testJob/syncSale" />
       </ParamGroup>
     </option>
     <option name="projectList">
