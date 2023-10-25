@@ -304,7 +304,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
@@ -400,22 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
-        <option name="method" value="selectSummary" />
-        <option name="methodDescription" value="查询原酒配料汇总" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
+        <option name="method" value="thirdSelectCode" />
+        <option name="methodDescription" value="第三方数码查询" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/markSelect/thirdSelectCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="orderNo">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/markSelect/thirdSelectCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
