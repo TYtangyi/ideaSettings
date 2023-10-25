@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -402,20 +402,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="query">
+            <entry key="batchNoDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
-        <option name="method" value="exportTemplate" />
-        <option name="methodDescription" value="成品列表导出" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.OriginalProductOrderPdaController" />
+        <option name="method" value="selectBatchNos" />
+        <option name="methodDescription" value="原酒、勾调酒、罐装酒配料pda查询最近三个入库批次" />
         <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/endProductMark/exportTemplate" />
-        <option name="url" value="/endProductMark/exportTemplate" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/pda/originalProduct/selectBatchNos" />
+        <option name="url" value="/pda/originalProduct/selectBatchNos" />
       </ParamGroup>
     </option>
     <option name="projectList">
