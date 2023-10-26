@@ -304,7 +304,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5NzQ1OTkyOCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiIwZTgwNTNjNC01MGQ3LTQ3YWYtYjgxNS05YTgzZjE5MDU1NTkiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.AzPb1vzftY7x73pmpJqB0lhad-CwaATrVZQoWSSdDY1OUbSJvu4R3wU4IzmoCM0Xfygn-rUFpcun-y_oty_lm-67O-IawMeDC8pcTPf9RcVk50U1A5s2UcKTBWe755KQLG9CQ-6X05rNUX-4K8jw7CjOLst3ft_i9ZrU-2Dv1zTLtkiJjkFWEYwc_zfy3gRRAkljxj5zl3Xrj4Xp8TPfxShgB7vH-o4V-kdTNV4ELJ1mrbrCFgBZGGc7I0ts-PScftJFJoRK5uT0K7kYexf9U8e5WWFWXZnEWo9o3fWkCt1-Dc2-P3eD_zNvWRrQYMrGuIXyVM9r1-aFr1oGAA88dQ" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5ODI5OTM4NCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiJhOTkxNDk3ZS0yNTAxLTQ5NWMtOGQ4MS03MzdlNTRhMDQxZGMiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.C1WbQbvNMP0xPUvkPPeb1nFnSX1Gtc1NBO9rZ2nW0caP-bX5vLKY8ROAgB3thNx8T9aZ-6GnRPWXXHUomMAlMv6mrNTo0-RECeQ8znDQEXG0GnsQtTW9capfufNB3dQyE2S9UuAgFpeGB9V22Gk82Z7uqIkQfrygkAhGUEpjq0n0zKfCEq1wAT4dtwxqaAwFU-aO8JBLEk9m1w9Psv8OFuZsGPcMOeVZT_XjM7EBrtcHxGe9g6Hlz-b--KTq4d2CIy6qYURvyupUnUDRDNXA0npqnBktgzx23sxsfzraTfIgFDXtPVHUUR8giouwTI5Q17XuAzrAisXl-fIOXRR_YA" />
                   </map>
                 </value>
               </entry>
@@ -400,22 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
-        <option name="method" value="thirdSelectCode" />
-        <option name="methodDescription" value="第三方数码查询" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/markSelect/thirdSelectCode" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="batchNoDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/markSelect/thirdSelectCode" />
+        <option name="className" value="com.sp.biz.storage.controller.web.YjTradeBillController" />
+        <option name="method" value="selectSummaryBatchNos" />
+        <option name="methodDescription" value="原酒、勾调酒、罐装酒配汇总查询最近三个入库批次" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/yjTradeBill/selectSummaryBatchNos" />
+        <option name="url" value="/yjTradeBill/selectSummaryBatchNos" />
       </ParamGroup>
     </option>
     <option name="projectList">
