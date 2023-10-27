@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5ODMyMDM2MSwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI0ODczNzk4Ni1kY2FhLTQ3ZWYtYjIwOS00NGYxMTVmY2M4NzAiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.F7NdB_GDTEHjVrG9APai5uJrstOatx16uoE17P7LseQUptTNbtwAgZqEhAguMNmUCYEDRyD_9j64x7TJb8_lmO-wRHtxy2jYDhKG__cFNeVvH1hgaY-RkUbWuYhOVvMZWhP-Czid_FJqdV-ortIXGPXvSPd4GUK3iJUfg0Me6jHsrPlcFTZCsRjFaK1LbpszrA9xSS2VqXL5Xgj_KI9NQqhBdtooDoZiQTvxsUulT5TBG-ETojjU9A302uNmpN9hgqJJ2xZtInkXNANFda9m8Ug4JsWTXwWRxZQFKL7sxPPUcpndpyv4gqpvG4rEZuOy656suFO9Plwp1twnOCUOSw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJMTTMiLCJzb3R5cGUiOiJQQyIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE2OTg0MTE3NDEsImF1dGhvcml0aWVzIjpbIjE2OTYwNDIxMTkzODcyNDY1OTMiXSwianRpIjoiNzVkNTY4YTktN2FhNS00YTc2LTk2MzAtNzY5OGI5NzM1Y2MyIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.MqaVICa6KjZZNSTt-NzcomT71-YFu-bM5DYgBX9FC90EBl3d42MOtzB6Syjnohz69vg3RzE8gBt4K8ye-uroXwrNsVXWFqklTPcO-vnvRYo3mj8jk_7lu0KkQ6FS5yh9go6nDTYKnWwIVlnIiVphgUQCKomHc11LdDbK4t9BK6uanIw9rHU4K81nN2o-HsX0fk1UXwZLJE8SNwh7fvcC2dqBz2PiP-BIEjxkiSRKNYumdJOxEHiSiJce3xrm3Mj6pmyKDm5rU5JgXzQc5tgDHztjO75t8BuUp3Il1TZKTtFQw_Ry7RETqv69wB7KalYS6eVpvyudlLI3ihuOToENog" />
                   </map>
                 </value>
               </entry>
@@ -400,22 +400,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.TradeBillController" />
-        <option name="method" value="pushChannelBillForHistory" />
-        <option name="methodDescription" value="模拟仓储推送渠道" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tradeBill/pushChannelBillForHistory" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="billNo">
+            <entry key="ingredientQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/tradeBill/pushChannelBillForHistory" />
+        <option name="className" value="com.sp.biz.storage.controller.web.YjTradeBillController" />
+        <option name="method" value="selectIngredientPage" />
+        <option name="methodDescription" value="配料出库列表" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/yjTradeBill/selectIngredientPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/yjTradeBill/selectIngredientPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
