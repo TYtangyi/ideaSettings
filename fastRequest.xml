@@ -400,13 +400,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.pda.MixedWineOrderPdaController" />
-        <option name="method" value="mixedStockOut" />
-        <option name="methodDescription" value="勾调酒生产配料pda出库" />
+        <option name="className" value="com.sp.biz.storage.controller.web.TradeBillController" />
+        <option name="method" value="pushChannelBillForHistory" />
+        <option name="methodDescription" value="模拟仓储推送渠道" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/tradeBill/pushChannelBillForHistory" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="billNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/tradeBill/pushChannelBillForHistory" />
       </ParamGroup>
     </option>
     <option name="projectList">
