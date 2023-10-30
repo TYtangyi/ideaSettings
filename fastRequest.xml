@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -414,22 +414,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.basic.data.controller.web.ContainerArchivesController" />
+        <option name="method" value="selectContainerByOrg" />
+        <option name="methodDescription" value="根据组织获取酒罐档案下拉列表" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-basicdata-center" />
+        <option name="originUrl" value="/containerArchives/selectContainerByOrg" />
+        <option name="requestParamMap">
           <map>
-            <entry key="dto">
+            <entry key="orgId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.prevent.controller.web.AntiFakeController" />
-        <option name="method" value="selectAntiDetail" />
-        <option name="methodDescription" value="防伪个数详情查询" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-prevent-center" />
-        <option name="originUrl" value="/antifake/selectAntiDetail" />
-        <option name="url" value="/antifake/selectAntiDetail" />
+        <option name="url" value="/containerArchives/selectContainerByOrg" />
       </ParamGroup>
     </option>
     <option name="projectList">
