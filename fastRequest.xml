@@ -306,7 +306,7 @@
     </option>
     <option name="domain" value="http://127.0.0.1:8907" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="prevent" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -395,6 +395,20 @@
             </map>
           </option>
           <option name="projectName" value="uums" />
+        </HeaderGroup>
+        <HeaderGroup>
+          <option name="envMap">
+            <map>
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUUyIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5ODY0OTEzNSwiYXV0aG9yaXRpZXMiOlsiMTM5MDQ5ODc5OTQ5MDEwOTQ0MiIsIjEzODQ3Mzc2Mjc5MTAzNzc0NzMiLCIxMzkyMzEwMDgzOTU3MjMxNjE3IiwiMTM0NjY1MDk3NDY0MzY3NTEzOCIsIjEzOTE3MjkwNDI0OTg0NTc2MDIiXSwianRpIjoiMjViMGZmYTQtYWExOC00MWMzLTg4YzYtZmU1MzU0NjhmZWJiIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.xOC7ItXCCgWJlFFjeCbrb9UuatEsUPSiqK8yUQkVD-ty-lE0JvSBsoDW4SklGVgA04ZK2F0hIfgCn39SRI1muAdsJuQWkgjDi927qyZutKLca0LDkbo2NQXkDDmOM6VGDpvDKvibSVmV3BzAff0Tu2IHtv19MZktqpq-wwPBkacxD0XVtFMUdgalE5FX4IB1HOhGkUH9UnGjYPcdNrXkdFxS9NnDJe2mENZfj2hB1z1ctRn4iy6R8AprhN9NX75UxVm2RTloahGwYr3DOA46GMpQElXBY6CK2_mJBqQjsnavalrlW7h3YuO-PAf5zEW6Rt_gR95jN_NbOvsQdbOIvw" />
+                  </map>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="projectName" value="prevent" />
         </HeaderGroup>
       </list>
     </option>
