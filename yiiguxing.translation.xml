@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1698219308051" />
+    <option name="lastTrimTime" value="1698825589307" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -12,6 +12,8 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="重置" />
+      <item value="chong'zhi" />
       <item value="重复" />
       <item value="chong" />
       <item value="chong'd'fu" />
@@ -60,13 +62,11 @@
       <item value="shi'fou" />
       <item value="shi'fou'y" />
       <item value="是否同步&#10;" />
-      <item value="是否同步" />
-      <item value="shi" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="699" />
-        <entry key="ENGLISH" value="697" />
+        <entry key="CHINESE" value="708" />
+        <entry key="ENGLISH" value="706" />
       </map>
     </option>
   </component>

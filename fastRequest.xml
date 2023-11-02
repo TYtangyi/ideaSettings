@@ -414,22 +414,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkPoolController" />
-        <option name="method" value="pushBatchAiMa" />
-        <option name="methodDescription" value="批量推送" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/markPool/pushBatchAiMa" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="topic">
+            <entry key="lithiumImportDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/markPool/pushBatchAiMa" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
+        <option name="method" value="exportMarkCodeDetail" />
+        <option name="methodDescription" value="锂电数码批量查询导出" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/rawMaterialOrder/exportBatchCodes" />
+        <option name="url" value="/rawMaterialOrder/exportBatchCodes" />
       </ParamGroup>
     </option>
     <option name="projectList">
