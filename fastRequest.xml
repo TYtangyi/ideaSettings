@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8907" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="prevent" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -401,9 +401,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUUyIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5ODY0OTEzNSwiYXV0aG9yaXRpZXMiOlsiMTM5MDQ5ODc5OTQ5MDEwOTQ0MiIsIjEzODQ3Mzc2Mjc5MTAzNzc0NzMiLCIxMzkyMzEwMDgzOTU3MjMxNjE3IiwiMTM0NjY1MDk3NDY0MzY3NTEzOCIsIjEzOTE3MjkwNDI0OTg0NTc2MDIiXSwianRpIjoiMjViMGZmYTQtYWExOC00MWMzLTg4YzYtZmU1MzU0NjhmZWJiIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.xOC7ItXCCgWJlFFjeCbrb9UuatEsUPSiqK8yUQkVD-ty-lE0JvSBsoDW4SklGVgA04ZK2F0hIfgCn39SRI1muAdsJuQWkgjDi927qyZutKLca0LDkbo2NQXkDDmOM6VGDpvDKvibSVmV3BzAff0Tu2IHtv19MZktqpq-wwPBkacxD0XVtFMUdgalE5FX4IB1HOhGkUH9UnGjYPcdNrXkdFxS9NnDJe2mENZfj2hB1z1ctRn4iy6R8AprhN9NX75UxVm2RTloahGwYr3DOA46GMpQElXBY6CK2_mJBqQjsnavalrlW7h3YuO-PAf5zEW6Rt_gR95jN_NbOvsQdbOIvw" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
@@ -414,22 +412,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.prevent.center.service.controller.web.SynthesizeInfoController" />
+        <option name="method" value="search" />
+        <option name="methodDescription" value="fw_SynthesizeInfoController_search 稽查/溯源/物流信息查询" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="prevent-service" />
+        <option name="originUrl" value="/synthesize/search" />
+        <option name="requestParamMap">
           <map>
-            <entry key="lithiumImportDTO">
+            <entry key="code">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
-        <option name="method" value="exportMarkCodeDetail" />
-        <option name="methodDescription" value="锂电数码批量查询导出" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/exportBatchCodes" />
-        <option name="url" value="/rawMaterialOrder/exportBatchCodes" />
+        <option name="url" value="/synthesize/search" />
       </ParamGroup>
     </option>
     <option name="projectList">
