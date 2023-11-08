@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -399,11 +399,7 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev">
-                <value>
-                  <map />
-                </value>
-              </entry>
+              <entry key="dev" />
             </map>
           </option>
           <option name="projectName" value="prevent" />
@@ -412,22 +408,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.prevent.center.service.controller.web.SynthesizeInfoController" />
-        <option name="method" value="search" />
-        <option name="methodDescription" value="fw_SynthesizeInfoController_search 稽查/溯源/物流信息查询" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
+        <option name="method" value="queryMarkForPage" />
+        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
         <option name="methodType" value="GET" />
-        <option name="module" value="prevent-service" />
-        <option name="originUrl" value="/synthesize/search" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/markSelect/queryMarkForPage" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/synthesize/search" />
+        <option name="url" value="/markSelect/queryMarkForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
