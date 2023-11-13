@@ -413,7 +413,7 @@
         <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/markSelect/queryMarkForPage" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="markCode">
@@ -423,7 +423,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/markSelect/queryMarkForPage" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
