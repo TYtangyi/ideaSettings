@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -408,22 +408,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.prevent.center.service.controller.web.SynthesizeInfoController" />
-        <option name="method" value="search" />
-        <option name="methodDescription" value="fw_SynthesizeInfoController_search 稽查/溯源/物流信息查询" />
+        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
+        <option name="method" value="selectChestCode" />
+        <option name="methodDescription" value="根据实托查询箱码" />
         <option name="methodType" value="GET" />
-        <option name="module" value="prevent-service" />
-        <option name="originUrl" value="/synthesize/search" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/pda/trade/mark/selectChestCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
+            <entry key="realCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/synthesize/search" />
+        <option name="url" value="/pda/trade/mark/selectChestCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
