@@ -304,8 +304,8 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
+    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
@@ -322,7 +322,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJMTTMiLCJzb3R5cGUiOiJQQyIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE2OTg0MTE3NDEsImF1dGhvcml0aWVzIjpbIjE2OTYwNDIxMTkzODcyNDY1OTMiXSwianRpIjoiNzVkNTY4YTktN2FhNS00YTc2LTk2MzAtNzY5OGI5NzM1Y2MyIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.MqaVICa6KjZZNSTt-NzcomT71-YFu-bM5DYgBX9FC90EBl3d42MOtzB6Syjnohz69vg3RzE8gBt4K8ye-uroXwrNsVXWFqklTPcO-vnvRYo3mj8jk_7lu0KkQ6FS5yh9go6nDTYKnWwIVlnIiVphgUQCKomHc11LdDbK4t9BK6uanIw9rHU4K81nN2o-HsX0fk1UXwZLJE8SNwh7fvcC2dqBz2PiP-BIEjxkiSRKNYumdJOxEHiSiJce3xrm3Mj6pmyKDm5rU5JgXzQc5tgDHztjO75t8BuUp3Il1TZKTtFQw_Ry7RETqv69wB7KalYS6eVpvyudlLI3ihuOToENog" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcwMDc0MDQxNCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI1MDM4YTgwYi00YWQ5LTQwYWYtYjIzMC1hMDFlZGNlYzBiY2YiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.zBH7P1d5AYWPHphG1ldnGJ0IClgd-sM_AlKTvWSQ_z5zevzVrVmQ1rE9UZhYppUN0ia0FLYoaCBzgYGqYRLSUTZldjn-UInuUX4Q4pBiMWC3QPkyQdrEI78HJSMz0dfp-I8-tvdlfZl_Z6iLMuo-Y_vMY1bHNpml9_GkrdnAGfM9jDjCjAHONao520cMiWEo9EsqxcgiFgm9qu0ZHm4tZBgkZ2QvZ6qXGmidCCEvHHlc5ekfR9yP9kuKvIyXJwec0A4kyirFI-CtuxbyBYp2AThLeTaSUZmay98rldcJkwu8KE3QfYN9g2sPGL0OYwG0zvshJr32DWQuSTHes_eFZA" />
                   </map>
                 </value>
               </entry>
@@ -408,22 +408,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="selectChestCode" />
-        <option name="methodDescription" value="根据实托查询箱码" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/pda/trade/mark/selectChestCode" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="realCode">
+            <entry key="scanCodeDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/trade/mark/selectChestCode" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.MixedWineOrderPdaController" />
+        <option name="method" value="scanOutContainerCode" />
+        <option name="methodDescription" value="勾调酒生产配料pda扫出库酒罐码校验" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/pda/mixedWineOrder/scanOutContainerCode" />
+        <option name="url" value="/pda/mixedWineOrder/scanOutContainerCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
