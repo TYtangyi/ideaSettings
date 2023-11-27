@@ -12,6 +12,8 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="被替换" />
+      <item value="替换" />
       <item value="上下托" />
       <item value="shang'xia'tuo" />
       <item value="shang'xia" />
@@ -60,13 +62,11 @@
       <item value="开" />
       <item value="kai" />
       <item value="capacity" />
-      <item value="visible" />
-      <item value="Whether it is turned on or not" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="726" />
-        <entry key="ENGLISH" value="724" />
+        <entry key="CHINESE" value="742" />
+        <entry key="ENGLISH" value="740" />
       </map>
     </option>
   </component>

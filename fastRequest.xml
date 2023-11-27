@@ -304,7 +304,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8099" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
@@ -408,22 +408,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.mark.center.service.controller.web.TrayMarkController" />
+        <option name="method" value="replaceRealCode" />
+        <option name="methodDescription" value="真实托盘码替换" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/trayMark/replaceRealCode" />
+        <option name="requestParamMap">
           <map>
-            <entry key="scanCodeDTO">
+            <entry key="isReplaceCode">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="replaceCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.pda.MixedWineOrderPdaController" />
-        <option name="method" value="scanOutContainerCode" />
-        <option name="methodDescription" value="勾调酒生产配料pda扫出库酒罐码校验" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/mixedWineOrder/scanOutContainerCode" />
-        <option name="url" value="/pda/mixedWineOrder/scanOutContainerCode" />
+        <option name="url" value="/trayMark/replaceRealCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
