@@ -305,7 +305,7 @@
       </list>
     </option>
     <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="dev" />
+    <option name="enableEnv" value="yqsl" />
     <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
@@ -413,7 +413,7 @@
         <option name="methodDescription" value="真实托盘码替换" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/trayMark/replaceRealCode" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="isReplaceCode">
@@ -428,7 +428,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/trayMark/replaceRealCode" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
