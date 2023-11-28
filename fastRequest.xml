@@ -413,7 +413,7 @@
         <option name="methodDescription" value="fw_SynthesizeInfoController_search 稽查/溯源/物流信息查询" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/synthesize/search" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="isReplaceCode">
@@ -428,7 +428,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/synthesize/search" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
