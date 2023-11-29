@@ -304,7 +304,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8915" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="oldData" />
     <option name="envList">
@@ -343,7 +343,8 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiamMwMDEiLCJzb3R5cGUiOiIyMCIsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE2ODk5MDY0NjgsImF1dGhvcml0aWVzIjpbIkpDWENYIl0sImp0aSI6ImI1NDY4NjQ0LTVlOTMtNDQxMC04ZWI4LWIxMjBkOWUwMTIzNiIsImNsaWVudF9pZCI6IjA4ZWNhNjJlZTg2Njk3Yjc4NDJiMDNhOTA4NDY3YjViIn0.RjJyLStOW4VjHZbAoP0itpRRzAxQ9wRCLvsvPVlNAHerCRFng2T56WqeiWOVhdnm-wqqAz-USoHPPrHY5VxC2l-w4kNW1pSF_aV1Hf4J_X1FKLUgxCS-ozJ2eVyGbmWifjPoeZTXx-w3TPibjo9-cGObIndmid8IZVEnYVQapmE" />
+                    <entry key="sign" value="7e24c2d1b50d82250f63a00a35d013c7" />
+                    <entry key="ts" value="1701238540395" />
                   </map>
                 </value>
               </entry>
@@ -408,27 +409,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.olddata.controller.ReCodeRecordController" />
-        <option name="method" value="queryInfoByCode" />
-        <option name="methodDescription" value="查询数码产品信息" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
+        <option name="method" value="queryMarkCode" />
+        <option name="methodDescription" value="数码查询(商城)" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-olddata-center" />
-        <option name="originUrl" value="/olddata/record/queryInfoByCode" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/markSelect/queryMarkCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="parentCode">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/olddata/record/queryInfoByCode" />
+        <option name="url" value="/markSelect/queryMarkCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
