@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8905" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -406,22 +406,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.h5.center.service.controller.web.AntiFakeController" />
+        <option name="method" value="antiFake" />
+        <option name="methodDescription" value="h5_AntiFakeController_antiFake 防伪查询接口" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="h5-service" />
+        <option name="originUrl" value="/app/h5/antiFake/antiFake" />
+        <option name="requestParamMap">
           <map>
-            <entry key="request">
+            <entry key="logisInfoQueryBo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
-        <option name="method" value="orderFinished" />
-        <option name="methodDescription" value="单据完结" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="url" value="/app/h5/antiFake/antiFake" />
       </ParamGroup>
     </option>
     <option name="projectList">
