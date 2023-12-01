@@ -407,21 +407,21 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.panpass.h5.center.service.controller.web.AntiFakeController" />
-        <option name="method" value="antiFake" />
+        <option name="method" value="recordQueryLog" />
         <option name="methodDescription" value="h5_AntiFakeController_antiFake 防伪查询接口" />
         <option name="methodType" value="GET" />
         <option name="module" value="h5-service" />
-        <option name="originUrl" value="/app/h5/antiFake/antiFake" />
+        <option name="originUrl" value="/app/h5/antiFake/recordQueryLog" />
         <option name="requestParamMap">
           <map>
-            <entry key="logisInfoQueryBo">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/app/h5/antiFake/antiFake" />
+        <option name="url" value="/app/h5/antiFake/recordQueryLog" />
       </ParamGroup>
     </option>
     <option name="projectList">
