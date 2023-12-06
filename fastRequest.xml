@@ -402,22 +402,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.run2code.controller.BizController" />
+        <option name="method" value="testBizGet" />
+        <option name="methodDescription" value="" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="biz-log" />
+        <option name="originUrl" value="/http/testBizGet/{param}" />
+        <option name="pathParamMap">
           <map>
-            <entry key="pushBatchAiMaDTO">
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkPoolController" />
-        <option name="method" value="pushBatchAiMaByTaskNo" />
-        <option name="methodDescription" value="根据任务单号批量推送" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="url" value="/http/testBizGet/param_zlg53" />
       </ParamGroup>
     </option>
     <option name="projectList">
