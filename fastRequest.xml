@@ -402,22 +402,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
-        <option name="method" value="delCodeByMaterial" />
-        <option name="methodDescription" value="原辅料数码删除" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.LithiumTemplateController" />
+        <option name="method" value="delTemplate" />
+        <option name="methodDescription" value="删除模板" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/rawMaterialOrder/delCodeByMaterial" />
+        <option name="originUrl" value="/lithiumTemplate/delTemplate" />
         <option name="requestParamMap">
           <map>
-            <entry key="materialNo">
+            <entry key="pId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/rawMaterialOrder/delCodeByMaterial" />
+        <option name="url" value="/lithiumTemplate/delTemplate" />
       </ParamGroup>
     </option>
     <option name="projectList">
