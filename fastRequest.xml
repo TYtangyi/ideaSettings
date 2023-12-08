@@ -402,22 +402,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.run2code.controller.BizController" />
-        <option name="method" value="testBizGet" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.RawMaterialOrderController" />
+        <option name="method" value="delCodeByMaterial" />
+        <option name="methodDescription" value="原辅料数码删除" />
         <option name="methodType" value="GET" />
-        <option name="module" value="biz-log" />
-        <option name="originUrl" value="/http/testBizGet/{param}" />
-        <option name="pathParamMap">
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/rawMaterialOrder/delCodeByMaterial" />
+        <option name="requestParamMap">
           <map>
-            <entry key="param">
+            <entry key="materialNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/http/testBizGet/param_zlg53" />
+        <option name="url" value="/rawMaterialOrder/delCodeByMaterial" />
       </ParamGroup>
     </option>
     <option name="projectList">
