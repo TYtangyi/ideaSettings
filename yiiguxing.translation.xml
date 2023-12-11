@@ -12,6 +12,9 @@
     <option name="newTranslationDialogY" value="450" />
     <histories>
       <item value="托码" />
+      <item value="托ma" />
+      <item value="托" />
+      <item value="tuo" />
       <item value="标识" />
       <item value="biao'shi" />
       <item value="当前" />
@@ -58,14 +61,11 @@
       <item value="流向" />
       <item value="流向不符合" />
       <item value="liu'xiang" />
-      <item value="数码流向不符合" />
-      <item value="数码流向bu'fu'he" />
-      <item value="数码流向bu'fu'b" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="778" />
-        <entry key="ENGLISH" value="776" />
+        <entry key="CHINESE" value="782" />
+        <entry key="ENGLISH" value="780" />
       </map>
     </option>
   </component>
