@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8915" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="oldData" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -407,7 +407,7 @@
         <option name="methodDescription" value="删除模板" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/lithiumTemplate/delTemplate" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="pId">
@@ -417,7 +417,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/lithiumTemplate/delTemplate" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
