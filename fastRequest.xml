@@ -402,22 +402,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.LithiumTemplateController" />
-        <option name="method" value="delTemplate" />
-        <option name="methodDescription" value="删除模板" />
+        <option name="className" value="com.sp.biz.olddata.controller.ReCodeRecordController" />
+        <option name="method" value="queryInfoByCode" />
+        <option name="methodDescription" value="查询数码产品信息" />
         <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
+        <option name="module" value="sp-olddata-center" />
+        <option name="originUrl" value="/olddata/record/queryInfoByCode" />
         <option name="requestParamMap">
           <map>
-            <entry key="pId">
+            <entry key="code">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="parentCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/olddata/record/queryInfoByCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
