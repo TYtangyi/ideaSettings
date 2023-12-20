@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8915" />
+    <option name="domain" value="http://127.0.0.1:8092" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="oldData" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -404,20 +404,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="ccProductOrderUploadDTO">
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
-        <option name="method" value="productionLineUploadBack" />
-        <option name="methodDescription" value="产线单据数码回传" />
+        <option name="className" value="com.panpass.basic.center.service.controller.web.PackScaleLevelController" />
+        <option name="method" value="list" />
+        <option name="methodDescription" value="包装比例列表分页jc_packScaleLevel_list" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/packScaleLevel/list" />
+        <option name="url" value="/packScaleLevel/list" />
       </ParamGroup>
     </option>
     <option name="projectList">
