@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1701856927304" />
+    <option name="lastTrimTime" value="1703214145671" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,7 @@
     <option name="newTranslationDialogX" value="815" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="Full authentication is required to access this resource Unauthorized" />
       <item value="托码" />
       <item value="托ma" />
       <item value="托" />
@@ -60,11 +61,10 @@
       <item value="bu" />
       <item value="流向" />
       <item value="流向不符合" />
-      <item value="liu'xiang" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="782" />
+        <entry key="CHINESE" value="783" />
         <entry key="ENGLISH" value="780" />
       </map>
     </option>
