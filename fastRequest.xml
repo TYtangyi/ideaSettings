@@ -306,7 +306,7 @@
     </option>
     <option name="domain" value="http://127.0.0.1:8092" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="config" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -416,8 +416,8 @@
         <option name="methodDescription" value="包装比例列表分页jc_packScaleLevel_list" />
         <option name="methodType" value="POST" />
         <option name="module" value="basic-service" />
-        <option name="originUrl" value="/packScaleLevel/list" />
-        <option name="url" value="/packScaleLevel/list" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
