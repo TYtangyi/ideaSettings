@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -407,7 +407,7 @@
         <option name="methodDescription" value="微信签名（新）" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-wxservice-center" />
-        <option name="originUrl" value="openwx/getSid" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="url">
@@ -417,7 +417,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/openwx/getSid" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
