@@ -230,6 +230,25 @@
           </option>
           <option name="name" value="wechat" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8094" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="user" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -304,9 +323,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="domain" value="http://127.0.0.1:8094" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="user" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -398,17 +417,40 @@
           </option>
           <option name="projectName" value="prevent" />
         </HeaderGroup>
+        <HeaderGroup>
+          <option name="envMap">
+            <map>
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDg2MDEwMTUsImp0aSI6ImIwNjUxZDhmLTg4MjgtNDI5ZS04OGM2LTg5MWQwYjlmYjVmNyIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.p5pXj5zzhdVmdbBSv5WAjXqVbQ4zOhqtYbRuhII4Sev0B1MzEOP5CMEYY119jmJ76nPxsj4GFSoZ-_638kwKuO2veDLkrBWYZUQI6z3T0tMD6y1CDqVy6EIVQFlSU2RTgJABV0cyvk-yk2-EclLMty1IqgTKVmuskdlMnfZHWe0" />
+                  </map>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="projectName" value="user" />
+        </HeaderGroup>
       </list>
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.mark.controller.api.ExternalController" />
-        <option name="method" value="scheduledRegister" />
-        <option name="methodDescription" value="基本信息存证上链" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-mark-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="bodyParamMap">
+          <map>
+            <entry key="supplierRoleInfoAO">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="className" value="com.panpass.user.center.service.controller.web.RoleInfoController" />
+        <option name="method" value="updateGhRole" />
+        <option name="methodDescription" value="供货角色-编辑&#9;--sys_role_gh3" />
+        <option name="methodType" value="PUT" />
+        <option name="module" value="user-service" />
+        <option name="originUrl" value="/roleInfo/updateGh" />
+        <option name="url" value="/roleInfo/updateGh" />
       </ParamGroup>
     </option>
     <option name="projectList">
@@ -425,6 +467,7 @@
         <option value="oldData" />
         <option value="config" />
         <option value="wechat" />
+        <option value="user" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
