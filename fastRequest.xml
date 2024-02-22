@@ -304,9 +304,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8092" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -407,8 +407,8 @@
         <option name="methodDescription" value="基本信息存证上链" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-mark-center" />
-        <option name="originUrl" value="/third/blockchain/info/register" />
-        <option name="url" value="/third/blockchain/info/register" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
