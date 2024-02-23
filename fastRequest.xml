@@ -423,7 +423,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDg2MDEwMTUsImp0aSI6ImIwNjUxZDhmLTg4MjgtNDI5ZS04OGM2LTg5MWQwYjlmYjVmNyIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.p5pXj5zzhdVmdbBSv5WAjXqVbQ4zOhqtYbRuhII4Sev0B1MzEOP5CMEYY119jmJ76nPxsj4GFSoZ-_638kwKuO2veDLkrBWYZUQI6z3T0tMD6y1CDqVy6EIVQFlSU2RTgJABV0cyvk-yk2-EclLMty1IqgTKVmuskdlMnfZHWe0" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDg2NjE1NzIsImp0aSI6ImM2MTJiYzEwLTQ3MGMtNGE1Mi05NmU4LWUwZmZlZDNiZjBjYiIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.JTi35nYkpC5EmIoytdo8X00BWPfxkX1ky39DpSzQLP7ZmPkBvG6ALTlluG7ay53CCDSyd7JmcJfps4QrCp_4UJwE7Ve0VgGXYv39yRMRbBUNwZGMFT9pg7mqNkPQvkVyYOizF-M-C4tVYs-vSiZ2wcliprbh1guhDkvHvmBq_F8" />
                   </map>
                 </value>
               </entry>
@@ -445,12 +445,12 @@
           </map>
         </option>
         <option name="className" value="com.panpass.user.center.service.controller.web.RoleInfoController" />
-        <option name="method" value="updateGhRole" />
-        <option name="methodDescription" value="供货角色-编辑&#9;--sys_role_gh3" />
-        <option name="methodType" value="PUT" />
+        <option name="method" value="saveGhRole" />
+        <option name="methodDescription" value="供货角色-添加&#9;--sys_role_gh2" />
+        <option name="methodType" value="POST" />
         <option name="module" value="user-service" />
-        <option name="originUrl" value="/roleInfo/updateGh" />
-        <option name="url" value="/roleInfo/updateGh" />
+        <option name="originUrl" value="/roleInfo/saveGh" />
+        <option name="url" value="/roleInfo/saveGh" />
       </ParamGroup>
     </option>
     <option name="projectList">
