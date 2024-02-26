@@ -323,9 +323,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8094" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="user" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -435,22 +435,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.user.center.service.controller.web.UserInfoController" />
-        <option name="method" value="addUserInfo" />
-        <option name="methodDescription" value="添加企业用户 --sys_user_addUserInfo" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="user-service" />
-        <option name="originUrl" value="/userInfo/addUserInfo" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="param">
+            <entry key="messageDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/userInfo/addUserInfo" />
+        <option name="className" value="com.panpass.storage.service.controller.web.KafkaTestController" />
+        <option name="method" value="handlerProduceLine" />
+        <option name="methodDescription" value="" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
