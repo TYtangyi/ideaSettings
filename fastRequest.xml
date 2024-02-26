@@ -323,7 +323,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8094" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="mark" />
     <option name="envList">
@@ -423,7 +423,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDg2ODA4MzEsImp0aSI6ImUwM2ZiYTAxLTNkZDgtNDIyZS05ZGI5LTE3ODllY2Y5OWVjZSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.Jy9I7KwTzLY6RkqLnIP2nqWXpMK5vjXcWLOEEovTJISmG0WZMeUOB6I6eVS4mHoUOR6hJy2gTP8U-qsNlKbATddnhBGxiHY-OOabnKiLTtUiYg2WNWsopo6iFPS_u-rNtSTJ5tGneTMaSHBZRozbjWe5qxnfKEPQM7aIF-jGwTk" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDg5MzI1NTMsImp0aSI6IjRhOGY3ZWJkLTVmYmEtNGZlNC1hOTE0LWVhNDEwODk1NzlmMiIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.Ddt9xMKAmzgezDy9QOuf4iR00gE8QXoH4MZHkXEUab3rSuq8BSPH9aOaWXDN_8N-53Lm0GOUqnrfHKXhvlZLDjMj3wf2zpcmsOvhR-mXgNYcjGj0nnTHbiqX9m4B2yJUNNxmyYv7Ypu_4yeBHRtLcpQl-My84NV8nzIlVC0c8XM" />
                   </map>
                 </value>
               </entry>
@@ -435,22 +435,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.user.center.service.controller.web.UserInfoController" />
+        <option name="method" value="updateUserInfo" />
+        <option name="methodDescription" value="修改企业用户 --sys_user_updateUserInfo" />
+        <option name="methodType" value="PUT" />
+        <option name="module" value="user-service" />
+        <option name="originUrl" value="/userInfo/updateUserInfo" />
+        <option name="requestParamMap">
           <map>
-            <entry key="messageDTO">
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.web.KafkaTestController" />
-        <option name="method" value="handlerProduceLine" />
-        <option name="methodDescription" value="" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="url" value="/userInfo/updateUserInfo" />
       </ParamGroup>
     </option>
     <option name="projectList">
