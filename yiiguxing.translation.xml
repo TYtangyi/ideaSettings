@@ -8,9 +8,12 @@
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="260" />
     <option name="newTranslationDialogWidth" value="520" />
-    <option name="newTranslationDialogX" value="815" />
-    <option name="newTranslationDialogY" value="450" />
+    <option name="newTranslationDialogX" value="667" />
+    <option name="newTranslationDialogY" value="431" />
     <histories>
+      <item value="分配" />
+      <item value="beforeRoleRResourceModifyContent" />
+      <item value="分配角色" />
       <item value="程序员在工作" />
       <item value="mapstruct" />
       <item value="mapstru" />
@@ -58,14 +61,11 @@
       <item value="xiao'you" />
       <item value="联动下游入库" />
       <item value="联动下游" />
-      <item value="联动xia" />
-      <item value="销售退回" />
-      <item value="销售" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="784" />
-        <entry key="ENGLISH" value="780" />
+        <entry key="CHINESE" value="809" />
+        <entry key="ENGLISH" value="805" />
       </map>
     </option>
   </component>
