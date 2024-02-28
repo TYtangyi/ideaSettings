@@ -378,7 +378,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5ODY2MTg3NiwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiIyMGRmYTMwMi1mMmM3LTQ3NDctOTc1Zi1iN2FjNjgyMTRlM2UiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.ZZLXmqTcBcy2JBMcxN0rxaDyJsik4bX_G_Jwym6skKepcxaIsASRnBC-9yJaCP4lpfqVmjUq5FAfYoI7zbByMavKjQMyVCPTpNdgBeGkJEnL691WKQ2U0O4COB8At2O_46LPfmzFahSXQ4bQZhYyVySVeXw5HqoyUv1xBHEH8ATBXPKRIIjQ24ZK1kPEwtZYoJldSD_P0xgims8wxRGWhcuY5UdHrpMK219lZp1oBTBzcks8OVWr-wFNGgcsgin-zr1ncTzvc_Vms_bFdpoOhQK6UAt62a92nwuyqIVwjZVetc-r2FFrw8rzysEa-Bmr5Oopoh18iysWC2j10JOj_Q" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDkxMjE1MjksImp0aSI6ImQxZGZlMGY1LWNhNjctNDJkNy1hNGQyLTQ2MDVjNDMxN2YzMyIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.Fhre0MdiVoCyIJB1xnYr5m4yrsV7bszS8AMrTvMo_3-fypszGVoB0R_f77d6EjSYYdtJUAsaCj7dgo9dbe1IHL46k4e8fTT2oPp7fY2ucIUXA-VrXsKcR4Rnl5tWrxu47wNRPMUevIywyIxve_4ZkaxNTOORaeSSTVcYkbSJmk0" />
                   </map>
                 </value>
               </entry>
@@ -445,12 +445,12 @@
           </map>
         </option>
         <option name="className" value="com.panpass.basic.center.service.controller.web.SysUserTagController" />
-        <option name="method" value="addUserTag" />
-        <option name="methodDescription" value="批量新增用户标签" />
+        <option name="method" value="saveUserTag" />
+        <option name="methodDescription" value="给用户添加批量标签" />
         <option name="methodType" value="POST" />
         <option name="module" value="basic-service" />
-        <option name="originUrl" value="/sysUserTag/addUserTag" />
-        <option name="url" value="/sysUserTag/addUserTag" />
+        <option name="originUrl" value="/sysUserTag/saveUserTag" />
+        <option name="url" value="/sysUserTag/saveUserTag" />
       </ParamGroup>
     </option>
     <option name="projectList">
