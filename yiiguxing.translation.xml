@@ -12,6 +12,10 @@
     <option name="newTranslationDialogY" value="431" />
     <histories>
       <item value="组装" />
+      <item value="z" />
+      <item value="zh" />
+      <item value="zu'zhuang" />
+      <item value="zu'zhu" />
       <item value="分配" />
       <item value="beforeRoleRResourceModifyContent" />
       <item value="分配角色" />
@@ -57,15 +61,11 @@
       <item value="qian" />
       <item value="剩余" />
       <item value="汇总" />
-      <item value="下游" />
-      <item value="xia" />
-      <item value="xiao'you" />
-      <item value="联动下游入库" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="818" />
-        <entry key="ENGLISH" value="814" />
+        <entry key="CHINESE" value="840" />
+        <entry key="ENGLISH" value="836" />
       </map>
     </option>
   </component>
