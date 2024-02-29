@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1708310624808" />
+    <option name="lastTrimTime" value="1709186435559" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,7 @@
     <option name="newTranslationDialogX" value="667" />
     <option name="newTranslationDialogY" value="431" />
     <histories>
+      <item value="组装" />
       <item value="分配" />
       <item value="beforeRoleRResourceModifyContent" />
       <item value="分配角色" />
@@ -60,12 +61,11 @@
       <item value="xia" />
       <item value="xiao'you" />
       <item value="联动下游入库" />
-      <item value="联动下游" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="809" />
-        <entry key="ENGLISH" value="805" />
+        <entry key="CHINESE" value="818" />
+        <entry key="ENGLISH" value="814" />
       </map>
     </option>
   </component>
