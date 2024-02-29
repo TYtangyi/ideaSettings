@@ -323,9 +323,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8094" />
+    <option name="domain" value="http://127.0.0.1:8092" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="user" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -435,27 +435,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.user.center.service.controller.web.UserROrgController" />
-        <option name="method" value="updateBatchUserOrg" />
-        <option name="methodDescription" value="批量修改组织机构 --sys_userROrg_updateOrAddBatchUserOrg" />
-        <option name="methodType" value="PUT" />
-        <option name="module" value="user-service" />
-        <option name="originUrl" value="/userROrg/updateOrAddBatchUserOrg" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="ids">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="orgId">
+            <entry key="userDataAuthAO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/userROrg/updateOrAddBatchUserOrg" />
+        <option name="className" value="com.panpass.basic.center.service.controller.userAuth.UserDataAuthROrgController" />
+        <option name="method" value="saveDataAuth" />
+        <option name="methodDescription" value="批量为用户分配数据权限" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/userDataAuthROrg/saveDataAuth" />
+        <option name="url" value="/userDataAuthROrg/saveDataAuth" />
       </ParamGroup>
     </option>
     <option name="projectList">
