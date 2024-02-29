@@ -378,7 +378,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDkxMjE1MjksImp0aSI6ImQxZGZlMGY1LWNhNjctNDJkNy1hNGQyLTQ2MDVjNDMxN2YzMyIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.Fhre0MdiVoCyIJB1xnYr5m4yrsV7bszS8AMrTvMo_3-fypszGVoB0R_f77d6EjSYYdtJUAsaCj7dgo9dbe1IHL46k4e8fTT2oPp7fY2ucIUXA-VrXsKcR4Rnl5tWrxu47wNRPMUevIywyIxve_4ZkaxNTOORaeSSTVcYkbSJmk0" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDkxNzQ5MzQsImp0aSI6Ijc5NjhhMTdiLWRiNjEtNGI5YS05MjQxLTIxMzdjMDhjMzg0ZCIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.mmkZu56C-XNyz5rTmjsPEovKw_D6U9sTJvRL7r77Y9K1GEQpjQ4bZco81Q991NgZz0_NIYDXL1vvDQSdWJQJ7YQpUhXjP1tTRWjf0IXGOyfmASdkH9-MgILYmJrCU-AYS3JcM2meQiw8-cod3x8qU7EKfLJ_RKdMYan4tfYiD20" />
                   </map>
                 </value>
               </entry>
@@ -435,22 +435,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.user.center.service.controller.web.UserROrgController" />
+        <option name="method" value="updateBatchUserOrg" />
+        <option name="methodDescription" value="批量修改组织机构 --sys_userROrg_updateOrAddBatchUserOrg" />
+        <option name="methodType" value="PUT" />
+        <option name="module" value="user-service" />
+        <option name="originUrl" value="/userROrg/updateOrAddBatchUserOrg" />
+        <option name="requestParamMap">
           <map>
-            <entry key="param">
+            <entry key="ids">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="orgId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.basic.center.service.controller.web.SysUserTagController" />
-        <option name="method" value="saveUserTag" />
-        <option name="methodDescription" value="给用户添加批量标签" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="basic-service" />
-        <option name="originUrl" value="/sysUserTag/saveUserTag" />
-        <option name="url" value="/sysUserTag/saveUserTag" />
+        <option name="url" value="/userROrg/updateOrAddBatchUserOrg" />
       </ParamGroup>
     </option>
     <option name="projectList">
