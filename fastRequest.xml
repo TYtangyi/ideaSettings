@@ -323,9 +323,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -435,22 +435,37 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.mark.center.service.controller.web.TrayMarkController" />
+        <option name="method" value="replaceMark" />
+        <option name="methodDescription" value="托盘码替换" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/trayMark/replaceMark" />
+        <option name="requestParamMap">
           <map>
-            <entry key="userDataAuthAO">
+            <entry key="chestMark">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="productLineCode">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="realMark">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="timeStr">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.basic.center.service.controller.userAuth.UserDataAuthROrgController" />
-        <option name="method" value="saveDataAuth" />
-        <option name="methodDescription" value="批量为用户分配数据权限" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="basic-service" />
-        <option name="originUrl" value="/userDataAuthROrg/saveDataAuth" />
-        <option name="url" value="/userDataAuthROrg/saveDataAuth" />
+        <option name="url" value="/trayMark/replaceMark" />
       </ParamGroup>
     </option>
     <option name="projectList">
