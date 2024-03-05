@@ -370,7 +370,8 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="sign" value="" />
+                    <entry key="sign" value="acaa7250beb4ecb52c54828d7a6353ef" />
+                    <entry key="ts" value="1709627214309" />
                   </map>
                 </value>
               </entry>
