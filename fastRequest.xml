@@ -440,7 +440,7 @@
         <option name="methodDescription" value="托盘码替换" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/trayMark/replaceMark" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="chestMark">
@@ -465,7 +465,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/trayMark/replaceMark" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
