@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1709186435559" />
+    <option name="lastTrimTime" value="1709622318993" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,14 @@
     <option name="newTranslationDialogX" value="667" />
     <option name="newTranslationDialogY" value="431" />
     <histories>
+      <item value="真" />
+      <item value="真假" />
+      <item value="真jia" />
+      <item value="真伪" />
+      <item value="zhen'wei" />
+      <item value="真wei" />
+      <item value="真假码" />
+      <item value="真假ma" />
       <item value="组装" />
       <item value="z" />
       <item value="zh" />
@@ -53,19 +61,11 @@
       <item value="已出库" />
       <item value="已出库数量" />
       <item value="配料" />
-      <item value="勾调酒" />
-      <item value="Failed to instantiate" />
-      <item value="锂电" />
-      <item value="li'dian" />
-      <item value="铅酸" />
-      <item value="qian" />
-      <item value="剩余" />
-      <item value="汇总" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="840" />
-        <entry key="ENGLISH" value="836" />
+        <entry key="CHINESE" value="855" />
+        <entry key="ENGLISH" value="851" />
       </map>
     </option>
   </component>
