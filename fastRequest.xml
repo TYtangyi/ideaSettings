@@ -443,14 +443,14 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
-        <option name="method" value="checkTrueMarkCode" />
-        <option name="methodDescription" value="APP查询数码真伪" />
+        <option name="method" value="getSign" />
+        <option name="methodDescription" value="h5_AntiFakeController_getSign APP防伪查询获取签名接口" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="/app/h5/antiFake/checkTrueMarkCode" />
+        <option name="originUrl" value="/app/h5/antiFake/getSign" />
         <option name="requestParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="logisInfoQueryBo">
               <value>
                 <Object />
               </value>
