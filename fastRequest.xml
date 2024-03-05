@@ -323,9 +323,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="domain" value="http://127.0.0.1:8905" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -367,7 +367,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="sign" value="" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="h5" />
@@ -435,22 +441,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
+        <option name="method" value="checkTrueMarkCode" />
+        <option name="methodDescription" value="APP查询数码真伪" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-h5-center" />
+        <option name="originUrl" value="/app/h5/antiFake/checkTrueMarkCode" />
+        <option name="requestParamMap">
           <map>
-            <entry key="param">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.user.center.service.controller.web.RoleInfoController" />
-        <option name="method" value="giveResourceGh" />
-        <option name="methodDescription" value="供货角色-分配权限&#9;--sys_role_gh9" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="user-service" />
-        <option name="originUrl" value="/roleInfo/giveResourceGh" />
-        <option name="url" value="/roleInfo/giveResourceGh" />
+        <option name="url" value="/app/h5/antiFake/checkTrueMarkCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
