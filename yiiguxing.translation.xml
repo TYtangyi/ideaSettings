@@ -11,6 +11,8 @@
     <option name="newTranslationDialogX" value="667" />
     <option name="newTranslationDialogY" value="431" />
     <histories>
+      <item value="绑定" />
+      <item value="绑定产品" />
       <item value="标识" />
       <item value="biao'shi" />
       <item value="biao" />
@@ -59,13 +61,11 @@
       <item value="chong'zhi" />
       <item value="重复" />
       <item value="chong" />
-      <item value="chong'd'fu" />
-      <item value="出库" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="869" />
-        <entry key="ENGLISH" value="865" />
+        <entry key="CHINESE" value="878" />
+        <entry key="ENGLISH" value="874" />
       </map>
     </option>
   </component>
