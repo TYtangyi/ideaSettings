@@ -11,6 +11,11 @@
     <option name="newTranslationDialogX" value="667" />
     <option name="newTranslationDialogY" value="431" />
     <histories>
+      <item value="标识" />
+      <item value="biao'shi" />
+      <item value="biao" />
+      <item value="ji" />
+      <item value="ji'qi" />
       <item value="真" />
       <item value="真假" />
       <item value="真jia" />
@@ -37,8 +42,6 @@
       <item value="托ma" />
       <item value="托" />
       <item value="tuo" />
-      <item value="标识" />
-      <item value="biao'shi" />
       <item value="当前" />
       <item value="dang'qian" />
       <item value="Bento" />
@@ -58,14 +61,11 @@
       <item value="chong" />
       <item value="chong'd'fu" />
       <item value="出库" />
-      <item value="已出库" />
-      <item value="已出库数量" />
-      <item value="配料" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="855" />
-        <entry key="ENGLISH" value="851" />
+        <entry key="CHINESE" value="869" />
+        <entry key="ENGLISH" value="865" />
       </map>
     </option>
   </component>
