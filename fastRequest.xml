@@ -323,9 +323,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8905" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="h5" />
+    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="enableEnv" value="dyt" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -385,14 +385,14 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDkxOTk5ODksImp0aSI6IjhkMGJiMGVmLThjODEtNDUzYS04YzIxLWUxOTU1MjIwYmQ3YSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.LPTBX6wiLG8-Sv-gvrTOcr35csZWEPZJrLvERyhVPYkXYEwSnxny0MX9Qatbb41IT_IpvDeHZTAkKAOppmSj1g8rh8mR1mbCpJpBKNhOZtrcNHg3NTnLL6WCF8ZrCpriaKuOCxIK82g23khsUSdlhcrtoY30QzzZtvFwkV-O54g" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcwOTcwOTU1NiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI3ZjI1Y2ZiMC04ZGVjLTRkM2YtYjc4YS0yZTQzMzQ2MDUxNWYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.pPrNFlbJ28uSQUly_ksB0kWAxj8L7yQ2gJoeXB6T_U5ign7dCWMqCK35nopuOA9RhB9gdB76Ls7mhtRXLJXlUeGJ12u-SQgAhjFyzGdNUk1uXc5gqXlUjmPaS-T-31bJ0XgVr1y5fkKzjSWO-yxGowUNehQ-A-BjUOpXUZlf_7nqsVKzGvHSFNYjOnTtQk_gdZAH9cY_KgqOljmFDBEzmSweRPGbEljHITU3L0M_BZldtOXvFi-3xSDCZMapjh5tHv34kXUUoHfv4bzcfn9Wjwdi2TsYFM4OdhPxWbgmPxt3YtzmqgnDh-KacbBCQks5xKPzl9Z5AnbdN3OwHzNouw" />
                   </map>
                 </value>
               </entry>
               <entry key="dyt">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5ODY2MTg3NiwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiIyMGRmYTMwMi1mMmM3LTQ3NDctOTc1Zi1iN2FjNjgyMTRlM2UiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.ZZLXmqTcBcy2JBMcxN0rxaDyJsik4bX_G_Jwym6skKepcxaIsASRnBC-9yJaCP4lpfqVmjUq5FAfYoI7zbByMavKjQMyVCPTpNdgBeGkJEnL691WKQ2U0O4COB8At2O_46LPfmzFahSXQ4bQZhYyVySVeXw5HqoyUv1xBHEH8ATBXPKRIIjQ24ZK1kPEwtZYoJldSD_P0xgims8wxRGWhcuY5UdHrpMK219lZp1oBTBzcks8OVWr-wFNGgcsgin-zr1ncTzvc_Vms_bFdpoOhQK6UAt62a92nwuyqIVwjZVetc-r2FFrw8rzysEa-Bmr5Oopoh18iysWC2j10JOj_Q" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcwOTcwOTU1NiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI3ZjI1Y2ZiMC04ZGVjLTRkM2YtYjc4YS0yZTQzMzQ2MDUxNWYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.pPrNFlbJ28uSQUly_ksB0kWAxj8L7yQ2gJoeXB6T_U5ign7dCWMqCK35nopuOA9RhB9gdB76Ls7mhtRXLJXlUeGJ12u-SQgAhjFyzGdNUk1uXc5gqXlUjmPaS-T-31bJ0XgVr1y5fkKzjSWO-yxGowUNehQ-A-BjUOpXUZlf_7nqsVKzGvHSFNYjOnTtQk_gdZAH9cY_KgqOljmFDBEzmSweRPGbEljHITU3L0M_BZldtOXvFi-3xSDCZMapjh5tHv34kXUUoHfv4bzcfn9Wjwdi2TsYFM4OdhPxWbgmPxt3YtzmqgnDh-KacbBCQks5xKPzl9Z5AnbdN3OwHzNouw" />
                   </map>
                 </value>
               </entry>
@@ -442,22 +442,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
-        <option name="method" value="getSign" />
-        <option name="methodDescription" value="h5_AntiFakeController_getSign APP防伪查询获取签名接口" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="/app/h5/antiFake/getSign" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="logisInfoQueryBo">
+            <entry key="jcConfigProductQueryDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/app/h5/antiFake/checkTrueMarkCode" />
+        <option name="className" value="com.sp.biz.basic.data.controller.web.JcConfigProductQueryController" />
+        <option name="method" value="save" />
+        <option name="methodDescription" value="添加产品配置" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-basicdata-center" />
+        <option name="originUrl" value="/jcConfigProductQuery/save" />
+        <option name="url" value="/jcConfigProductQuery/save" />
       </ParamGroup>
     </option>
     <option name="projectList">
