@@ -466,7 +466,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/jcConfigProductQuery/queryPage" />
+        <option name="url" value="/jcConfigProductQuery/save" />
       </ParamGroup>
     </option>
     <option name="projectList">
