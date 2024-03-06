@@ -442,31 +442,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="configProductQueryParam">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
         <option name="className" value="com.sp.biz.basic.data.controller.web.JcConfigProductQueryController" />
-        <option name="method" value="queryPage" />
-        <option name="methodDescription" value="查询产品配置列表" />
-        <option name="methodType" value="POST" />
+        <option name="method" value="queryNoBindCount" />
+        <option name="methodDescription" value="查询未绑定数量" />
+        <option name="methodType" value="GET" />
         <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="/jcConfigProductQuery/queryPage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/jcConfigProductQuery/save" />
+        <option name="originUrl" value="/jcConfigProductQuery/queryNoBindCount" />
+        <option name="url" value="/jcConfigProductQuery/queryNoBindCount" />
       </ParamGroup>
     </option>
     <option name="projectList">
