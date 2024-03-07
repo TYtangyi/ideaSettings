@@ -392,7 +392,7 @@
               <entry key="dyt">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcwOTcwOTU1NiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI3ZjI1Y2ZiMC04ZGVjLTRkM2YtYjc4YS0yZTQzMzQ2MDUxNWYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.pPrNFlbJ28uSQUly_ksB0kWAxj8L7yQ2gJoeXB6T_U5ign7dCWMqCK35nopuOA9RhB9gdB76Ls7mhtRXLJXlUeGJ12u-SQgAhjFyzGdNUk1uXc5gqXlUjmPaS-T-31bJ0XgVr1y5fkKzjSWO-yxGowUNehQ-A-BjUOpXUZlf_7nqsVKzGvHSFNYjOnTtQk_gdZAH9cY_KgqOljmFDBEzmSweRPGbEljHITU3L0M_BZldtOXvFi-3xSDCZMapjh5tHv34kXUUoHfv4bzcfn9Wjwdi2TsYFM4OdhPxWbgmPxt3YtzmqgnDh-KacbBCQks5xKPzl9Z5AnbdN3OwHzNouw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcwOTc5MjU2OSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI2ZWRhN2ZmZi1iNWI4LTQ3MDktYmM1Zi1jZDE1YTJmZDEzYjciLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.PqTw92Bo6OdsBeK6yF8YeJ-qJ6C4gUxIloEUjibGjMYf_gdtzuIT_gKNX8tY6yJD6nPEwisLg0Cqj-OVsWn5hd37Nxqf9E33IS5wNjvP7jRlYWOl3v0wB_iX5vrUzvfqw_EYA3pm6nJTw6arGZ6Y-MxnocpkY0EAB-VOazyNc2nJN2hO7N_WoaxDhrYofQpkCfXDFET6oPzl_RTWNnHEuKkei9JZ1kwE05lREz7j_qPHg-f3SjRaTSNdzOWkwSuFNuH_coXPIDiUkaW-b3m1Xhqzm_4Xeuab07HeLBDcNHShsRDeokyRuqtD5z4eOAWMbybG7OcnU6OJaa3xxQPhTg" />
                   </map>
                 </value>
               </entry>
@@ -443,12 +443,21 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.sp.biz.basic.data.controller.web.JcConfigProductQueryController" />
-        <option name="method" value="queryNoBindCount" />
-        <option name="methodDescription" value="查询未绑定数量" />
+        <option name="method" value="queryDetail" />
+        <option name="methodDescription" value="查询产品配置详情" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="/jcConfigProductQuery/queryNoBindCount" />
-        <option name="url" value="/jcConfigProductQuery/queryNoBindCount" />
+        <option name="originUrl" value="/jcConfigProductQuery/queryDetail" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="pId">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/jcConfigProductQuery/queryDetail" />
       </ParamGroup>
     </option>
     <option name="projectList">
