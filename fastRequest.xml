@@ -443,11 +443,11 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.sp.biz.basic.data.controller.web.JcConfigProductQueryController" />
-        <option name="method" value="queryNoBindProducts" />
-        <option name="methodDescription" value="查询产品配置列表" />
+        <option name="method" value="save" />
+        <option name="methodDescription" value="添加产品配置" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="/jcConfigProductQuery/queryNoBindProducts" />
+        <option name="originUrl" value="/jcConfigProductQuery/save" />
         <option name="requestParamMap">
           <map>
             <entry key="page">
