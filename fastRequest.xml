@@ -443,21 +443,21 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.sp.biz.basic.data.controller.web.JcConfigProductQueryController" />
-        <option name="method" value="queryDetail" />
-        <option name="methodDescription" value="查询产品配置详情" />
-        <option name="methodType" value="GET" />
+        <option name="method" value="queryNoBindProducts" />
+        <option name="methodDescription" value="查询产品配置列表" />
+        <option name="methodType" value="POST" />
         <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="/jcConfigProductQuery/queryDetail" />
+        <option name="originUrl" value="/jcConfigProductQuery/queryNoBindProducts" />
         <option name="requestParamMap">
           <map>
-            <entry key="pId">
+            <entry key="page">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/jcConfigProductQuery/queryDetail" />
+        <option name="url" value="/jcConfigProductQuery/queryNoBindProducts" />
       </ParamGroup>
     </option>
     <option name="projectList">
