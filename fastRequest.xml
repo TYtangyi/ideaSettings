@@ -323,9 +323,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8903" />
-    <option name="enableEnv" value="dyt" />
-    <option name="enableProject" value="basic" />
+    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -341,7 +341,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcwMDc0MDQxNCwiYXV0aG9yaXRpZXMiOlsiNCJdLCJqdGkiOiI1MDM4YTgwYi00YWQ5LTQwYWYtYjIzMC1hMDFlZGNlYzBiY2YiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.zBH7P1d5AYWPHphG1ldnGJ0IClgd-sM_AlKTvWSQ_z5zevzVrVmQ1rE9UZhYppUN0ia0FLYoaCBzgYGqYRLSUTZldjn-UInuUX4Q4pBiMWC3QPkyQdrEI78HJSMz0dfp-I8-tvdlfZl_Z6iLMuo-Y_vMY1bHNpml9_GkrdnAGfM9jDjCjAHONao520cMiWEo9EsqxcgiFgm9qu0ZHm4tZBgkZ2QvZ6qXGmidCCEvHHlc5ekfR9yP9kuKvIyXJwec0A4kyirFI-CtuxbyBYp2AThLeTaSUZmay98rldcJkwu8KE3QfYN9g2sPGL0OYwG0zvshJr32DWQuSTHes_eFZA" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMDI0NTUzOCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiIzMDAxMjI5NS0zYTU1LTRhMmQtODhhNy1lNWZjZDljM2NhNDQiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.yZC91ck8PQoQ_-GvFZI1GtCxIdQjpYV0qGCCJ6tRT4lheJgyKfQBzwv90V-hbpDLOeqCld1YuenO1CA6dGX6ND9RbFuad6hh0LvR5S3ACRFSh9aDxDF9jTouS2TanMv58Fav7-ozFxPTfEUmiHBUX1cOUlVvpRaZ5M1y7LmdqUsTqZLyZ6llRkODlw6Whkm4cbZSm6QmQv0CCB0tTIZFVMZa-NvEE_ga_q3Yr3dzijcq8ldgsOgdPN1vRfrbRZLJ2baI2YZFmxVD3IogCzV1t5f1C05DQduC4WgzIdqyQ86WFQIOm2Or6wtMWU2eTuGf1TgbQHTiS3sDzQsPybGuRg" />
                   </map>
                 </value>
               </entry>
@@ -442,13 +442,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.basic.data.controller.web.JcConfigProductQueryController" />
-        <option name="method" value="save" />
-        <option name="methodDescription" value="添加产品配置" />
+        <option name="className" value="com.sp.biz.storage.controller.web.IpCheckSample" />
+        <option name="method" value="whiteList" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="/jcConfigProductQuery/save" />
-        <option name="url" value="/jcConfigProductQuery/queryNoBindCount" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/sample/ip-checker/white" />
+        <option name="url" value="/sample/ip-checker/white" />
       </ParamGroup>
     </option>
     <option name="projectList">
