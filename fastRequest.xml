@@ -323,9 +323,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8907" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="prevent" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -419,7 +419,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMDMzNjYwOCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJkYjQ4MjgzNy0xYjAzLTQ0ZTEtYjQ3OC1hYWQwMWQyODJkMmIiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.PyTWMvGHcRwA-vDe6rlWpg_y34QaoAOGgenc9ACsCM4AKwm-FnqawUDwezedYcg1IEO4Y7kCOCW-C7P3aGybSo-i914Ba_2INAnZWk2_QOvj89nc9ZNhamXXG6kRERoZBFaKlKJdRnA8uAHW-zUtJP4LubsJuAgCTrblXLGiaMJMCzfpOAypMIWVZYP5zfRK8ykwiduHf6yLkB1TaGhqb8TqjyFK5mBy0KLkuekvrSdPszOKI6SiUb8lWo3xnMOv44elKWGH0xBNuz-wHdGBy_w18kfF2uZyf55oU-n4W6kxEgyzWy855x5wdRssVk9f1tLTBmiYIqCU0unqNGDSPg" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="prevent" />
@@ -442,13 +448,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.IpCheckSample" />
-        <option name="method" value="whiteList" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.sp.biz.prevent.controller.web.AntiFakeController" />
+        <option name="method" value="query" />
+        <option name="methodDescription" value="fw_antiFakeController_query 防伪预警分页查询服务" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/sample/ip-checker/white" />
-        <option name="url" value="/sample/ip-checker/white" />
+        <option name="module" value="sp-prevent-center" />
+        <option name="originUrl" value="/antifake/query" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="antiFakeInDTO">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/antifake/query" />
       </ParamGroup>
     </option>
     <option name="projectList">
