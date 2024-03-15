@@ -249,6 +249,25 @@
           </option>
           <option name="name" value="user" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8080" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="local" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -323,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8080" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="local" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -448,22 +467,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.prevent.controller.web.AntiFakeController" />
-        <option name="method" value="query" />
-        <option name="methodDescription" value="fw_antiFakeController_query 防伪预警分页查询服务" />
+        <option name="className" value="com.example.demo.moduleone.controller.TestController" />
+        <option name="method" value="publishEvent" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-prevent-center" />
-        <option name="originUrl" value="/antifake/query" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="antiFakeInDTO">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/antifake/query" />
+        <option name="module" value="module-one" />
+        <option name="originUrl" value="/publishEvent" />
+        <option name="url" value="/publishEvent" />
       </ParamGroup>
     </option>
     <option name="projectList">
@@ -481,6 +491,7 @@
         <option value="config" />
         <option value="wechat" />
         <option value="user" />
+        <option value="local" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
