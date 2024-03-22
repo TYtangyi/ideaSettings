@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8080" />
+    <option name="domain" value="http://127.0.0.1:8907" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="local" />
+    <option name="enableProject" value="prevent" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -472,8 +472,8 @@
         <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
         <option name="module" value="module-one" />
-        <option name="originUrl" value="/publishEvent" />
-        <option name="url" value="/publishEvent" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
