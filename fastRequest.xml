@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -378,7 +378,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxMTMzODE4MiwiYXV0aG9yaXRpZXMiOlsiY3MiXSwianRpIjoiZGFhOGU0M2YtOTI4ZS00ZjNkLWJlODctYWVlY2FhY2U2NGE5IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.HoPlUObMl4FyP60QJldApBArRfEI8CtHwSUFFZl8P8JymHzzr6gY64jB4ZMBLNkbGiqVDeIS-gKyXhnfzGD4203ctKygc5CcxUgGQEi8zOCktUp-vcOTfHf48_aYHzGEJZzxeB-MNcxMQ4RtgvFsj6122RRkgWJ8xCXoycHv_lc" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="mark" />
@@ -467,13 +473,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.example.demo.moduleone.controller.TestController" />
-        <option name="method" value="publishEvent" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.MarkSelectController" />
+        <option name="method" value="queryMarkForPage" />
+        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
         <option name="methodType" value="GET" />
-        <option name="module" value="module-one" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/markSelect/queryMarkForPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="markCode">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/markSelect/queryMarkForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
