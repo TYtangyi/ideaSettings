@@ -483,21 +483,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.web.CcProductOrderController" />
-        <option name="method" value="selectOrderRatePage" />
-        <option name="methodDescription" value="生产任务单采集列表" />
+        <option name="method" value="exportOrderRate" />
+        <option name="methodDescription" value="生产任务单采集列表导出" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccProductOrder/selectOrderRate" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/ccProductOrder/selectOrderRate" />
+        <option name="originUrl" value="/ccProductOrder/exportOrderRate" />
+        <option name="url" value="/ccProductOrder/exportOrderRate" />
       </ParamGroup>
     </option>
     <option name="projectList">
