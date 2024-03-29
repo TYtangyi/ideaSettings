@@ -487,8 +487,8 @@
         <option name="methodDescription" value="生产任务单采集列表导出" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccProductOrder/exportOrderRate" />
-        <option name="url" value="/ccProductOrder/exportOrderRate" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
