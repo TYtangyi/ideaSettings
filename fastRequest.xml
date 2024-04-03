@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8089" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="local" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -381,7 +381,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxMTMzODE4MiwiYXV0aG9yaXRpZXMiOlsiY3MiXSwianRpIjoiZGFhOGU0M2YtOTI4ZS00ZjNkLWJlODctYWVlY2FhY2U2NGE5IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.HoPlUObMl4FyP60QJldApBArRfEI8CtHwSUFFZl8P8JymHzzr6gY64jB4ZMBLNkbGiqVDeIS-gKyXhnfzGD4203ctKygc5CcxUgGQEi8zOCktUp-vcOTfHf48_aYHzGEJZzxeB-MNcxMQ4RtgvFsj6122RRkgWJ8xCXoycHv_lc" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIyIiwidXNlcl9uYW1lIjoieXFnYyIsInNvdHlwZSI6IjEiLCJzY29wZSI6WyJhbGwiXSwiZ2VuZXJhdGVkSW5ab25lIjoiR01UKzA4OjAwIiwiZXhwIjoxNzEyMTQ1NjIyLCJhdXRob3JpdGllcyI6WyJDUyIsImdjIiwiY3MwMDEiXSwianRpIjoiMzdiOThlYTctYmNmYy00ZjViLWJhYWItMTYwZGJlOGE4NzI3IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.GWfKEhBzicJXwDoHb-zpuKsqjFV7BRjXUSG97eyFQyRKipKuxqJd2qsJHIf-qX8msCoyqVEKy9oATr1RLsszA-c9NN-5SCjUJQrrFCeP5eUiEynSgy6VtbX15i1Ddrg-Euh8PBWEqnzntpt4UC3TCMzmvXmdgikbC9PH9Ik34Vg" />
                   </map>
                 </value>
               </entry>
@@ -473,13 +473,37 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.example.sharding.controller.UserController" />
-        <option name="method" value="selectList" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.panpass.mark.center.service.controller.client.ClientPackController" />
+        <option name="method" value="queryUploadForPage" />
+        <option name="methodDescription" value="zm_clientPack_queryUploadForPage 分页查询上传码包" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sharding-demo" />
-        <option name="originUrl" value="/test/selectInList" />
-        <option name="url" value="/test/selectInList" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/client/pack/queryUploadForPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="batchNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="beginDate">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="endDate">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/client/pack/queryUploadForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
