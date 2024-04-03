@@ -254,7 +254,7 @@
             <list>
               <HostGroup>
                 <option name="env" value="dev" />
-                <option name="url" value="http://127.0.0.1:8080" />
+                <option name="url" value="http://127.0.0.1:8089" />
               </HostGroup>
               <HostGroup>
                 <option name="env" value="yqsl" />
@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8089" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="local" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -473,27 +473,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.service.impl.MarkPoolServiceImpl" />
-        <option name="method" value="pageMarkCode" />
-        <option name="methodDescription" value="流水号查询" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/pageMarkCode" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="query">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/pageMarkCode" />
+        <option name="className" value="com.example.sharding.controller.UserController" />
+        <option name="method" value="selectList" />
+        <option name="methodDescription" value="" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sharding-demo" />
+        <option name="originUrl" value="/test/selectInList" />
+        <option name="url" value="/test/selectInList" />
       </ParamGroup>
     </option>
     <option name="projectList">
