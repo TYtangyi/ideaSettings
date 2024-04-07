@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -487,32 +487,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.ZmClientAuthAuditController" />
-        <option name="method" value="search" />
-        <option name="methodDescription" value="zm_clientAuthAudit_search 数据列表查询" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/clientAuthAudit/search" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="clientAuthStatus">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="pageNo">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="pageSize">
+            <entry key="tradeBillQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/clientAuthAudit/search" />
+        <option name="className" value="com.panpass.storage.service.controller.web.TradeBillController" />
+        <option name="method" value="queryForPage" />
+        <option name="methodDescription" value="cc_tradeBill_queryForPage 交货单分页查询" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/tradeBill/queryForPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/tradeBill/queryForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
