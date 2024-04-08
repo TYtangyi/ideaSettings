@@ -342,8 +342,8 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
+    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
@@ -360,7 +360,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMTQ2NTg2MSwiYXV0aG9yaXRpZXMiOlsiMSJdLCJqdGkiOiJhNmRmMDUzYS05MzFiLTRlZjEtYWY3OS04NWM0YjE1YjE2YTQiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.IguDL_Umf6KgWwt_5fx5vtTVAsX4FbhLzIVfSvbhLOuoUPACE0I6v2Lt3waCDkTUqezsU75Xp2Tetizov5_nGEgfUyAgtfDPBFaVyjNrkioDjCa3xYW6TpHkv2E6A8FnJbDnt-_JDFRGr_ZKwhRI_GSg0z6ykfGo3At3ueoOhrZO5z5Iz74KmyKefWb2QGNEMkOlxN7tuRbXmHAf0Wkk93eAPOXN5E4nWioxpztytoghf6p_jdr0oCnhNwra9NKibAd1FrL9CH52TiAeQAQhPR9ViPeasCs38ezmRIsGU6aJYuqt1UTKTWaFGxPUMqd6hGMdUjoy3ueBcadsaGwIhw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMjU4MjUzNSwiYXV0aG9yaXRpZXMiOlsiMSJdLCJqdGkiOiIxMDYwMDIxNC1kYjdiLTQ0ZWYtODIwNy01MzEwMzFiNDFmZDciLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.wP7rJBU0UCVhmnostYZLJe32yMxKV3tIIyOWEhZrMZ53dr4jd7JvzNLqlVG9VliXRu7WdCWDKXKrUHsf_f9OfbRNdw6hOEtC8Gd8BEnuvtMPWloIKKw2ZuNXR8X9c2WTwgBbccq-K_y32D7U1iNaGMXQ5VGTHRMKGVdNvQ3Q1MvPFEU6qoNVJJ_27cKFxzn-cE8tXjUcruZUpnKV9bI0MBnf0kvh-EADVnmFg8JTd1c-fJdTC1ZzjGq4_HimpY_wp0QgmoRQVKTLRKIWNYDmsNkWmdrSt8h_2izYFspnFFkJDioj1l7of_Gy1_7iIJ2Kbt6PtSQ1A9yBJzsg2-3o1g" />
                   </map>
                 </value>
               </entry>
@@ -487,27 +487,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.netty.server.controller.ServerController" />
-        <option name="method" value="downLoadMark" />
-        <option name="methodDescription" value="" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="panpass-netty-server" />
-        <option name="originUrl" value="serverNetty/downLoadMark" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="filePath">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="macAddress">
+            <entry key="query">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/serverNetty/downLoadMark" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcProductOrderController" />
+        <option name="method" value="exportOrderRate" />
+        <option name="methodDescription" value="生产任务单采集列表导出" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/ccProductOrder/exportOrderRate" />
+        <option name="url" value="/ccProductOrder/exportOrderRate" />
       </ParamGroup>
     </option>
     <option name="projectList">
