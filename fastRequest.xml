@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -501,7 +501,7 @@
         <option name="methodDescription" value="cc_tradeBill_queryForPage 交货单分页查询" />
         <option name="methodType" value="POST" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="/tradeBill/queryForPage" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="page">
@@ -511,7 +511,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/tradeBill/queryForPage" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
