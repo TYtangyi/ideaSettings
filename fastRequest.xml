@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8094" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="user" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -487,22 +487,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.user.center.service.controller.web.DataDictionaryItemController" />
-        <option name="method" value="getItemByDataDictionaryCode" />
-        <option name="methodDescription" value="根据字典编码码获取所属字典明细内容" />
-        <option name="methodType" value="GET" />
+        <option name="className" value="com.panpass.user.center.service.controller.web.RoleInfoController" />
+        <option name="method" value="saveGhRole" />
+        <option name="methodDescription" value="供货角色-添加&#9;--sys_role_gh2" />
+        <option name="methodType" value="POST" />
         <option name="module" value="user-service" />
-        <option name="originUrl" value="/dataDictionaryItem/getItemByDataDictionaryByCode" />
+        <option name="originUrl" value="/roleInfo/saveGh" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
+            <entry key="roleInfo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/dataDictionaryItem/getItemByDataDictionaryByCode" />
+        <option name="url" value="/roleInfo/saveGh" />
       </ParamGroup>
     </option>
     <option name="projectList">
