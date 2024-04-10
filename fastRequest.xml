@@ -239,7 +239,7 @@
               </HostGroup>
               <HostGroup>
                 <option name="env" value="yqsl" />
-                <option name="url" value="" />
+                <option name="url" value="http://127.0.0.1:8092" />
               </HostGroup>
               <HostGroup>
                 <option name="env" value="dyt" />
@@ -342,8 +342,8 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8094" />
-    <option name="enableEnv" value="dev" />
+    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="enableEnv" value="yqsl" />
     <option name="enableProject" value="user" />
     <option name="envList">
       <list>
@@ -461,7 +461,14 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MDkxMTY3NTUsImp0aSI6ImM2NTI0YTJjLTllYWQtNDJiZS05ZWYxLWU5OTgyMjQ1ZjMyZCIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.bfKRYC0zsoyzTa6yiLVjQuPV23vND0TNsCbLNG04mlAZx9ObYO98YrAG-R_q7IMTXtxlNw1Ut8jdm7Mr53Q6z106AaR3RGvWhHjftP-C-Dzobdn35Dc_am6vkPRkQVaNjQGc63KoXgpEsJI8h6k0ODu66ajmVAbFyG6v14Wl5rk" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxMjczODY1MSwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6IjM4ZjY2MWUzLTQyMGQtNGI3Zi1hODAyLTAzZGQxMzgyZDlmZSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.E3GbJ1nmYFSXBM82QmGFGizls6v6Sf6QmW8SCuSRKfHYMyWFJlprIWDDl77Lfs6kP-iIlW5I0Wu4aYsOUk5Fjox3bCv8HDPHCjkawFR3a7B2Y0kToISP9uRQam4EvpZVpSNKLl5L4qkO9VcDjCkjNUHVUFNXO0QoM-_KVgfNrpA" />
+                  </map>
+                </value>
+              </entry>
+              <entry key="yqsl">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxMjc0MzEwOSwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6ImY4MGJkYzMyLWQyMmMtNGRmMS04NmQ5LTI3ZThlNjk3ZWUzOCIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.Al9pneRv44HqDgOuOzrapxHU-t905OeXkFUU3R-tgs_PvkTzkJd36EqJ2Vndk0g9sqjhsViJNCQ2rtN1sD2tgjyazK4PmylaLu0vDuVT3y-c3t8cCN1TYMj8sTIeswuxhLEmDx_9hUSt-DGClTPF34TcrXB7JbPgBR_2p-ifH1s" />
                   </map>
                 </value>
               </entry>
@@ -488,21 +495,26 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.panpass.user.center.service.controller.web.RoleInfoController" />
-        <option name="method" value="saveGhRole" />
-        <option name="methodDescription" value="供货角色-添加&#9;--sys_role_gh2" />
-        <option name="methodType" value="POST" />
+        <option name="method" value="queryGhForList" />
+        <option name="methodDescription" value="供货角色-查询列表&#9;--sys_role_gh1" />
+        <option name="methodType" value="GET" />
         <option name="module" value="user-service" />
-        <option name="originUrl" value="/roleInfo/saveGh" />
+        <option name="originUrl" value="/roleInfo/getGhForList" />
         <option name="requestParamMap">
           <map>
-            <entry key="roleInfo">
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/roleInfo/saveGh" />
+        <option name="url" value="/roleInfo/getGhForList" />
       </ParamGroup>
     </option>
     <option name="projectList">
