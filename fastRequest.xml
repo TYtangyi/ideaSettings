@@ -499,7 +499,7 @@
         <option name="methodDescription" value="供货角色-查询列表&#9;--sys_role_gh1" />
         <option name="methodType" value="GET" />
         <option name="module" value="user-service" />
-        <option name="originUrl" value="/roleInfo/getGhForList" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="page">
@@ -514,7 +514,7 @@
             </entry>
           </map>
         </option>
-        <option name="url" value="/roleInfo/getGhForList" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
