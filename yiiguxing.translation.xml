@@ -9,8 +9,19 @@
     <option name="translationDialogHeight" value="260" />
     <option name="translationDialogLocationX" value="815" />
     <option name="translationDialogLocationY" value="450" />
-    <option name="translationDialogWidth" value="582" />
+    <option name="translationDialogWidth" value="572" />
     <histories>
+      <item value="外码" />
+      <item value="wai'ma" />
+      <item value="盒" />
+      <item value="he" />
+      <item value="箱" />
+      <item value="xiang" />
+      <item value="内码" />
+      <item value="nei'ma" />
+      <item value="箱内码" />
+      <item value="箱内ma" />
+      <item value="xiang'nei'ma" />
       <item value="navie" />
       <item value="时分" />
       <item value="shifen" />
@@ -50,22 +61,11 @@
       <item value="真wei" />
       <item value="真假码" />
       <item value="真假ma" />
-      <item value="组装" />
-      <item value="z" />
-      <item value="zh" />
-      <item value="zu'zhuang" />
-      <item value="zu'zhu" />
-      <item value="分配" />
-      <item value="beforeRoleRResourceModifyContent" />
-      <item value="分配角色" />
-      <item value="程序员在工作" />
-      <item value="mapstruct" />
-      <item value="mapstru" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="973" />
-        <entry key="ENGLISH" value="969" />
+        <entry key="CHINESE" value="1004" />
+        <entry key="ENGLISH" value="1000" />
       </map>
     </option>
   </component>
