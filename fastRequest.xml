@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="domain" value="http://127.0.0.1:8099" />
     <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="user" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -494,27 +494,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.user.center.service.controller.web.RoleInfoController" />
-        <option name="method" value="queryGhForList" />
-        <option name="methodDescription" value="供货角色-查询列表&#9;--sys_role_gh1" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="user-service" />
-        <option name="originUrl" value="" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="param">
+            <entry key="baseParam">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
+        <option name="method" value="queryBottleByChest" />
+        <option name="methodDescription" value="根据箱码查询所有瓶码" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/yq/storage/queryBottleByChest" />
+        <option name="url" value="/yq/storage/queryBottleByChest" />
       </ParamGroup>
     </option>
     <option name="projectList">
