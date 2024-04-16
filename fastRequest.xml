@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -366,9 +366,7 @@
               </entry>
               <entry key="yqsl">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTY5MzQ1MDMyMywiYXV0aG9yaXRpZXMiOlsiY3MiXSwianRpIjoiYTY2NzEyMDYtOWFmZi00ZWZlLWEyYTQtNDEwYmYwNDBmYjY4IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.kjUUsnF-5-xRVDu93lbqTNNZHecIIR5Ranb0M8iLwAsqMUFjF8gOTFL5QUdNPUjYRL1OCeFaETRaJucrbrnHbYUuTEhVlUkmldFfI2UZLuZzW2FQBmXgvb1yrF9fBDyiQOOXcNoQT1ufRl4b9vSaq5q9Z6zMZKWFiEqrl0IltBs" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
@@ -496,20 +494,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="baseParam">
+            <entry key="baseParamBO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
-        <option name="method" value="queryBottleByChest" />
-        <option name="methodDescription" value="根据箱码查询所有瓶码" />
+        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
+        <option name="method" value="queryMarkList" />
+        <option name="methodDescription" value="五码查询" />
         <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/yq/storage/queryBottleByChest" />
-        <option name="url" value="/yq/storage/queryBottleByChest" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/yq/docking/queryMarkList" />
+        <option name="url" value="/yq/docking/queryMarkList" />
       </ParamGroup>
     </option>
     <option name="projectList">
