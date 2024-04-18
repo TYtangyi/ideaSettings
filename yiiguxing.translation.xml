@@ -9,8 +9,13 @@
     <option name="translationDialogHeight" value="260" />
     <option name="translationDialogLocationX" value="815" />
     <option name="translationDialogLocationY" value="450" />
-    <option name="translationDialogWidth" value="564" />
+    <option name="translationDialogWidth" value="560" />
     <histories>
+      <item value="已有" />
+      <item value="已有托" />
+      <item value="已有tuo" />
+      <item value="yi'you'tuo" />
+      <item value="yi" />
       <item value="移动" />
       <item value="操作" />
       <item value="托码" />
@@ -56,16 +61,11 @@
       <item value="绑定" />
       <item value="绑定产品" />
       <item value="标识" />
-      <item value="biao'shi" />
-      <item value="biao" />
-      <item value="ji" />
-      <item value="ji'qi" />
-      <item value="真" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1027" />
-        <entry key="ENGLISH" value="1023" />
+        <entry key="CHINESE" value="1041" />
+        <entry key="ENGLISH" value="1037" />
       </map>
     </option>
   </component>
