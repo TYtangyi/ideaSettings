@@ -9,10 +9,21 @@
     <option name="translationDialogHeight" value="260" />
     <option name="translationDialogLocationX" value="815" />
     <option name="translationDialogLocationY" value="450" />
-    <option name="translationDialogWidth" value="558" />
+    <option name="translationDialogWidth" value="556" />
     <histories>
+      <item value="入托" />
+      <item value="ru'tuo" />
       <item value="补" />
+      <item value="补箱" />
+      <item value="补xiang" />
       <item value="bu" />
+      <item value="bu'xiang" />
+      <item value="bu'xi'angrutuo" />
+      <item value="bu'xiang'ru'tuo" />
+      <item value="bu'xiangrutuo" />
+      <item value="bu'xiang'rutuo" />
+      <item value="bu'xiang'ru" />
+      <item value="buxi" />
       <item value="已有" />
       <item value="已有托" />
       <item value="已有tuo" />
@@ -50,22 +61,11 @@
       <item value="cai'ji'lü" />
       <item value="率" />
       <item value="lü" />
-      <item value="lv" />
-      <item value="采集" />
-      <item value="正确" />
-      <item value="正确采集" />
-      <item value="zhengqu" />
-      <item value="重要" />
-      <item value="zhong'yao" />
-      <item value="zhong'ya" />
-      <item value="zhong'ya'p" />
-      <item value="重点" />
-      <item value="绑定" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1044" />
-        <entry key="ENGLISH" value="1040" />
+        <entry key="CHINESE" value="1092" />
+        <entry key="ENGLISH" value="1088" />
       </map>
     </option>
   </component>
