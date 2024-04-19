@@ -9,8 +9,10 @@
     <option name="translationDialogHeight" value="260" />
     <option name="translationDialogLocationX" value="815" />
     <option name="translationDialogLocationY" value="450" />
-    <option name="translationDialogWidth" value="556" />
+    <option name="translationDialogWidth" value="554" />
     <histories>
+      <item value="同级" />
+      <item value="tong'ji" />
       <item value="入托" />
       <item value="ru'tuo" />
       <item value="补" />
@@ -59,13 +61,11 @@
       <item value="采集率" />
       <item value="采集lü" />
       <item value="cai'ji'lü" />
-      <item value="率" />
-      <item value="lü" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1092" />
-        <entry key="ENGLISH" value="1088" />
+        <entry key="CHINESE" value="1099" />
+        <entry key="ENGLISH" value="1095" />
       </map>
     </option>
   </component>
