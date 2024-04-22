@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -364,11 +364,7 @@
                   </map>
                 </value>
               </entry>
-              <entry key="yqsl">
-                <value>
-                  <map />
-                </value>
-              </entry>
+              <entry key="yqsl" />
             </map>
           </option>
           <option name="projectName" value="storage" />
@@ -379,7 +375,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMjQ3MDQ3MiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiI0ODNmMGNlOC1hNGMwLTQ1YjgtOGUyZS0yODc5ZWZhNWI3NTgiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.jvx4crv6Y2lWkNDDr_dQD4tkcedliN5Jpeh9R6ZN4LzHTDKdhTha0a93TNiM3OC9ai-bp2n6dr1SOlaMjx9xQiYfLwZEv4bVQ-ma4xL0bZfoMuEV0h-ugcwhT1TtqPBWiSeJfkCsCRP6iKxpyAbfYiIzzXdLX2lzXD4pXtWToUlljZ0yF4pIsJUZ5knWX5nmG0-TpjG9gX07JxnjVHy5JgsQEQT6LUi62BIwii2DaCb_xS9wbM4gXK94EKEMn7H6B9pBLuAFUq0bVzD3zpUD5uwfa2VmaN4CffIrd0ZkhipvaCrhsKQWj76HgJvIydiSazFyi4dVvnqcqdG1fFtgIw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMzc4MTk5OCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI2MDAxMTQ1Yi1hYTMzLTQ0NjMtYWNiMi04ZDIwYTA1ZjBhYjAiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.kz7tH2TaYb5N-eKudBWAv6-RTAoj06cNgiO9bwW3pDaTYVQGSQZUBcCZSK6H5-1EWnK6hEvCgSwVdpUF4aL8F5JWeAC9taeEYOUBHo37CTrelmMhXR34LqOBoO58mwYqiMYUw2AcR_lcW15wTqa_JE0wi9utoDV1zQlLqVdPCyeeSKhSj9I7nUmVXERLVa6rY7qYIaVRq0d1cfjOr5UbTKTl4KizeUV792UX5XO3IZ4V8sE564AteMwzk3JMVYi_7QcThEO9s_6YB9hOkGFwjsjxsKE2ytfqj6MmcvgLYgc2fyyzufqsAKY6jaxKSWyVYG6OCNW--GJbAWks2SfpKg" />
                   </map>
                 </value>
               </entry>
@@ -492,22 +488,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="baseParam">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.panpass.storage.service.controller.yuanqi.SyncTradeBillController" />
-        <option name="method" value="addChestUpdate" />
-        <option name="methodDescription" value="箱托关系新增箱码" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/sync/storage/addChestUpdate" />
-        <option name="url" value="/sync/storage/addChestUpdate" />
+        <option name="className" value="com.sp.biz.mark.controller.api.ExternalController" />
+        <option name="method" value="scheduledRegister" />
+        <option name="methodDescription" value="基本信息存证上链" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-mark-center" />
+        <option name="originUrl" value="/third/blockchain/info/register" />
+        <option name="url" value="/third/blockchain/info/register" />
       </ParamGroup>
     </option>
     <option name="projectList">
