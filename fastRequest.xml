@@ -342,8 +342,8 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
+    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
@@ -360,7 +360,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMjY0NDUyMSwiYXV0aG9yaXRpZXMiOlsiMSJdLCJqdGkiOiI1YTdiNDc0MC1mODY2LTRmZTktODFmYS1kZmEwYmNhMzU5OGYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.KZTChj2JeiRk_G9A9Cczpf2-ekgf9VEmYLE7XRJazwxyn694ZQVFFSM0fSoxuUz9JRMeymk1D_UJCLl5rBBwsGI1Xld0lrLef8KW8kPDIt7YuB9tN81rUBrwRTfn7rClgFzH8QfXqhA5nbCpZj-9gCZzuzb-u4J7jx_3HJTPC7DN2dtSAr6R-9oLZwjcVw3ERv7xE2GlFbNVmZ7Ytafk-L2z93tepBetww9w7nX0-L3ZDtNxglItvUd7GtA9R5xQDdej_9Yt6WWCUhO7Jvyju7Ro-bsDbjoLREShJOGODNkttQclLx7rlA9qZbn3HdrsfPZjbdGX1-woZdqMHe3WJg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMzg1MzY0MSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiI2NTRmNjExMi0yYzJjLTRjNzctYTc3Zi1iM2FhMGZhYzYxOGEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.P2KY2XrpkCZGRJt8bGpT-bN0PiD9dPmFfrY_gqjZghS6uQkCbnB4dAR4QdPTZ8ojxoEvCtXGhr_VNAvGQy5zAe9vHyMbx3RSdwZV-VnekOua8x6nzu5jYgBKhU_BqBrtUjDrY6UMNyItEyGxNmOz7IKpDdPyyxDADQQfjku832VmzSxMGP3LuqkIQYYcn0iSU-5ljWjLjnDp72623m9mMUCJmAcmX58pUiHlClmJlpwLOMKl3X7EjWp4OI6vKzueHpL507pwEuUY0FDMzqONemW-8ycIi7QlbFVHiZBbLxY1SOG2cyJtJ2V99RbCx0yjZkravxr7SgZIzenJOTWiyg" />
                   </map>
                 </value>
               </entry>
@@ -488,13 +488,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.mark.controller.api.ExternalController" />
-        <option name="method" value="scheduledRegister" />
-        <option name="methodDescription" value="基本信息存证上链" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-mark-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="bodyParamMap">
+          <map>
+            <entry key="request">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
+        <option name="method" value="rework" />
+        <option name="methodDescription" value="生产返工" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/productOrderApi/production/rework" />
+        <option name="url" value="/productOrderApi/production/rework" />
       </ParamGroup>
     </option>
     <option name="projectList">
