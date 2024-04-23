@@ -360,7 +360,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMzg1MzY0MSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiI2NTRmNjExMi0yYzJjLTRjNzctYTc3Zi1iM2FhMGZhYzYxOGEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.P2KY2XrpkCZGRJt8bGpT-bN0PiD9dPmFfrY_gqjZghS6uQkCbnB4dAR4QdPTZ8ojxoEvCtXGhr_VNAvGQy5zAe9vHyMbx3RSdwZV-VnekOua8x6nzu5jYgBKhU_BqBrtUjDrY6UMNyItEyGxNmOz7IKpDdPyyxDADQQfjku832VmzSxMGP3LuqkIQYYcn0iSU-5ljWjLjnDp72623m9mMUCJmAcmX58pUiHlClmJlpwLOMKl3X7EjWp4OI6vKzueHpL507pwEuUY0FDMzqONemW-8ycIi7QlbFVHiZBbLxY1SOG2cyJtJ2V99RbCx0yjZkravxr7SgZIzenJOTWiyg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMzg4MDc1MCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiJlNzZlM2U5My05YzFmLTQyMmQtOTNhZC05NGZjZGNiNzM2MzgiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.J06QTal_djqbi-p9xiCKcXyHpKGXyoVmkDzp3BtAeWSYjpsDL7SobP0PxMkpBmkKKBNMJOSnWNmcLjMyvQxOIulrY-lg9NQBV4gRh0hR6-ZZJBjcgtEVBgMvo6yyIrPvpwJwdqxCpIUn8fGdYv605GLlHS3O6RXYn_ekdllvluFVW2Y5uYNqSr40wwTYpgKoEYRuR9205WXneSku4GTBCx0CGUSwfzFzzhFi1FWOcwWU7afmkpqWgzUVsml15TvZmEOa7C2Ze5nuxubtNth_8DNvd35lawjPNHbK-5mFHei38Q6kJBZ3Q_R0S1CAKGp0gjxyr_Qldcrzi6VQyRP2ng" />
                   </map>
                 </value>
               </entry>
@@ -488,22 +488,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.storage.controller.web.TradeBillController" />
+        <option name="method" value="getProductionInfoList" />
+        <option name="methodDescription" value="cc_tadeBill_getProductionInfoList 生产任务单-销售出库单查询" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/tradeBill/getProductionInfoList" />
+        <option name="requestParamMap">
           <map>
-            <entry key="request">
+            <entry key="orderNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
-        <option name="method" value="rework" />
-        <option name="methodDescription" value="生产返工" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/productOrderApi/production/rework" />
-        <option name="url" value="/productOrderApi/production/rework" />
+        <option name="url" value="/tradeBill/getProductionInfoList" />
       </ParamGroup>
     </option>
     <option name="projectList">
