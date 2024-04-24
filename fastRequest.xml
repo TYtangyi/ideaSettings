@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8092" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -404,7 +404,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcwOTcwOTU1NiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI3ZjI1Y2ZiMC04ZGVjLTRkM2YtYjc4YS0yZTQzMzQ2MDUxNWYiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.pPrNFlbJ28uSQUly_ksB0kWAxj8L7yQ2gJoeXB6T_U5ign7dCWMqCK35nopuOA9RhB9gdB76Ls7mhtRXLJXlUeGJ12u-SQgAhjFyzGdNUk1uXc5gqXlUjmPaS-T-31bJ0XgVr1y5fkKzjSWO-yxGowUNehQ-A-BjUOpXUZlf_7nqsVKzGvHSFNYjOnTtQk_gdZAH9cY_KgqOljmFDBEzmSweRPGbEljHITU3L0M_BZldtOXvFi-3xSDCZMapjh5tHv34kXUUoHfv4bzcfn9Wjwdi2TsYFM4OdhPxWbgmPxt3YtzmqgnDh-KacbBCQks5xKPzl9Z5AnbdN3OwHzNouw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxMzk0OTgwNSwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6Ijg2NWU3ZjA3LTcwZDItNDlkYy04NGE0LWVhYTdiY2Q4YWRlNyIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.U9JascU3w0g1bYnIyR57rwU7c4Z8MFnw7vHjry-6HDNFpXm3AWf_TjoHeXhMhVB2-EwUlro1OWeXxKAIOOdMRHb4FUzHhXsF1KUYEO1JU8YTOZAXEK61_JYjWugIPxPBi89r9VZvKtHlIvz55-RSe57jAqCpipl2PvMBT3deX70" />
                   </map>
                 </value>
               </entry>
@@ -488,22 +488,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.productLine.ProductOrderApi" />
-        <option name="method" value="rework" />
-        <option name="methodDescription" value="生产返工" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/productOrderApi/production/rework" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="orderNo">
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/tradeBill/getProductionInfoList" />
+        <option name="className" value="com.panpass.basic.center.service.controller.web.ProductArchivesController" />
+        <option name="method" value="list" />
+        <option name="methodDescription" value="产品档案列表jc_productArchives_list" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/productArchives/list" />
+        <option name="url" value="/productArchives/list" />
       </ParamGroup>
     </option>
     <option name="projectList">
