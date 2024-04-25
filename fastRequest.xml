@@ -502,8 +502,8 @@
         <option name="methodDescription" value="产品档案列表jc_productArchives_list" />
         <option name="methodType" value="POST" />
         <option name="module" value="basic-service" />
-        <option name="originUrl" value="/productArchives/list" />
-        <option name="url" value="/productArchives/list" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
