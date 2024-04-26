@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8905" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -394,10 +394,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="sign" value="acaa7250beb4ecb52c54828d7a6353ef" />
-                    <entry key="ts" value="1709627214309" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
@@ -508,22 +505,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="cancelRelation" />
-        <option name="methodDescription" value="解除箱托关系" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/pda/trade/mark/cancelRelation" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="antiQueryDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/trade/mark/cancelRelation" />
+        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
+        <option name="method" value="queryProduct" />
+        <option name="methodDescription" value="查询数码、标识关联的产品" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-h5-center" />
+        <option name="originUrl" value="/app/h5/antiFake/queryProduct" />
+        <option name="url" value="/app/h5/antiFake/queryProduct" />
       </ParamGroup>
     </option>
     <option name="projectList">
