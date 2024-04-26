@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8089" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="local" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -508,32 +508,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.client.ClientPackController" />
-        <option name="method" value="queryDownForPage" />
-        <option name="methodDescription" value="zm_clientPack_queryDownForPage 分页查询下载码包" />
+        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
+        <option name="method" value="cancelRelation" />
+        <option name="methodDescription" value="解除箱托关系" />
         <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/client/pack/queryDownForPage" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/pda/trade/mark/cancelRelation" />
         <option name="requestParamMap">
           <map>
-            <entry key="isHide">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="markOrderNo">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="page">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/client/pack/queryDownForPage" />
+        <option name="url" value="/pda/trade/mark/cancelRelation" />
       </ParamGroup>
     </option>
     <option name="projectList">
