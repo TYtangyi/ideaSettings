@@ -342,8 +342,8 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
-    <option name="enableEnv" value="dev" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
     <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
@@ -490,20 +490,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="param">
+            <entry key="baseParam">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.basic.center.service.controller.web.ProductArchivesController" />
-        <option name="method" value="list" />
-        <option name="methodDescription" value="产品档案列表jc_productArchives_list" />
+        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
+        <option name="method" value="queryMarkCodeInfo" />
+        <option name="methodDescription" value="根据箱码查询订单信息" />
         <option name="methodType" value="POST" />
-        <option name="module" value="basic-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/yq/storage/queryMarkCodeInfo" />
+        <option name="url" value="/yq/storage/queryMarkCodeInfo" />
       </ParamGroup>
     </option>
     <option name="projectList">
