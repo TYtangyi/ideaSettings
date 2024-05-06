@@ -503,20 +503,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="antiQueryDTO">
+            <entry key="baseParam">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
-        <option name="method" value="queryProduct" />
-        <option name="methodDescription" value="查询数码、标识关联的产品" />
+        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
+        <option name="method" value="queryMarkCodeInfo" />
+        <option name="methodDescription" value="根据箱码查询订单信息" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/yq/storage/queryMarkCodeInfo" />
+        <option name="url" value="/yq/storage/queryMarkCodeInfo" />
       </ParamGroup>
     </option>
     <option name="projectList">
