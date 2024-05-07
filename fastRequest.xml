@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8093" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="prod" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -497,31 +497,40 @@
           </option>
           <option name="projectName" value="local" />
         </HeaderGroup>
+        <HeaderGroup>
+          <option name="envMap">
+            <map>
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MTUwODAyOTAsImp0aSI6IjlkZGFjODYxLWJjY2UtNDA0ZC1hYTY4LWVkYmNiOGIzZjMxNiIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.RVpwzRAcP26njh1QTrsQg0kztc7J7h7ZeGu0mvM9VapEmpbyeHxpkIZrFdZyTtm-FFFRFIH5jsh1gMRJ2l6LNNM5lI15fUcqYWxdR5oHADz9vSPn7lVp2YTh0G1ZMDuVGQ8aSLz84B8qj8Sx3O-pH10nlhw4aQMo6T6KYGSLuvg" />
+                  </map>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="projectName" value="prod" />
+        </HeaderGroup>
       </list>
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.uums.center.service.controller.OauthUserController" />
-        <option name="method" value="webOauthToken" />
-        <option name="methodDescription" value="web端获取认证token" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="uums-service" />
-        <option name="originUrl" value="/access/authorize" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="password">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="userAccount">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/access/authorize" />
+        <option name="className" value="com.panpass.prod.service.controller.ProductLineController" />
+        <option name="method" value="productLineUpload" />
+        <option name="methodDescription" value="产线上传" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="prod-service" />
+        <option name="originUrl" value="/productLine/upload" />
+        <option name="url" value="/productLine/upload" />
       </ParamGroup>
     </option>
     <option name="projectList">
