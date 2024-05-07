@@ -501,22 +501,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.uums.center.service.controller.OauthUserController" />
+        <option name="method" value="webOauthToken" />
+        <option name="methodDescription" value="web端获取认证token" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="uums-service" />
+        <option name="originUrl" value="/access/authorize" />
+        <option name="requestParamMap">
           <map>
-            <entry key="baseParam">
+            <entry key="password">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="userAccount">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
-        <option name="method" value="queryMarkCodeInfo" />
-        <option name="methodDescription" value="根据箱码查询订单信息" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/yq/storage/queryMarkCodeInfo" />
-        <option name="url" value="/yq/storage/queryMarkCodeInfo" />
+        <option name="url" value="/access/authorize" />
       </ParamGroup>
     </option>
     <option name="projectList">
