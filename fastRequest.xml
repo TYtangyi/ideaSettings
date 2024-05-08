@@ -515,27 +515,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.storage.service.controller.web.CcProductOrderController" />
-        <option name="method" value="taskOrderSearch" />
-        <option name="methodDescription" value="cc_productOrder_taskOrderSearch 生产任务单分页查询" />
+        <option name="className" value="com.panpass.prod.service.controller.CcProductOrderController" />
+        <option name="method" value="quantityDetail" />
+        <option name="methodDescription" value="cc_productOrder_quantityDetail 单据生产量详情" />
         <option name="methodType" value="GET" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/ccProductOrder/taskOrder/search" />
+        <option name="module" value="prod-service" />
+        <option name="originUrl" value="/ccProductOrder/quantity/detail" />
         <option name="requestParamMap">
           <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="query">
+            <entry key="orderNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/ccProductOrder/taskOrder/search" />
+        <option name="url" value="/ccProductOrder/quantity/detail" />
       </ParamGroup>
     </option>
     <option name="projectList">
