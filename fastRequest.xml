@@ -515,22 +515,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
+        <option name="method" value="cancelRelation" />
+        <option name="methodDescription" value="解除箱托关系" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/pda/trade/mark/cancelRelation" />
+        <option name="requestParamMap">
           <map>
-            <entry key="trayMarkReplaceDTO">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="replaceTrayMark" />
-        <option name="methodDescription" value="箱码替换" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/pda/trade/mark/replaceTrayMark" />
-        <option name="url" value="/pda/trade/mark/replaceTrayMark" />
+        <option name="url" value="/pda/trade/mark/cancelRelation" />
       </ParamGroup>
     </option>
     <option name="projectList">
