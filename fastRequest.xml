@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8093" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prod" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -517,20 +517,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="dto">
+            <entry key="messageDTO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.prod.service.controller.ProductLineController" />
-        <option name="method" value="productLineUpload" />
-        <option name="methodDescription" value="产线上传" />
+        <option name="className" value="com.panpass.storage.service.controller.web.KafkaTestController" />
+        <option name="method" value="handlerProduceLine" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="POST" />
-        <option name="module" value="prod-service" />
-        <option name="originUrl" value="/productLine/upload" />
-        <option name="url" value="/productLine/upload" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/kafka/handlerProduceLine" />
+        <option name="url" value="/kafka/handlerProduceLine" />
       </ParamGroup>
     </option>
     <option name="projectList">
