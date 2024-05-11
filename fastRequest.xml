@@ -515,22 +515,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.panpass.netty.server.controller.ServerController" />
+        <option name="method" value="downLoadMark" />
+        <option name="methodDescription" value="" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="panpass-netty-server" />
+        <option name="originUrl" value="serverNetty/downLoadMark" />
+        <option name="requestParamMap">
           <map>
-            <entry key="trayMarkRepairChestDTO">
+            <entry key="filePath">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="macAddress">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.pda.TradeMarkPdaApi" />
-        <option name="method" value="repairTrayMarkIn" />
-        <option name="methodDescription" value="补箱入托" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/pda/trade/mark/repairTrayMarkIn" />
-        <option name="url" value="/pda/trade/mark/repairTrayMarkIn" />
+        <option name="url" value="/serverNetty/downLoadMark" />
       </ParamGroup>
     </option>
     <option name="projectList">
