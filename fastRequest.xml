@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8093" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="prod" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -515,27 +515,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.netty.server.controller.ServerController" />
-        <option name="method" value="downLoadMark" />
-        <option name="methodDescription" value="" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="panpass-netty-server" />
-        <option name="originUrl" value="serverNetty/downLoadMark" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="filePath">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="macAddress">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/serverNetty/downLoadMark" />
+        <option name="className" value="com.panpass.prod.service.controller.ProductLineController" />
+        <option name="method" value="productLineUpload" />
+        <option name="methodDescription" value="产线上传" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="prod-service" />
+        <option name="originUrl" value="/productLine/upload" />
+        <option name="url" value="/productLine/upload" />
       </ParamGroup>
     </option>
     <option name="projectList">
