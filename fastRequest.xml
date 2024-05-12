@@ -517,20 +517,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="messageDTO">
+            <entry key="baseParam">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.web.KafkaTestController" />
-        <option name="method" value="handlerProduceLine" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.panpass.storage.service.controller.yuanqi.SyncTradeBillController" />
+        <option name="method" value="syncTradeBill" />
+        <option name="methodDescription" value="同步出入库单据以及数码" />
         <option name="methodType" value="POST" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="/kafka/handlerProduceLine" />
-        <option name="url" value="/kafka/handlerProduceLine" />
+        <option name="originUrl" value="/sync/storage/syncTradeBill" />
+        <option name="url" value="/sync/storage/syncTradeBill" />
       </ParamGroup>
     </option>
     <option name="projectList">
