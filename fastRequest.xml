@@ -529,8 +529,8 @@
         <option name="methodDescription" value="根据箱码查询实托码" />
         <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/yq/docking/queryRealCode" />
-        <option name="url" value="/yq/docking/queryRealCode" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
