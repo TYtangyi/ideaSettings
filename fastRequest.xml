@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -517,20 +517,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="baseParam">
+            <entry key="baseParamBO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
-        <option name="method" value="queryChestByBillNo" />
-        <option name="methodDescription" value="根据出库单号查询所有箱码" />
+        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
+        <option name="method" value="queryRealCode" />
+        <option name="methodDescription" value="根据箱码查询实托码" />
         <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/yq/storage/queryChestByBillNo" />
-        <option name="url" value="/yq/storage/queryChestByBillNo" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/yq/docking/queryRealCode" />
+        <option name="url" value="/yq/docking/queryRealCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
