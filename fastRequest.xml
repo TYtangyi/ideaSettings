@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8092" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -513,13 +513,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.mark.controller.api.ExternalController" />
-        <option name="method" value="scheduledRegister" />
-        <option name="methodDescription" value="基本信息存证上链" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-mark-center" />
-        <option name="originUrl" value="/third/blockchain/info/register" />
-        <option name="url" value="/third/blockchain/info/register" />
+        <option name="bodyParamMap">
+          <map>
+            <entry key="baseParamAO">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="className" value="com.panpass.basic.center.service.controller.yuanqi.SyncBasicDataController" />
+        <option name="method" value="generateSign" />
+        <option name="methodDescription" value="生成sign签名" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="basic-service" />
+        <option name="originUrl" value="/sync/basic/generateSign" />
+        <option name="url" value="/sync/basic/generateSign" />
       </ParamGroup>
     </option>
     <option name="projectList">
