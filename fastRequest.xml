@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -515,20 +515,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="baseParamAO">
+            <entry key="baseParam">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.basic.center.service.controller.yuanqi.SyncBasicDataController" />
-        <option name="method" value="generateSign" />
-        <option name="methodDescription" value="生成sign签名" />
+        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
+        <option name="method" value="queryBottleByChest" />
+        <option name="methodDescription" value="根据箱码查询所有瓶码" />
         <option name="methodType" value="POST" />
-        <option name="module" value="basic-service" />
-        <option name="originUrl" value="/sync/basic/generateSign" />
-        <option name="url" value="/sync/basic/generateSign" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/yq/storage/queryBottleByChest" />
+        <option name="url" value="/yq/storage/queryBottleByChest" />
       </ParamGroup>
     </option>
     <option name="projectList">
