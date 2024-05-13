@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -380,9 +380,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIyIiwidXNlcl9uYW1lIjoiY3NicTAwMSIsInNvdHlwZSI6IjEiLCJzY29wZSI6WyJhbGwiXSwiZ2VuZXJhdGVkSW5ab25lIjoiR01UKzA4OjAwIiwiZXhwIjoxNzE0MTE4NzQwLCJhdXRob3JpdGllcyI6WyJjczAwMSJdLCJqdGkiOiJlMDA0MjBiMC0wODY1LTQ4NjktYTNmYS02Y2NjNmU5N2Y3YTAiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.nvcM0GapQ29W6oloiVn-180rm2BfgD8hie9bDQkkgYvSO_LntjVkzijlparSG-PymAMfXwRI9TpSDAhOWh23eIbNvSIvEMi0YlRYC-DJ5b4elrxkOGEwJ8pJNEkDlgpFG62xllmKIbV_hdcu_5j51_H7qe_gXGUJ3rJKMM0wAMk" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
@@ -515,22 +513,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="baseParam">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
-        <option name="method" value="queryBottleByChest" />
-        <option name="methodDescription" value="根据箱码查询所有瓶码" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/yq/storage/queryBottleByChest" />
-        <option name="url" value="/yq/storage/queryBottleByChest" />
+        <option name="className" value="com.sp.biz.mark.controller.api.ExternalController" />
+        <option name="method" value="scheduledRegister" />
+        <option name="methodDescription" value="基本信息存证上链" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-mark-center" />
+        <option name="originUrl" value="/third/blockchain/info/register" />
+        <option name="url" value="/third/blockchain/info/register" />
       </ParamGroup>
     </option>
     <option name="projectList">
