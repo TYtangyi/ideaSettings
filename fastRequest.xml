@@ -522,12 +522,12 @@
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.yuanqi.QueryTradeBillController" />
-        <option name="method" value="queryBottleByChest" />
-        <option name="methodDescription" value="根据箱码查询所有瓶码" />
+        <option name="className" value="com.panpass.storage.service.controller.yuanqi.SyncTradeBillController" />
+        <option name="method" value="syncTradeBill" />
+        <option name="methodDescription" value="同步出入库单据以及数码" />
         <option name="methodType" value="POST" />
         <option name="module" value="storage-service" />
-        <option name="originUrl" value="/yq/storage/queryBottleByChest" />
+        <option name="originUrl" value="/sync/storage/syncTradeBill" />
         <option name="url" value="/yq/storage/queryBottleByChest" />
       </ParamGroup>
     </option>
