@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8099" />
-    <option name="enableEnv" value="yqsl" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -378,11 +378,7 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev">
-                <value>
-                  <map />
-                </value>
-              </entry>
+              <entry key="dev" />
             </map>
           </option>
           <option name="projectName" value="mark" />
@@ -515,20 +511,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="baseParam">
+            <entry key="baseParamBO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.storage.service.controller.yuanqi.SyncTradeBillController" />
-        <option name="method" value="syncTradeBill" />
-        <option name="methodDescription" value="同步出入库单据以及数码" />
+        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
+        <option name="method" value="queryMarkList" />
+        <option name="methodDescription" value="五码查询" />
         <option name="methodType" value="POST" />
-        <option name="module" value="storage-service" />
-        <option name="originUrl" value="/sync/storage/syncTradeBill" />
-        <option name="url" value="/yq/storage/queryBottleByChest" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/yq/docking/queryMarkList" />
+        <option name="url" value="/yq/docking/queryMarkList" />
       </ParamGroup>
     </option>
     <option name="projectList">
