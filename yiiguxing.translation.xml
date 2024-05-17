@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1713263636435" />
+    <option name="lastTrimTime" value="1715940942468" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -9,8 +9,10 @@
     <option name="translationDialogHeight" value="260" />
     <option name="translationDialogLocationX" value="815" />
     <option name="translationDialogLocationY" value="450" />
-    <option name="translationDialogWidth" value="552" />
+    <option name="translationDialogWidth" value="550" />
     <histories>
+      <item value="匹配" />
+      <item value="p" />
       <item value="外码" />
       <item value="解除" />
       <item value="jie'chu" />
@@ -59,13 +61,11 @@
       <item value="流水号" />
       <item value="采集准确率" />
       <item value="采集zhun'que" />
-      <item value="cai'ji" />
-      <item value="采集率" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1111" />
-        <entry key="ENGLISH" value="1107" />
+        <entry key="CHINESE" value="1117" />
+        <entry key="ENGLISH" value="1113" />
       </map>
     </option>
   </component>
