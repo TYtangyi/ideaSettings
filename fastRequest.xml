@@ -519,12 +519,12 @@
           </map>
         </option>
         <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
-        <option name="method" value="checkMarkMatch" />
-        <option name="methodDescription" value="校验内外码是否匹配" />
+        <option name="method" value="queryMarkList" />
+        <option name="methodDescription" value="五码查询" />
         <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/yq/docking/checkMarkMatch" />
-        <option name="url" value="/yq/docking/checkMarkMatch" />
+        <option name="originUrl" value="/yq/docking/queryMarkList" />
+        <option name="url" value="/yq/docking/queryMarkList" />
       </ParamGroup>
     </option>
     <option name="projectList">
