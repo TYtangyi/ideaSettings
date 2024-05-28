@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1715940942468" />
+    <option name="lastTrimTime" value="1716861548352" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -9,8 +9,21 @@
     <option name="translationDialogHeight" value="260" />
     <option name="translationDialogLocationX" value="815" />
     <option name="translationDialogLocationY" value="450" />
-    <option name="translationDialogWidth" value="548" />
+    <option name="translationDialogWidth" value="534" />
     <histories>
+      <item value="正常" />
+      <item value="正常吗" />
+      <item value="正常ma" />
+      <item value="关联" />
+      <item value="关联关系" />
+      <item value="已上传" />
+      <item value="数码不存在" />
+      <item value="未激活" />
+      <item value="wei'ji'huo" />
+      <item value="wei" />
+      <item value="执行" />
+      <item value="进行" />
+      <item value="进行中" />
       <item value="托盘" />
       <item value="托" />
       <item value="匹配" />
@@ -48,24 +61,11 @@
       <item value="盒" />
       <item value="he" />
       <item value="箱" />
-      <item value="xiang" />
-      <item value="内码" />
-      <item value="nei'ma" />
-      <item value="箱内码" />
-      <item value="箱内ma" />
-      <item value="xiang'nei'ma" />
-      <item value="navie" />
-      <item value="时分" />
-      <item value="shifen" />
-      <item value="年月日" />
-      <item value="n" />
-      <item value="流水号" />
-      <item value="采集准确率" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1124" />
-        <entry key="ENGLISH" value="1120" />
+        <entry key="CHINESE" value="1202" />
+        <entry key="ENGLISH" value="1198" />
       </map>
     </option>
   </component>
