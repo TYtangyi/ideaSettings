@@ -523,8 +523,8 @@
         <option name="methodDescription" value="五码查询" />
         <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/yq/docking/queryMarkList" />
-        <option name="url" value="/yq/docking/queryMarkList" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
