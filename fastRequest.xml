@@ -378,7 +378,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxNzQxMjE4MywiYXV0aG9yaXRpZXMiOlsiY3MiXSwianRpIjoiZjRkNjM3YTQtN2E2Mi00OGQyLWIzY2EtNDkwZjgxY2U5NDdlIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.O4l6YuHtGX7GJNmJKiYHHrqCftaMBrqfJE8hE5Hs9e7OoKlngaHOZXOkIFfrpY7rlmMxQFQS1Ol8PsH9bLndv1Q9t8K05ZadkM7IOaMVTxupDJOk-c1xM_ffXqQ-60M-pe547aJmcRtNCk0G62-yCS4ZapC_CS9DIOFN6fzkDE8" />
+                  </map>
+                </value>
+              </entry>
             </map>
           </option>
           <option name="projectName" value="mark" />
@@ -510,11 +516,11 @@
     <option name="paramGroup">
       <ParamGroup>
         <option name="className" value="com.panpass.mark.center.service.controller.web.ReplaceRelationLogController" />
-        <option name="method" value="getGroupCode" />
-        <option name="methodDescription" value="生成真实组码" />
+        <option name="method" value="replaceMark" />
+        <option name="methodDescription" value="组码替换" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/replaceRelationLog/getGroupCode" />
+        <option name="originUrl" value="/replaceRelationLog/replaceMark" />
         <option name="url" value="/replaceRelationLog/getGroupCode" />
       </ParamGroup>
     </option>
