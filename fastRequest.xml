@@ -509,22 +509,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
-          <map>
-            <entry key="baseParamBO">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
-        <option name="method" value="queryMarkList" />
-        <option name="methodDescription" value="五码查询" />
-        <option name="methodType" value="POST" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.ReplaceRelationLogController" />
+        <option name="method" value="getGroupCode" />
+        <option name="methodDescription" value="生成真实组码" />
+        <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="originUrl" value="/replaceRelationLog/getGroupCode" />
+        <option name="url" value="/replaceRelationLog/getGroupCode" />
       </ParamGroup>
     </option>
     <option name="projectList">
