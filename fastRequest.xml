@@ -520,8 +520,8 @@
         <option name="methodDescription" value="组码替换" />
         <option name="methodType" value="GET" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/replaceRelationLog/replaceMark" />
-        <option name="url" value="/replaceRelationLog/getGroupCode" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
