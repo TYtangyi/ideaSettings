@@ -525,21 +525,12 @@
           </map>
         </option>
         <option name="className" value="com.panpass.mark.center.service.controller.web.ReplaceRelationLogController" />
-        <option name="method" value="selectReplacePage" />
-        <option name="methodDescription" value="分页查询数码替换记录" />
+        <option name="method" value="export" />
+        <option name="methodDescription" value="组码替换" />
         <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/replaceRelationLog/selectReplacePage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/replaceRelationLog/selectReplacePage" />
+        <option name="originUrl" value="/replaceRelationLog/export" />
+        <option name="url" value="/replaceRelationLog/export" />
       </ParamGroup>
     </option>
     <option name="projectList">
