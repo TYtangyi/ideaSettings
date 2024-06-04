@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="domain" value="http://127.0.0.1:8099" />
+    <option name="enableEnv" value="yqsl" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -515,13 +515,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.ReplaceRelationLogController" />
-        <option name="method" value="replaceMark" />
-        <option name="methodDescription" value="组码替换" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="bodyParamMap">
+          <map>
+            <entry key="baseParam">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="className" value="com.panpass.storage.service.controller.yuanqi.SyncTradeBillController" />
+        <option name="method" value="syncPocTradeOutBill" />
+        <option name="methodDescription" value="同步出库单据以及数码" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="storage-service" />
+        <option name="originUrl" value="/sync/storage/syncPocTradeOutBill" />
+        <option name="url" value="/sync/storage/syncPocTradeOutBill" />
       </ParamGroup>
     </option>
     <option name="projectList">
