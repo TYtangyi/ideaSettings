@@ -381,7 +381,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxNzQxMjE4MywiYXV0aG9yaXRpZXMiOlsiY3MiXSwianRpIjoiZjRkNjM3YTQtN2E2Mi00OGQyLWIzY2EtNDkwZjgxY2U5NDdlIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.O4l6YuHtGX7GJNmJKiYHHrqCftaMBrqfJE8hE5Hs9e7OoKlngaHOZXOkIFfrpY7rlmMxQFQS1Ol8PsH9bLndv1Q9t8K05ZadkM7IOaMVTxupDJOk-c1xM_ffXqQ-60M-pe547aJmcRtNCk0G62-yCS4ZapC_CS9DIOFN6fzkDE8" />
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxNzQ3NDQyNywiYXV0aG9yaXRpZXMiOlsiY3MiXSwianRpIjoiZGE3ZDc5MjItNTJjOC00YjM1LThiZDctM2U0NjBhY2NiYmE5IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.qJYelb7l5amfqNWGBKmvVuWhHI6nugISPWnAFo4RAC8uS_7NGknK9XsDEBPAEtROv6tHLrc2YOUUOe3SE-tXHd7Owba8X4vdu7B4rBHf-pfA_mPfCSG_hgC5kMhYYB3mva_UNIRyPd-nxHmkGNqRdytxRmMrlLtNtlVA1HFmSJM" />
                   </map>
                 </value>
               </entry>
@@ -515,13 +515,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
+        <option name="bodyParamMap">
+          <map>
+            <entry key="query">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
         <option name="className" value="com.panpass.mark.center.service.controller.web.ReplaceRelationLogController" />
-        <option name="method" value="replaceMark" />
-        <option name="methodDescription" value="组码替换" />
-        <option name="methodType" value="GET" />
+        <option name="method" value="selectReplacePage" />
+        <option name="methodDescription" value="分页查询数码替换记录" />
+        <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/replaceRelationLog/replaceMark" />
-        <option name="url" value="/replaceRelationLog/getGroupCode" />
+        <option name="originUrl" value="/replaceRelationLog/selectReplacePage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/replaceRelationLog/selectReplacePage" />
       </ParamGroup>
     </option>
     <option name="projectList">
