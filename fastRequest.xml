@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="enableEnv" value="dyt" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -401,14 +401,14 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxMzk0OTgwNSwiYXV0aG9yaXRpZXMiOlsiQUxMIl0sImp0aSI6Ijg2NWU3ZjA3LTcwZDItNDlkYy04NGE0LWVhYTdiY2Q4YWRlNyIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.U9JascU3w0g1bYnIyR57rwU7c4Z8MFnw7vHjry-6HDNFpXm3AWf_TjoHeXhMhVB2-EwUlro1OWeXxKAIOOdMRHb4FUzHhXsF1KUYEO1JU8YTOZAXEK61_JYjWugIPxPBi89r9VZvKtHlIvz55-RSe57jAqCpipl2PvMBT3deX70" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxODA5OTUwMiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiJmM2YxYjlmNC0yMWRiLTRhYjgtOTcwMC1kZWE4MzVmZTI2YzQiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.oYIH1Mwp9UXSRHYh3A0WNKzbRCnQas3x3I5bg-2a3o_XNnJtkhFQ2K6x_zhpUAn9CcvKJezUU3xppxaNn-OqUS-JIesqgC-eKDOyogMTYpHzRrP6QuQrmgsvkYyAC0BlAaaUFzxzFoEQzyCtwKTYFcLKB9pwQ-4U_98SFrXWfMUnco3j_e-Zjc3pZmiVCA1D7fD0dygg-CJFdjEkl7oGaL1Urm6O7-PMvXDDz7uWnXXwIsKf1vrXyEUvEAQzO819dsN5L9JOxRC34d85TPDefw3-8LFU2TsUsdeLVVVSDjYA3wfBdGn9bzBGM_kFnXCm1C95FBYqfsGUlLZfgjdRRw" />
                   </map>
                 </value>
               </entry>
               <entry key="dyt">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMDE1NzE4NiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJhZWI4OGI4Yi1iMTg2LTQ0ZmYtODlhZS1lNzUwNmMwY2MxZjUiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.HbWbhBPk2tzi9l1cfxaeO4R089MOfBUie80Ii5JZ1OZOZiBoywG41h5OBsqKl37LUkBjptN_dvjnilFnH04E1ocN1ZJsgwxPatrs2wEjaq113EQSwafmF7PcqFxxY8ev_gwIpebLannqwXL-SKsVoLqVkKvVz76pf5Ac0TseC7nzqimaVXzEFvvKJHodJNHAm1wAUsxiQrNRd91IEF34X8k7SyPC0AnkOSBWsjAYQ9qpJH_fQ5L8OCyw6T-v0hajtXh6RYskzTbBWc2SQz_EHnZgIDHmyHuMYHSSGDivDQ4hku50YlfZP2oUYbZeiQyS-XbYM1XLA8ZCBB-eR32XYg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxODA5OTUwMiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiJmM2YxYjlmNC0yMWRiLTRhYjgtOTcwMC1kZWE4MzVmZTI2YzQiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.oYIH1Mwp9UXSRHYh3A0WNKzbRCnQas3x3I5bg-2a3o_XNnJtkhFQ2K6x_zhpUAn9CcvKJezUU3xppxaNn-OqUS-JIesqgC-eKDOyogMTYpHzRrP6QuQrmgsvkYyAC0BlAaaUFzxzFoEQzyCtwKTYFcLKB9pwQ-4U_98SFrXWfMUnco3j_e-Zjc3pZmiVCA1D7fD0dygg-CJFdjEkl7oGaL1Urm6O7-PMvXDDz7uWnXXwIsKf1vrXyEUvEAQzO819dsN5L9JOxRC34d85TPDefw3-8LFU2TsUsdeLVVVSDjYA3wfBdGn9bzBGM_kFnXCm1C95FBYqfsGUlLZfgjdRRw" />
                   </map>
                 </value>
               </entry>
@@ -513,22 +513,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.SyncProductController" />
-        <option name="method" value="selectTradeBillProduct" />
-        <option name="methodDescription" value="查询发货数据" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/syncProduct/selectMarkInfo" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="billNo">
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/syncProduct/selectMarkInfo" />
+        <option name="className" value="com.sp.biz.basic.data.controller.web.JcChannelArchivesController" />
+        <option name="method" value="insert" />
+        <option name="methodDescription" value="增加渠道档案-jc_channelArchives_insert" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-basicdata-center" />
+        <option name="originUrl" value="/jcChannelArchives/insert" />
+        <option name="url" value="/jcChannelArchives/insert" />
       </ParamGroup>
     </option>
     <option name="projectList">
