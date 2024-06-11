@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -359,9 +359,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMzk1MjQ1NSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiJlMzc0N2RiMS1lYjcyLTRjODgtOGY1NS00YjcxMjU1NzQxNGUiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.Gdw8Wu0tSavTU9N6fThXek4-Cs20jlg95rg3jVZh2QJ7EeShs5MbxNniUlSLFHwlGKnFLKZToX97RU57-_OTg3nq4eVxwWWdQj1o_Y-e9YKVpcQ-2uDbQCuiNYF7KOpN_6AwuTVBETCqaooqCZcPpI6JQTno2Z7B6umltvkmVhYj25nREZYTzQoUjCK-XyT_qxR4wS0cyUFTPIAAdxz1JeYTtzdNtTExmik1pXhKEWXTB-ESasVBZngVCBAis66r-5Mg-04UgCwNCpLUuJTfHxrGhRY0wGGyiJGYvR8CD8D4cA_slgoShylnvB8V6hZIzY56pj1Xff_U3yC1U6t7Ww" />
-                  </map>
+                  <map />
                 </value>
               </entry>
               <entry key="yqsl">
@@ -515,22 +513,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.storage.controller.web.SyncProductController" />
+        <option name="method" value="selectTradeBillProduct" />
+        <option name="methodDescription" value="查询发货数据" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/syncProduct/selectMarkInfo" />
+        <option name="requestParamMap">
           <map>
-            <entry key="baseParamBO">
+            <entry key="billNo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
-        <option name="method" value="queryMarkList" />
-        <option name="methodDescription" value="五码查询" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="url" value="/syncProduct/selectMarkInfo" />
       </ParamGroup>
     </option>
     <option name="projectList">
