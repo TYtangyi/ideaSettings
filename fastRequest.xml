@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8903" />
-    <option name="enableEnv" value="dyt" />
-    <option name="enableProject" value="basic" />
+    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -511,20 +511,29 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="param">
+            <entry key="query">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.basic.data.controller.web.JcChannelArchivesController" />
-        <option name="method" value="insert" />
-        <option name="methodDescription" value="增加渠道档案-jc_channelArchives_insert" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
+        <option name="method" value="selectPage" />
+        <option name="methodDescription" value="成品列表查询" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/endProductMark/selectPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/endProductMark/selectPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
