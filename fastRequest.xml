@@ -523,8 +523,8 @@
         <option name="methodDescription" value="成品列表导出" />
         <option name="methodType" value="POST" />
         <option name="module" value="mark-service" />
-        <option name="originUrl" value="/endProductMark/exportTemplate" />
-        <option name="url" value="/endProductMark/exportTemplate" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
