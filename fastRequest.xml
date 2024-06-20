@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8092" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="basic" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -509,21 +509,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.common.feign.MarkFeignClient" />
+        <option name="method" value="registerBookInfo" />
+        <option name="methodDescription" value="图书基本信息上链V1" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-api" />
+        <option name="originUrl" value="" />
+        <option name="requestParamMap">
           <map>
-            <entry key="query">
+            <entry key="markCode">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="orderNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="productId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.EndProductMarkController" />
-        <option name="method" value="exportTemplate" />
-        <option name="methodDescription" value="成品列表导出" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="" />
         <option name="url" value="" />
       </ParamGroup>
     </option>
