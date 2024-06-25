@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8905" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="h5" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -509,32 +509,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.common.feign.MarkFeignClient" />
-        <option name="method" value="registerBookInfo" />
-        <option name="methodDescription" value="图书基本信息上链V1" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-api" />
-        <option name="originUrl" value="" />
+        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
+        <option name="method" value="newAppAntiFake" />
+        <option name="methodDescription" value="h5_AntiFakeController_appAntiFake APP防伪查询接口" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-h5-center" />
+        <option name="originUrl" value="/app/h5/antiFake/newAppAntiFake" />
         <option name="requestParamMap">
           <map>
-            <entry key="markCode">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="orderNo">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="productId">
+            <entry key="logisInfoQueryBo">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="url" value="/app/h5/antiFake/newAppAntiFake" />
       </ParamGroup>
     </option>
     <option name="projectList">
