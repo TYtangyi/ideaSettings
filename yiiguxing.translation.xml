@@ -7,10 +7,11 @@
   </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="260" />
-    <option name="translationDialogLocationX" value="693" />
-    <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="数据来源" />
+      <item value="原因" />
+      <item value="托码" />
       <item value="隔离" />
       <item value="ge'li" />
       <item value="e'li" />
@@ -58,14 +59,11 @@
       <item value="补" />
       <item value="补箱" />
       <item value="补xiang" />
-      <item value="bu" />
-      <item value="bu'xiang" />
-      <item value="bu'xi'angrutuo" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1241" />
-        <entry key="ENGLISH" value="1237" />
+        <entry key="CHINESE" value="1259" />
+        <entry key="ENGLISH" value="1255" />
       </map>
     </option>
   </component>
