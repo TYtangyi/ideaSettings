@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1718954661155" />
+    <option name="lastTrimTime" value="1719469318605" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,14 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="隔离" />
+      <item value="ge'li" />
+      <item value="e'li" />
+      <item value="打检隔离" />
+      <item value="打检ge'li" />
+      <item value="打检" />
+      <item value="da'jian" />
+      <item value="DAJIA" />
       <item value="领奖" />
       <item value="奖" />
       <item value="中ZZ奖" />
@@ -53,19 +61,11 @@
       <item value="bu" />
       <item value="bu'xiang" />
       <item value="bu'xi'angrutuo" />
-      <item value="bu'xiang'ru'tuo" />
-      <item value="bu'xiangrutuo" />
-      <item value="bu'xiang'rutuo" />
-      <item value="bu'xiang'ru" />
-      <item value="buxi" />
-      <item value="已有" />
-      <item value="已有托" />
-      <item value="已有tuo" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1221" />
-        <entry key="ENGLISH" value="1217" />
+        <entry key="CHINESE" value="1241" />
+        <entry key="ENGLISH" value="1237" />
       </map>
     </option>
   </component>
