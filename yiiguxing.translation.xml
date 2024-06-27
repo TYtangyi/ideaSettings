@@ -7,6 +7,8 @@
   </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="260" />
+    <option name="translationDialogLocationX" value="693" />
+    <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
       <item value="数据来源" />
