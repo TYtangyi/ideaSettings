@@ -509,22 +509,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
-        <option name="method" value="newAppAntiFake" />
-        <option name="methodDescription" value="h5_AntiFakeController_appAntiFake APP防伪查询接口" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="logisInfoQueryBo">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcInspectIsolateRecordController" />
+        <option name="method" value="add" />
+        <option name="methodDescription" value="新增隔离记录" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/ccInspectIsolateRecord/add" />
+        <option name="url" value="/ccInspectIsolateRecord/add" />
       </ParamGroup>
     </option>
     <option name="projectList">
