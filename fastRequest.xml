@@ -519,21 +519,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.web.CcInspectIsolateRecordController" />
-        <option name="method" value="selectRecordPage" />
-        <option name="methodDescription" value="查询托码隔离记录" />
+        <option name="method" value="export" />
+        <option name="methodDescription" value="导出" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccInspectIsolateRecord/selectRecordPage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/ccInspectIsolateRecord/selectRecordPage" />
+        <option name="originUrl" value="/ccInspectIsolateRecord/export" />
+        <option name="url" value="/ccInspectIsolateRecord/export" />
       </ParamGroup>
     </option>
     <option name="projectList">
