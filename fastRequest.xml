@@ -511,7 +511,7 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="query">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
@@ -519,12 +519,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.web.CcInspectIsolateRecordController" />
-        <option name="method" value="export" />
-        <option name="methodDescription" value="导出" />
+        <option name="method" value="mesSync" />
+        <option name="methodDescription" value="MES同步" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccInspectIsolateRecord/export" />
-        <option name="url" value="/ccInspectIsolateRecord/export" />
+        <option name="originUrl" value="/ccInspectIsolateRecord/mesSync" />
+        <option name="url" value="/ccInspectIsolateRecord/mesSync" />
       </ParamGroup>
     </option>
     <option name="projectList">
