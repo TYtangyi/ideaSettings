@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="enableEnv" value="dyt" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -523,8 +523,8 @@
         <option name="methodDescription" value="MES同步" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccInspectIsolateRecord/mesSync" />
-        <option name="url" value="/ccInspectIsolateRecord/mesSync" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
