@@ -518,11 +518,11 @@
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcInspectIsolateRecordController" />
-        <option name="method" value="mesSync" />
-        <option name="methodDescription" value="MES同步" />
+        <option name="className" value="com.sp.biz.basic.data.controller.xcx.XCXJcChannelArchivesController" />
+        <option name="method" value="updateProductBatch" />
+        <option name="methodDescription" value="批量修改产品" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
+        <option name="module" value="sp-basicdata-center" />
         <option name="originUrl" value="" />
         <option name="url" value="" />
       </ParamGroup>
