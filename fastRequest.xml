@@ -404,7 +404,7 @@
               <entry key="dyt">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxODA5OTUwMiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiJmM2YxYjlmNC0yMWRiLTRhYjgtOTcwMC1kZWE4MzVmZTI2YzQiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.oYIH1Mwp9UXSRHYh3A0WNKzbRCnQas3x3I5bg-2a3o_XNnJtkhFQ2K6x_zhpUAn9CcvKJezUU3xppxaNn-OqUS-JIesqgC-eKDOyogMTYpHzRrP6QuQrmgsvkYyAC0BlAaaUFzxzFoEQzyCtwKTYFcLKB9pwQ-4U_98SFrXWfMUnco3j_e-Zjc3pZmiVCA1D7fD0dygg-CJFdjEkl7oGaL1Urm6O7-PMvXDDz7uWnXXwIsKf1vrXyEUvEAQzO819dsN5L9JOxRC34d85TPDefw3-8LFU2TsUsdeLVVVSDjYA3wfBdGn9bzBGM_kFnXCm1C95FBYqfsGUlLZfgjdRRw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyMTgxNTYyMiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiJmNTFlNTk4OC1hNjZlLTRmNmItYTU3Mi1hMDhhZTQyZjNjODAiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.BRimum5u0fmItAO5sYmvdWsNMMU7_54zJ_b2p9X65qkG88M6H9vT9mi6tQdDwnFlE7lwGhDtFsZooZSPyEq75Np7AIKSCW_mgCxSYsIMU2IpKlQz_hAkRE2om0gtRSZvfnzFF8Dsy32xgcFR3JS_EAFTfhxYikBuYYOT9igU499A49WNczRMXkwf-9BnVMcOCJS8jlEGqgXZhCCjWOIf7da7xSvScobCBZoLyvzm2KlClXXmz49anAC0svw2d1tFunzQjIQzAa9w9Po_WBQ90cmK-fWWQ5eU8vKTr65QNtlT6Hb_kpGHiCAYRiVJjOKseyzl6UWQNXvvceoD65zPOA" />
                   </map>
                 </value>
               </entry>
@@ -523,8 +523,8 @@
         <option name="methodDescription" value="批量修改产品" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="originUrl" value="/xcx/jcChannelArchives/updateProductBatch" />
+        <option name="url" value="/xcx/jcChannelArchives/updateProductBatch" />
       </ParamGroup>
     </option>
     <option name="projectList">
