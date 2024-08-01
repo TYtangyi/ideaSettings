@@ -342,9 +342,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -375,7 +375,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIwIiwidXNlcl9uYW1lIjoiVFkiLCJzb3R5cGUiOiIxIiwic2NvcGUiOlsiYWxsIl0sImdlbmVyYXRlZEluWm9uZSI6IkdNVCswODowMCIsImV4cCI6MTcxNzQ3NDQyNywiYXV0aG9yaXRpZXMiOlsiY3MiXSwianRpIjoiZGE3ZDc5MjItNTJjOC00YjM1LThiZDctM2U0NjBhY2NiYmE5IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.qJYelb7l5amfqNWGBKmvVuWhHI6nugISPWnAFo4RAC8uS_7NGknK9XsDEBPAEtROv6tHLrc2YOUUOe3SE-tXHd7Owba8X4vdu7B4rBHf-pfA_mPfCSG_hgC5kMhYYB3mva_UNIRyPd-nxHmkGNqRdytxRmMrlLtNtlVA1HFmSJM" />
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyMjQ5Nzc2NCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiIxZmVkYWMyYS00YmZmLTRjYWYtYWJiMi0yOWRjODdlNDVmMTIiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.ZHKAvggN5Y9xp3CjCO6fRveWRKPdxO0OoJYU4UHepEZE08mFab1zrJ5itz4TVsrY3Gfym7VnNRhp8hJNmPoIp6vSHGGbpsh6UYY6Lvab4lSOPPQUYtZF_yhKZmQi42m6dTJvWVikc3TejCtqISiOTgqVW2OiuExn8CeCgFfBS9dgZWfKvfgYWeRi5eDhtEqDGX4tEDrOA0qIUgxtXkDdfYFL6tqYV7jGGpGTCqb8k0dW3DpBDk--4FwTF015HykvNQ9W2_WqHqtJx5qY_s_EDAp9cbX6pMZ7hVVePYxJhrfKc_QYJ8Hyau8OIUeaecBO6g_HcMfZ4fvtE3o6Z_SNEg" />
                   </map>
                 </value>
               </entry>
@@ -509,22 +509,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.mark.controller.web.MarkSelectController" />
+        <option name="method" value="queryMarkForPage" />
+        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-mark-center" />
+        <option name="originUrl" value="/markSelect/queryMarkForPage" />
+        <option name="requestParamMap">
           <map>
-            <entry key="dto">
+            <entry key="markCode">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.basic.data.controller.xcx.XCXJcChannelArchivesController" />
-        <option name="method" value="updateProductBatch" />
-        <option name="methodDescription" value="批量修改产品" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="/xcx/jcChannelArchives/updateProductBatch" />
-        <option name="url" value="/xcx/jcChannelArchives/updateProductBatch" />
+        <option name="url" value="/markSelect/queryMarkForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
