@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1720608645208" />
+    <option name="lastTrimTime" value="1722587807292" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,7 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="but requested an ingecure frame" />
       <item value="隔离" />
       <item value="succeed" />
       <item value="合格" />
@@ -60,11 +61,10 @@
       <item value="托盘" />
       <item value="托" />
       <item value="匹配" />
-      <item value="p" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1299" />
+        <entry key="CHINESE" value="1300" />
         <entry key="ENGLISH" value="1293" />
       </map>
     </option>
