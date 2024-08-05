@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8069" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="magic" />
+    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="enableEnv" value="dyt" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -528,13 +528,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.magic.manager.TestController" />
-        <option name="method" value="test" />
+        <option name="className" value="com.panpass.magic.frame.controller.TestController" />
+        <option name="method" value="updateOrderImg" />
         <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
         <option name="module" value="dyt-magic" />
-        <option name="originUrl" value="/magic/test/test" />
-        <option name="url" value="/magic/test/test" />
+        <option name="originUrl" value="" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="file">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="prodTaskNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
