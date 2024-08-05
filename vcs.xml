@@ -82,6 +82,10 @@
           <option name="url" value="http://git.panpass.com/ymtzj/diaoyutai/dyt-magic.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.panpass.com/ymtzj/yingjia/yingjia-platform.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\workspace" />
