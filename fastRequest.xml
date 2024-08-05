@@ -268,6 +268,25 @@
           </option>
           <option name="name" value="local" />
         </NameGroup>
+        <NameGroup>
+          <option name="hostGroup">
+            <list>
+              <HostGroup>
+                <option name="env" value="dev" />
+                <option name="url" value="http://127.0.0.1:8069" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="yqsl" />
+                <option name="url" value="" />
+              </HostGroup>
+              <HostGroup>
+                <option name="env" value="dyt" />
+                <option name="url" value="" />
+              </HostGroup>
+            </list>
+          </option>
+          <option name="name" value="magic" />
+        </NameGroup>
       </list>
     </option>
     <option name="defaultDataMappingList">
@@ -342,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8069" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="magic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -509,22 +528,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.mark.controller.web.MarkSelectController" />
-        <option name="method" value="queryMarkForPage" />
-        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
+        <option name="className" value="com.panpass.magic.manager.TestController" />
+        <option name="method" value="test" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-mark-center" />
-        <option name="originUrl" value="/markSelect/queryMarkForPage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="markCode">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/markSelect/queryMarkForPage" />
+        <option name="module" value="dyt-magic" />
+        <option name="originUrl" value="/magic/test/test" />
+        <option name="url" value="/magic/test/test" />
       </ParamGroup>
     </option>
     <option name="projectList">
@@ -543,6 +553,7 @@
         <option value="wechat" />
         <option value="user" />
         <option value="local" />
+        <option value="magic" />
       </list>
     </option>
     <option name="randomStringLength" value="5" />
