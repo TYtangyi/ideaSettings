@@ -423,7 +423,7 @@
               <entry key="dyt">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyMjQ5MzU2NCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiJjYzY0ZmIxYy03ZjhkLTRlYzMtOGZlYy1lZjVkNDViZGExZDIiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.HysiysfKQiI_ECPAIAfPBOY_c4SVQYsWXJhkUoBgcpVo6uOEaloOcvIWvnijn6Y04lpK4NVPkgAm7399ymnnckcWx8O360e670TGai3lb7B6xqpdTdYzFw9ilaqd2_GlBKHU1zT1h6dYdKMg9CHPjELcJzYVbS5hBSUUQw1t9ENdLzeoOwCyZmpAWjFMyyIgMAVLnUp_5RM-QNvV4XnDEuYaUGVKEwdlnV53M-WRp6c--n1_HQzwb36__DGHe3xY7eZW-Yuecn4P3QV2sgBKBFoH1J3ipIXdI9kfobL9bsHBehB3Q9Ksw11ivfQ5sKbHNJtuD3oZjJK07ethRXtuRg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyMjkyNDgyOSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY1MDk3NDY0MzY3NTEzOCJdLCJqdGkiOiJmMmZkOWRjNS0xODc2LTRkZGEtOWQwYS0xNTJiZTRmOWYwZjkiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.eSpvO5XhU9Opxzi4ZKP-MageCvfCl3UA5tYD8iC2zhZqnB9hj52vOWYNGGy-KRkGlgN8lU2ZAdbODLbh5t3Fgnzsa1MNP0tM78vjsJ35u6doCH0HtGcqEmqA9DPu7FehODekt-iSfoasrI1oKH3WxUDeFr5cZgNkjdtHTzYpaJVZVL85Uzt2DzO8mu5SpJujsK_q6Hdok6MXsIJv5rP4QI02B7I2rfqUC8E5TPSoVaXB78hZe25lxhddRIRi4kPtkgTWM1ikiL_qoiSa9bWW9YF4CMagijXeHAfUZXR_o4vVQ8D3Oj3CZRqszRCNByxlPhklYchi7kcudOluEG92CA" />
                   </map>
                 </value>
               </entry>
@@ -528,27 +528,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.magic.frame.controller.TestController" />
-        <option name="method" value="updateOrderImg" />
+        <option name="className" value="com.sp.common.feign.UploadImageFeignClient" />
+        <option name="method" value="uploadImg" />
         <option name="methodDescription" value="" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="dyt-magic" />
-        <option name="originUrl" value="" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="file">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="prodTaskNo">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-api" />
+        <option name="originUrl" value="/upload/uploadImg" />
+        <option name="url" value="/upload/uploadImg" />
       </ParamGroup>
     </option>
     <option name="projectList">
