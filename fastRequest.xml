@@ -361,7 +361,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="domain" value="http://127.0.0.1:8069" />
     <option name="enableEnv" value="dyt" />
     <option name="enableProject" value="basic" />
     <option name="envList">
@@ -528,13 +528,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.common.feign.UploadImageFeignClient" />
-        <option name="method" value="uploadImg" />
+        <option name="className" value="com.panpass.magic.frame.controller.TestController" />
+        <option name="method" value="delOrder" />
         <option name="methodDescription" value="" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-api" />
-        <option name="originUrl" value="/upload/uploadImg" />
-        <option name="url" value="/upload/uploadImg" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="dyt-magic" />
+        <option name="originUrl" value="/test/magic/delOrder" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="prodTaskNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/test/magic/delOrder" />
       </ParamGroup>
     </option>
     <option name="projectList">
