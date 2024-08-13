@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8069" />
-    <option name="enableEnv" value="dyt" />
-    <option name="enableProject" value="basic" />
+    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="enableEnv" value="dev" />
+    <option name="enableProject" value="prevent" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -453,7 +453,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMDMzNjYwOCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJkYjQ4MjgzNy0xYjAzLTQ0ZTEtYjQ3OC1hYWQwMWQyODJkMmIiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.PyTWMvGHcRwA-vDe6rlWpg_y34QaoAOGgenc9ACsCM4AKwm-FnqawUDwezedYcg1IEO4Y7kCOCW-C7P3aGybSo-i914Ba_2INAnZWk2_QOvj89nc9ZNhamXXG6kRERoZBFaKlKJdRnA8uAHW-zUtJP4LubsJuAgCTrblXLGiaMJMCzfpOAypMIWVZYP5zfRK8ykwiduHf6yLkB1TaGhqb8TqjyFK5mBy0KLkuekvrSdPszOKI6SiUb8lWo3xnMOv44elKWGH0xBNuz-wHdGBy_w18kfF2uZyf55oU-n4W6kxEgyzWy855x5wdRssVk9f1tLTBmiYIqCU0unqNGDSPg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyMzU0NDEzMiwiYXV0aG9yaXRpZXMiOlsiMTMwMTM2NjgwMzk3MDc1MjUxMyIsIjEzMDEwNjk0MTYwMTU4MjI4NTAiLCIxMzE5MTI3OTE5Nzg2NTQ5MjQ5IiwiMTM0NzA3MzU2NjM1NzcwODgwMSIsIjEzNDY2NDUwNDgxNjM0MjYzMDYiXSwianRpIjoiNzBmMWJiZGUtMzBlOS00MWU2LTkwZDktZjMxZDA2NmQ0ZjAxIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.pDkj_tuJahf8Ts3Jr7TTwzVoXMPhcmSFbF_SdOmTrDCtH5KqTqiXGgncDKhGG2kK6Jurt3KbJSafx6c33FUTpGpTpWkBDMao-mcgJYhG9sqbZLLBX9qEJ97v0vmUEKv8pe4oEXXVcddIbnPB4c4XfPaZ-yYt_kkfM5opIS38pEG5FGeNn_NTbqZnxkljfeFZ06O794MwIDApHLIXKtd7syDCGPsa3xZSvT4PdRY7XvG7WdYlgLWz3snRIz06Y5hDOjSlEttlmy8sBYAuhysqWRlCJ7K5pRqJ2o3QSBJdFYcQquoOutkVWWDpzVZreEd_qWOg7dawG-xEiv91mG5E7Q" />
                   </map>
                 </value>
               </entry>
@@ -528,22 +528,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.panpass.magic.frame.controller.TestController" />
-        <option name="method" value="delOrder" />
-        <option name="methodDescription" value="" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="dyt-magic" />
-        <option name="originUrl" value="/test/magic/delOrder" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="prodTaskNo">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/test/magic/delOrder" />
+        <option name="className" value="com.sp.biz.prevent.controller.web.AntiChanController" />
+        <option name="method" value="exportAntiFakeMap" />
+        <option name="methodDescription" value="防伪地图查询导出" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-prevent-center" />
+        <option name="originUrl" value="/antichan/exportAntiFakeMap" />
+        <option name="url" value="/antichan/exportAntiFakeMap" />
       </ParamGroup>
     </option>
     <option name="projectList">
