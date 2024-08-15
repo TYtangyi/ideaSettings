@@ -11,6 +11,23 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="检验员" />
+      <item value="jian'yan" />
+      <item value="存在" />
+      <item value="实有" />
+      <item value="shi'you" />
+      <item value="缺码" />
+      <item value="que'ma" />
+      <item value="缺码数" />
+      <item value="缺码shu" />
+      <item value="缺ma" />
+      <item value="que" />
+      <item value="起始码" />
+      <item value="起始ma" />
+      <item value="起始" />
+      <item value="qi'shi" />
+      <item value="qi'shi'ma" />
+      <item value="q" />
       <item value="盘" />
       <item value="盘号" />
       <item value="pan'hao" />
@@ -44,28 +61,11 @@
       <item value="ge'li" />
       <item value="e'li" />
       <item value="打检隔离" />
-      <item value="打检ge'li" />
-      <item value="打检" />
-      <item value="da'jian" />
-      <item value="DAJIA" />
-      <item value="领奖" />
-      <item value="奖" />
-      <item value="中ZZ奖" />
-      <item value="中Z奖" />
-      <item value="中奖" />
-      <item value="zhong奖" />
-      <item value="是否领奖" />
-      <item value="是否ling'jiang" />
-      <item value="是否" />
-      <item value="shifo" />
-      <item value="原子性" />
-      <item value="yua" />
-      <item value="正常" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1341" />
-        <entry key="ENGLISH" value="1334" />
+        <entry key="CHINESE" value="1388" />
+        <entry key="ENGLISH" value="1381" />
       </map>
     </option>
   </component>
