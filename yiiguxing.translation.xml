@@ -11,6 +11,15 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="盘" />
+      <item value="盘号" />
+      <item value="pan'hao" />
+      <item value="panh" />
+      <item value="盘码" />
+      <item value="盘ma" />
+      <item value="pan'ma" />
+      <item value="盘吗" />
+      <item value="p" />
       <item value="导入" />
       <item value="dao" />
       <item value="标签" />
@@ -52,20 +61,11 @@
       <item value="原子性" />
       <item value="yua" />
       <item value="正常" />
-      <item value="正常吗" />
-      <item value="正常ma" />
-      <item value="关联" />
-      <item value="关联关系" />
-      <item value="已上传" />
-      <item value="数码不存在" />
-      <item value="未激活" />
-      <item value="wei'ji'huo" />
-      <item value="wei" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1323" />
-        <entry key="ENGLISH" value="1316" />
+        <entry key="CHINESE" value="1341" />
+        <entry key="ENGLISH" value="1334" />
       </map>
     </option>
   </component>
