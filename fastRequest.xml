@@ -528,22 +528,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.storage.controller.web.LabelController" />
+        <option name="method" value="excelImport" />
+        <option name="methodDescription" value="" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/label/excelImport" />
+        <option name="requestParamMap">
           <map>
-            <entry key="dto">
+            <entry key="file">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.prevent.controller.web.AntiChanController" />
-        <option name="method" value="exportAntiFakeMap" />
-        <option name="methodDescription" value="防伪地图查询导出" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-prevent-center" />
-        <option name="originUrl" value="/antichan/exportAntiFakeMap" />
-        <option name="url" value="/antichan/exportAntiFakeMap" />
+        <option name="url" value="/label/excelImport" />
       </ParamGroup>
     </option>
     <option name="projectList">
