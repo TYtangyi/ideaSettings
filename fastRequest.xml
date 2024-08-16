@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -376,7 +376,13 @@
         <HeaderGroup>
           <option name="envMap">
             <map>
-              <entry key="dev" />
+              <entry key="dev">
+                <value>
+                  <map>
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyMzgxMTcyMiwiYXV0aG9yaXRpZXMiOlsiMTMwMTM2NjgwMzk3MDc1MjUxMyIsIjEzMDEwNjk0MTYwMTU4MjI4NTAiLCIxMzE5MTI3OTE5Nzg2NTQ5MjQ5IiwiMTM0NzA3MzU2NjM1NzcwODgwMSIsIjEzNDY2NDUwNDgxNjM0MjYzMDYiXSwianRpIjoiNDBhODRhNTItYzgyMC00Y2FjLWFjNzItMTdmNTc2MDNmMDk0IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.MzeVS2eAipRBBTzEiBpd1PofSj10NK_MD462SmKyl7tbRZ7jLhoms_kC_2UFAKF8YeZ6sA7VfobdsPMedNFwm27c0Ne2_FZKYAb0fKavBV-2ZiIjp9pjdu6fWUJOrFwTSv0RH9a7D3NE5B2YdpCoH9SFrUVEmdp8ai5kerKVc9wNDdM-79eFGaFvpKIcNSyTa38SYxRWssH1OGFBpxgNZk_zwQytAs6KoTkl6tXf1dw5YySnMOJRngbXJ-LZkfvLcclk7T-p3CFBvc0SWackuOamUWh_aSaumqMhH2Ch9WtXF3AvmcGVr5_RPPaJC4ON1JjiQeaUvJrhgUSbIMx-dg" />
+                  </map>
+                </value>
+              </entry>
               <entry key="yqsl">
                 <value>
                   <map>
@@ -528,22 +534,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.LabelController" />
-        <option name="method" value="excelImport" />
-        <option name="methodDescription" value="" />
-        <option name="methodType" value="POST" />
+        <option name="className" value="com.sp.biz.storage.controller.web.TradeMarkRelationController" />
+        <option name="method" value="excelExport" />
+        <option name="methodDescription" value="/数码详情导出" />
+        <option name="methodType" value="GET" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/label/excelImport" />
+        <option name="originUrl" value="/tradeMarkRelation/excelExport" />
         <option name="requestParamMap">
           <map>
-            <entry key="file">
+            <entry key="billNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="productId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/label/excelImport" />
+        <option name="url" value="/tradeMarkRelation/excelExport" />
       </ParamGroup>
     </option>
     <option name="projectList">
