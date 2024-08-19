@@ -11,6 +11,9 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="出入库" />
+      <item value="出入库流" />
+      <item value="出入库流水" />
       <item value="检验员" />
       <item value="jian'yan" />
       <item value="存在" />
@@ -58,14 +61,11 @@
       <item value="数据来源" />
       <item value="原因" />
       <item value="托码" />
-      <item value="ge'li" />
-      <item value="e'li" />
-      <item value="打检隔离" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1388" />
-        <entry key="ENGLISH" value="1381" />
+        <entry key="CHINESE" value="1395" />
+        <entry key="ENGLISH" value="1388" />
       </map>
     </option>
   </component>
