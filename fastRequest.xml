@@ -534,27 +534,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.TradeMarkRelationController" />
-        <option name="method" value="excelExport" />
-        <option name="methodDescription" value="/数码详情导出" />
+        <option name="className" value="com.sp.biz.storage.controller.web.StoreProductController" />
+        <option name="method" value="queryStoreSreamForPage" />
+        <option name="methodDescription" value="cc_storeProduct_queryStoreSreamForPage 出入库流水分页查询" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tradeMarkRelation/excelExport" />
+        <option name="originUrl" value="/store/product/queryStoreSreamForPage" />
         <option name="requestParamMap">
           <map>
-            <entry key="billNo">
+            <entry key="page">
               <value>
                 <Object />
               </value>
             </entry>
-            <entry key="productId">
+            <entry key="storeStreamQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/tradeMarkRelation/excelExport" />
+        <option name="url" value="/store/product/queryStoreSreamForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
