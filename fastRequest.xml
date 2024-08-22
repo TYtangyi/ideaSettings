@@ -544,12 +544,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.web.CcTagInventoryController" />
-        <option name="method" value="addTagInventory" />
-        <option name="methodDescription" value="添加库存预警" />
+        <option name="method" value="editTagInventory" />
+        <option name="methodDescription" value="库存预警修改" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccTagInventory/addTagInventory" />
-        <option name="url" value="/ccTagInventory/addTagInventory" />
+        <option name="originUrl" value="/ccTagInventory/editTagInventory" />
+        <option name="url" value="/ccTagInventory/editTagInventory" />
       </ParamGroup>
     </option>
     <option name="projectList">
