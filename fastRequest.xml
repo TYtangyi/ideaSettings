@@ -379,7 +379,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNDE1MTcxMywiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI0YWYyYzQ5Zi0xNDExLTQ2NDEtODliMi1lMjdjM2YzNWIxYmEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.k7pB80hbuNPrTfUQa88LQruJmuyX8fHrAQjDJi507dEFswb-CgGzGfeM0SHAGoK5ePJsDt6vAurdkYxeIUwOXmy58uJELhX8zmI0-ts4bbBrXALKTslR1XdlwXwrQFBVkrW2wUjUgAaqmMEOdWsvURKcEBk8VLb8Y3wXpBCRWFMNAD08J47BWOHotgZRxPrUF6bh9ixwZFZzmAO5TrC1Vt0bcWfA51Hd7acU2gPJglgztqFFb1J0rE9SZGJ0MGJwqddW6P5P58aOjLGKJyYwxsBro1X1dXG7i29CB_U1Doqhq4PtB3BAEaC_OwJEPhp4VI0zPy9JaA1vhT7j4cWZMQ" />
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNDMxMDY5NiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI0N2QxYjBjNS01N2U3LTRkN2MtYmVmMi00OWE3ZDU3ZTgwZjkiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.KfGuRY6QZjfd_fi60Hf4KLytjLbSQCicmehzxJb1Mxfs6XPYcuHJ8x995WY-w03gE_L87VTBa4CaU7zzeM0biQyk2roplND3eXO7uWHVB_MQO1LJDtm1i7S0anY4NqjgaKP81KMRUsvNdfOuIm8D7FtuJ1h0_v2DCFAMuzaRykTEGbtfewXEj3zk4jinDsgasHm7oThcQzaEQ-IM9x6QeOH6TGS8YukYa3rK7MBPAgK21TNtwXLaUGWg8QgpUk2cK87QvY7rCz5pu3zA-KHukQoHJl70bj9s6il7h9tYIyRN3T3mJPO9IiFExsVy9wyuxpnYT7LL2KY_53EXl5VxwA" />
                   </map>
                 </value>
               </entry>
@@ -534,27 +534,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.StoreProductController" />
-        <option name="method" value="queryStoreSreamForPage" />
-        <option name="methodDescription" value="cc_storeProduct_queryStoreSreamForPage 出入库流水分页查询" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/store/product/queryStoreSreamForPage" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="storeStreamQuery">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/store/product/queryStoreSreamForPage" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcTagInventoryController" />
+        <option name="method" value="addTagInventory" />
+        <option name="methodDescription" value="添加库存预警" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/ccTagInventory/addTagInventory" />
+        <option name="url" value="/ccTagInventory/addTagInventory" />
       </ParamGroup>
     </option>
     <option name="projectList">
