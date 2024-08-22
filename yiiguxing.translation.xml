@@ -11,12 +11,12 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="册" />
+      <item value="ce" />
       <item value="标签库存" />
       <item value="标签" />
       <item value="标签hu" />
       <item value="标签hu'k" />
-      <item value="册" />
-      <item value="ce" />
       <item value="出入库" />
       <item value="出入库流" />
       <item value="出入库流水" />
@@ -64,8 +64,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1408" />
-        <entry key="ENGLISH" value="1401" />
+        <entry key="CHINESE" value="1411" />
+        <entry key="ENGLISH" value="1404" />
       </map>
     </option>
   </component>
