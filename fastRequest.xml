@@ -544,21 +544,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.web.CcTagInventoryStatisticsController" />
-        <option name="method" value="queryForPage" />
-        <option name="methodDescription" value="分页查询标签库存" />
+        <option name="method" value="export" />
+        <option name="methodDescription" value="导出标签库存统计" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tagInventoryStatistics/queryForPage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/tagInventoryStatistics/queryForPage" />
+        <option name="originUrl" value="/tagInventoryStatistics/export" />
+        <option name="url" value="/tagInventoryStatistics/export" />
       </ParamGroup>
     </option>
     <option name="projectList">
