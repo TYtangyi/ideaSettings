@@ -11,6 +11,10 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="采购" />
+      <item value="cai'gou" />
+      <item value="tag" />
+      <item value="标签" />
       <item value="资源" />
       <item value="资源ip" />
       <item value="资源i" />
@@ -39,7 +43,6 @@
       <item value="册" />
       <item value="ce" />
       <item value="标签库存" />
-      <item value="标签" />
       <item value="标签hu" />
       <item value="标签hu'k" />
       <item value="出入库" />
@@ -58,14 +61,11 @@
       <item value="que" />
       <item value="起始码" />
       <item value="起始ma" />
-      <item value="起始" />
-      <item value="qi'shi" />
-      <item value="qi'shi'ma" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1511" />
-        <entry key="ENGLISH" value="1504" />
+        <entry key="CHINESE" value="1530" />
+        <entry key="ENGLISH" value="1521" />
       </map>
     </option>
   </component>
