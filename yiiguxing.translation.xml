@@ -1,16 +1,19 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1724227661488" />
+    <option name="lastTrimTime" value="1724663964401" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
   </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="260" />
-    <option name="translationDialogLocationX" value="693" />
-    <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="人" />
+      <item value="报废人" />
+      <item value="申请报废人" />
+      <item value="枚" />
+      <item value="枚数" />
       <item value="采购" />
       <item value="cai'gou" />
       <item value="tag" />
@@ -56,16 +59,11 @@
       <item value="缺码" />
       <item value="que'ma" />
       <item value="缺码数" />
-      <item value="缺码shu" />
-      <item value="缺ma" />
-      <item value="que" />
-      <item value="起始码" />
-      <item value="起始ma" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1530" />
-        <entry key="ENGLISH" value="1521" />
+        <entry key="CHINESE" value="1554" />
+        <entry key="ENGLISH" value="1545" />
       </map>
     </option>
   </component>
