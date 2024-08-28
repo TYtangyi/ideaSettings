@@ -11,13 +11,15 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="PURCHASE" />
+      <item value="采购" />
+      <item value="cai" />
       <item value="盘数" />
       <item value="枚" />
       <item value="枚数" />
       <item value="人" />
       <item value="报废人" />
       <item value="申请报废人" />
-      <item value="采购" />
       <item value="cai'gou" />
       <item value="tag" />
       <item value="标签" />
@@ -59,13 +61,11 @@
       <item value="存在" />
       <item value="实有" />
       <item value="shi'you" />
-      <item value="缺码" />
-      <item value="que'ma" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1567" />
-        <entry key="ENGLISH" value="1558" />
+        <entry key="CHINESE" value="1575" />
+        <entry key="ENGLISH" value="1565" />
       </map>
     </option>
   </component>
