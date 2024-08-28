@@ -11,6 +11,9 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="在库" />
+      <item value="zai'ku" />
+      <item value="zai" />
       <item value="PURCHASE" />
       <item value="采购" />
       <item value="cai" />
@@ -36,7 +39,6 @@
       <item value="报废" />
       <item value="在库报废" />
       <item value="zai'ku'bao'fei" />
-      <item value="zai'ku" />
       <item value="领用" />
       <item value="出库" />
       <item value="ling" />
@@ -59,13 +61,11 @@
       <item value="检验员" />
       <item value="jian'yan" />
       <item value="存在" />
-      <item value="实有" />
-      <item value="shi'you" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1575" />
-        <entry key="ENGLISH" value="1565" />
+        <entry key="CHINESE" value="1580" />
+        <entry key="ENGLISH" value="1570" />
       </map>
     </option>
   </component>
