@@ -536,20 +536,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="antiQueryDTO">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.h5.data.controller.api.AntiFakeController" />
-        <option name="method" value="queryProduct" />
-        <option name="methodDescription" value="查询数码、标识关联的产品" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcInspectIsolateRecordController" />
+        <option name="method" value="mesSync" />
+        <option name="methodDescription" value="MES同步" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-h5-center" />
-        <option name="originUrl" value="/app/h5/antiFake/queryProduct" />
-        <option name="url" value="/app/h5/antiFake/queryProduct" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/ccInspectIsolateRecord/mesSync" />
+        <option name="url" value="/ccInspectIsolateRecord/mesSync" />
       </ParamGroup>
     </option>
     <option name="projectList">
