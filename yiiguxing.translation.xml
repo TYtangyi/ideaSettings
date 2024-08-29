@@ -11,6 +11,9 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="次品" />
+      <item value="ci'pin" />
+      <item value="cipin" />
       <item value="整盘" />
       <item value="zheng'pan" />
       <item value="在库" />
@@ -58,14 +61,11 @@
       <item value="标签hu" />
       <item value="标签hu'k" />
       <item value="出入库" />
-      <item value="出入库流" />
-      <item value="出入库流水" />
-      <item value="检验员" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1589" />
-        <entry key="ENGLISH" value="1579" />
+        <entry key="CHINESE" value="1595" />
+        <entry key="ENGLISH" value="1585" />
       </map>
     </option>
   </component>
