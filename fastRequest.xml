@@ -543,13 +543,13 @@
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcInspectIsolateRecordController" />
-        <option name="method" value="mesSync" />
-        <option name="methodDescription" value="MES同步" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.PdaTagOrderController" />
+        <option name="method" value="add" />
+        <option name="methodDescription" value="标签出入库保存" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccInspectIsolateRecord/mesSync" />
-        <option name="url" value="/ccInspectIsolateRecord/mesSync" />
+        <option name="originUrl" value="/pda/tagOrder/add" />
+        <option name="url" value="/pda/tagOrder/add" />
       </ParamGroup>
     </option>
     <option name="projectList">
