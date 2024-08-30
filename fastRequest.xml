@@ -534,22 +534,31 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.pda.PdaTagOrderController" />
-        <option name="method" value="detail" />
-        <option name="methodDescription" value="出入库详情" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/tagOrder/detail" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="pId">
+            <entry key="query">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/tagOrder/detail" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.PdaTagOrderController" />
+        <option name="method" value="selectForPage" />
+        <option name="methodDescription" value="标签出入库列表查询" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/pda/tagOrder/selectForPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="url" value="/pda/tagOrder/selectForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
