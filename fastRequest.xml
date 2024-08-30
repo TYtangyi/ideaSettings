@@ -544,12 +544,12 @@
           </map>
         </option>
         <option name="className" value="com.sp.biz.storage.controller.pda.PdaTagOrderController" />
-        <option name="method" value="add" />
-        <option name="methodDescription" value="标签出入库保存" />
+        <option name="method" value="validate" />
+        <option name="methodDescription" value="标签出入库验证" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/tagOrder/add" />
-        <option name="url" value="/pda/tagOrder/add" />
+        <option name="originUrl" value="/pda/tagOrder/validate" />
+        <option name="url" value="/pda/tagOrder/validate" />
       </ParamGroup>
     </option>
     <option name="projectList">
