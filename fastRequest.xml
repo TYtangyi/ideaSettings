@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
-    <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="enableEnv" value="dyt" />
+    <option name="enableProject" value="basic" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -534,21 +534,21 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.mark.controller.web.MarkSelectController" />
-        <option name="method" value="queryMarkForPage" />
-        <option name="methodDescription" value="zm_markSelect_queryMarkForPage 数码查询分页列表" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-mark-center" />
-        <option name="originUrl" value="" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="markCode">
+            <entry key="request">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
+        <option name="className" value="com.sp.biz.mark.controller.web.ZmMarkOperateRecordController" />
+        <option name="method" value="replace" />
+        <option name="methodDescription" value="数码替换" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-mark-center" />
+        <option name="originUrl" value="" />
         <option name="url" value="" />
       </ParamGroup>
     </option>
