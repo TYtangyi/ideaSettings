@@ -361,7 +361,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8903" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dyt" />
     <option name="enableProject" value="basic" />
     <option name="envList">
@@ -536,20 +536,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="request">
+            <entry key="param">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.mark.controller.web.ZmMarkOperateRecordController" />
-        <option name="method" value="replace" />
-        <option name="methodDescription" value="数码替换" />
+        <option name="className" value="com.sp.biz.basic.data.controller.web.TagArchivesController" />
+        <option name="method" value="getAllTagArchives" />
+        <option name="methodDescription" value="标签档案下拉列表jc_tagArchives_getAllTagArchives" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-mark-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="module" value="sp-basicdata-center" />
+        <option name="originUrl" value="/tagArchives/getAllTagArchives" />
+        <option name="url" value="/tagArchives/getAllTagArchives" />
       </ParamGroup>
     </option>
     <option name="projectList">
