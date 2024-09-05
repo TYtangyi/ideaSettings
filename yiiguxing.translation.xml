@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1724663964401" />
+    <option name="lastTrimTime" value="1725520229519" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,37 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="漏盖" />
+      <item value="漏gai" />
+      <item value="lou" />
+      <item value="漏罐" />
+      <item value="漏guan" />
+      <item value="lou'guan" />
+      <item value="l" />
+      <item value="磕漏" />
+      <item value="磕lou" />
+      <item value="磕l" />
+      <item value="磕" />
+      <item value="ke" />
+      <item value="ke'l" />
+      <item value="ke'lou" />
+      <item value="e" />
+      <item value="大塌边" />
+      <item value="大塌bian" />
+      <item value="大ta'bian" />
+      <item value="da'ta'bian" />
+      <item value="掩盖" />
+      <item value="yan'gai" />
+      <item value="假封" />
+      <item value="假feng" />
+      <item value="jia'feng" />
+      <item value="jia" />
+      <item value="开班货" />
+      <item value="开班huo" />
+      <item value="kai'ban'huo" />
+      <item value="样品" />
+      <item value="yang'pin" />
+      <item value="赝品" />
       <item value="物流" />
       <item value="wu'liu" />
       <item value="WU" />
@@ -30,42 +61,11 @@
       <item value="枚数" />
       <item value="人" />
       <item value="报废人" />
-      <item value="申请报废人" />
-      <item value="cai'gou" />
-      <item value="tag" />
-      <item value="标签" />
-      <item value="资源" />
-      <item value="资源ip" />
-      <item value="资源i" />
-      <item value="服务器ip" />
-      <item value="服务器" />
-      <item value="盘号" />
-      <item value="平库存" />
-      <item value="平" />
-      <item value="ping" />
-      <item value="低库存" />
-      <item value="报废" />
-      <item value="在库报废" />
-      <item value="zai'ku'bao'fei" />
-      <item value="领用" />
-      <item value="出库" />
-      <item value="ling" />
-      <item value="入库" />
-      <item value="入库盘数" />
-      <item value="统计" />
-      <item value="ton" />
-      <item value="total" />
-      <item value="tong'ji" />
-      <item value="t" />
-      <item value="ting'ji" />
-      <item value="册" />
-      <item value="ce" />
-      <item value="标签库存" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1601" />
-        <entry key="ENGLISH" value="1591" />
+        <entry key="CHINESE" value="1677" />
+        <entry key="ENGLISH" value="1667" />
       </map>
     </option>
   </component>
