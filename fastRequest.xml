@@ -361,7 +361,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
@@ -379,7 +379,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTI1NjQ5MiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI1YTk1NGVlMy1jZTMxLTRmMTEtODYyMS1hODY1NDk1ZGM5NTEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.Nl0b5sDGfMPrSfLYSKT_34W2T6rSfiXFPFnHZuVwJKVw72RSh0sO_Qr1R4iE0idDoOUTYjkwPatIcTQhKRoEuwbB5fLxFQ0d2BRuz4OEZPHe7tbZYKD-o7bWk5tJgUeFTaBfpZnK7ZCTg8kjBR2V6uA16RLSs_7sOW0axsBHxsEMk04jzYtc0K-pxCWoWQbvA5nLOqmjiIiBSevgPz1ARsnfmh9Ov-eHLQQB0Jfox7aljBkqfhNT954DXZq5QRMcaDtfb1vzasi0sAw6DsEBUUC5twOQ6N1HnKmgNMIUMCRcbgkxtwh9_oQtCemLjHDcgogU6_EorkWMAxCBc35LpQ" />
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTUxNzcxNCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJjMDljMTEyYy0zYTMwLTQwMTgtYTliNS01MWNiYmJkY2Y0YmEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.y8pDP0C1pw5YtQmsQ0rWyrlisTxVHTVxbMP3yNvfrqNSA4f97CL4SLeUnVc4Byobd6TuIKXy4TvwmvdHAfLVt72QL9R3ZeIHR5sXz9WNP5Uxuw3g3RgxoLgOA9n8SDuBlLcAPvgsOCRl9hRwTphH-VVCvgKNb9m2-vbbmMbUARmqQVgoNdS0pu1I8FB1mJDmOTZFI_ytNAEljYKB_xk3qUy62f0lTZN8kj8wxv73qrfPwsO6iT2dyTqtGipMMpeE5uA1sD7WAar98qapNq_3_HEz1fABTIFA7kHsl2j3pw0B-D7tED6JhO7i3BBOstBe2zvKirYjd5wGzp6SIdq10Q" />
                   </map>
                 </value>
               </entry>
@@ -400,7 +400,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTI1NjQ5MiwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI1YTk1NGVlMy1jZTMxLTRmMTEtODYyMS1hODY1NDk1ZGM5NTEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.Nl0b5sDGfMPrSfLYSKT_34W2T6rSfiXFPFnHZuVwJKVw72RSh0sO_Qr1R4iE0idDoOUTYjkwPatIcTQhKRoEuwbB5fLxFQ0d2BRuz4OEZPHe7tbZYKD-o7bWk5tJgUeFTaBfpZnK7ZCTg8kjBR2V6uA16RLSs_7sOW0axsBHxsEMk04jzYtc0K-pxCWoWQbvA5nLOqmjiIiBSevgPz1ARsnfmh9Ov-eHLQQB0Jfox7aljBkqfhNT954DXZq5QRMcaDtfb1vzasi0sAw6DsEBUUC5twOQ6N1HnKmgNMIUMCRcbgkxtwh9_oQtCemLjHDcgogU6_EorkWMAxCBc35LpQ" />
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTUxNzcxNCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJjMDljMTEyYy0zYTMwLTQwMTgtYTliNS01MWNiYmJkY2Y0YmEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.y8pDP0C1pw5YtQmsQ0rWyrlisTxVHTVxbMP3yNvfrqNSA4f97CL4SLeUnVc4Byobd6TuIKXy4TvwmvdHAfLVt72QL9R3ZeIHR5sXz9WNP5Uxuw3g3RgxoLgOA9n8SDuBlLcAPvgsOCRl9hRwTphH-VVCvgKNb9m2-vbbmMbUARmqQVgoNdS0pu1I8FB1mJDmOTZFI_ytNAEljYKB_xk3qUy62f0lTZN8kj8wxv73qrfPwsO6iT2dyTqtGipMMpeE5uA1sD7WAar98qapNq_3_HEz1fABTIFA7kHsl2j3pw0B-D7tED6JhO7i3BBOstBe2zvKirYjd5wGzp6SIdq10Q" />
                   </map>
                 </value>
               </entry>
@@ -534,27 +534,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.web.TradeMarkRelationController" />
-        <option name="method" value="excelExport" />
-        <option name="methodDescription" value="/数码详情导出" />
+        <option name="className" value="com.sp.biz.storage.controller.pda.PdaTagOrderController" />
+        <option name="method" value="detail" />
+        <option name="methodDescription" value="出入库详情" />
         <option name="methodType" value="GET" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tradeMarkRelation/excelExport" />
+        <option name="originUrl" value="/pda/tagOrder/detail" />
         <option name="requestParamMap">
           <map>
-            <entry key="billNo">
-              <value>
-                <Object />
-              </value>
-            </entry>
-            <entry key="productId">
+            <entry key="pId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/tradeMarkRelation/excelExport" />
+        <option name="url" value="/pda/tagOrder/detail" />
       </ParamGroup>
     </option>
     <option name="projectList">
