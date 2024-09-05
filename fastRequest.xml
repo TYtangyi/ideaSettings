@@ -361,7 +361,7 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
     <option name="enableProject" value="storage" />
     <option name="envList">
@@ -534,22 +534,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.storage.controller.web.TradeMarkRelationController" />
+        <option name="method" value="excelExport" />
+        <option name="methodDescription" value="/数码详情导出" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/tradeMarkRelation/excelExport" />
+        <option name="requestParamMap">
           <map>
-            <entry key="param">
+            <entry key="billNo">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="productId">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.basic.data.controller.web.TagArchivesController" />
-        <option name="method" value="getAllTagArchives" />
-        <option name="methodDescription" value="标签档案下拉列表jc_tagArchives_getAllTagArchives" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="sp-basicdata-center" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="url" value="/tradeMarkRelation/excelExport" />
       </ParamGroup>
     </option>
     <option name="projectList">
