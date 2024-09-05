@@ -11,6 +11,42 @@
     <option name="translationDialogLocationY" value="389" />
     <option name="translationDialogWidth" value="532" />
     <histories>
+      <item value="抽检" />
+      <item value="chou'jian" />
+      <item value="cho" />
+      <item value="低真空" />
+      <item value="di" />
+      <item value="杀菌异常" />
+      <item value="sha'jun" />
+      <item value="sha" />
+      <item value="设备检修" />
+      <item value="she'bei'jian'xiu" />
+      <item value="she" />
+      <item value="调机" />
+      <item value="tiao'ji" />
+      <item value="封口" />
+      <item value="封口调机" />
+      <item value="封口tiao'ji" />
+      <item value="feng'kou" />
+      <item value="风口" />
+      <item value="feng'ko" />
+      <item value="翻遍不均" />
+      <item value="翻遍bu'jun" />
+      <item value="翻遍bu'j" />
+      <item value="翻遍" />
+      <item value="fan'bian" />
+      <item value="混罐" />
+      <item value="hun'guan" />
+      <item value="hun'gu" />
+      <item value="hun'gu'na" />
+      <item value="hun" />
+      <item value="hu'nu" />
+      <item value="混guan" />
+      <item value="hu'nuan" />
+      <item value="扎漏" />
+      <item value="zha'lou" />
+      <item value="扎lou" />
+      <item value="zha" />
       <item value="漏盖" />
       <item value="漏gai" />
       <item value="lou" />
@@ -25,47 +61,11 @@
       <item value="ke" />
       <item value="ke'l" />
       <item value="ke'lou" />
-      <item value="e" />
-      <item value="大塌边" />
-      <item value="大塌bian" />
-      <item value="大ta'bian" />
-      <item value="da'ta'bian" />
-      <item value="掩盖" />
-      <item value="yan'gai" />
-      <item value="假封" />
-      <item value="假feng" />
-      <item value="jia'feng" />
-      <item value="jia" />
-      <item value="开班货" />
-      <item value="开班huo" />
-      <item value="kai'ban'huo" />
-      <item value="样品" />
-      <item value="yang'pin" />
-      <item value="赝品" />
-      <item value="物流" />
-      <item value="wu'liu" />
-      <item value="WU" />
-      <item value="次品" />
-      <item value="ci'pin" />
-      <item value="cipin" />
-      <item value="整盘" />
-      <item value="zheng'pan" />
-      <item value="在库" />
-      <item value="zai'ku" />
-      <item value="zai" />
-      <item value="PURCHASE" />
-      <item value="采购" />
-      <item value="cai" />
-      <item value="盘数" />
-      <item value="枚" />
-      <item value="枚数" />
-      <item value="人" />
-      <item value="报废人" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1677" />
-        <entry key="ENGLISH" value="1667" />
+        <entry key="CHINESE" value="1800" />
+        <entry key="ENGLISH" value="1790" />
       </map>
     </option>
   </component>
