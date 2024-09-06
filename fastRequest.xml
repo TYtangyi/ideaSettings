@@ -379,7 +379,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTUxNzcxNCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJjMDljMTEyYy0zYTMwLTQwMTgtYTliNS01MWNiYmJkY2Y0YmEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.y8pDP0C1pw5YtQmsQ0rWyrlisTxVHTVxbMP3yNvfrqNSA4f97CL4SLeUnVc4Byobd6TuIKXy4TvwmvdHAfLVt72QL9R3ZeIHR5sXz9WNP5Uxuw3g3RgxoLgOA9n8SDuBlLcAPvgsOCRl9hRwTphH-VVCvgKNb9m2-vbbmMbUARmqQVgoNdS0pu1I8FB1mJDmOTZFI_ytNAEljYKB_xk3qUy62f0lTZN8kj8wxv73qrfPwsO6iT2dyTqtGipMMpeE5uA1sD7WAar98qapNq_3_HEz1fABTIFA7kHsl2j3pw0B-D7tED6JhO7i3BBOstBe2zvKirYjd5wGzp6SIdq10Q" />
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTYwMzg3MCwianRpIjoiNjVjZDZiY2YtODkxNy00MGVkLWJiMjQtNTBlY2I3ZTIzMTRjIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.jL6Q675wmWzaEzaG1m0nQXm4onWhyvO08V79LggmkJC-GQ-dS5EnQ7tnLVK3K3UuQSSBVMGn0tfE5T_TxUOZ2OKmz-rv0oy0GRmBDwcZhgFqOV2BIPYc4I-CUun10P3tZP7H1jni4cm4_KpwqsGRbcdjcpdjWke-aId_uUezydwxtOB_c5iugHjrTR0masymFQ1HKCr6Pqa6xF8Hetje1o_6tiQYRHct09zxSHm12b1_6DZt5c85TdZuN0ozyQLbMTCxOWP15-v2YNqCxhZEywJ8rI34pAet0VxLpIGpE8mBbN3MnC5WL3S6e-q9TJ3aqw3WVlLO8yaeIMiR_jc85Q" />
                   </map>
                 </value>
               </entry>
@@ -534,22 +534,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.storage.controller.pda.PdaTagOrderController" />
-        <option name="method" value="detail" />
-        <option name="methodDescription" value="出入库详情" />
-        <option name="methodType" value="GET" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/pda/tagOrder/detail" />
-        <option name="requestParamMap">
+        <option name="bodyParamMap">
           <map>
-            <entry key="pId">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/pda/tagOrder/detail" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcInspectIsolateRecordController" />
+        <option name="method" value="editIsolateTime" />
+        <option name="methodDescription" value="修改隔离时间" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/ccInspectIsolateRecord/editIsolateTime" />
+        <option name="url" value="/ccInspectIsolateRecord/editIsolateTime" />
       </ParamGroup>
     </option>
     <option name="projectList">
