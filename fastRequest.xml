@@ -379,7 +379,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTYwMzg3MCwianRpIjoiNjVjZDZiY2YtODkxNy00MGVkLWJiMjQtNTBlY2I3ZTIzMTRjIiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.jL6Q675wmWzaEzaG1m0nQXm4onWhyvO08V79LggmkJC-GQ-dS5EnQ7tnLVK3K3UuQSSBVMGn0tfE5T_TxUOZ2OKmz-rv0oy0GRmBDwcZhgFqOV2BIPYc4I-CUun10P3tZP7H1jni4cm4_KpwqsGRbcdjcpdjWke-aId_uUezydwxtOB_c5iugHjrTR0masymFQ1HKCr6Pqa6xF8Hetje1o_6tiQYRHct09zxSHm12b1_6DZt5c85TdZuN0ozyQLbMTCxOWP15-v2YNqCxhZEywJ8rI34pAet0VxLpIGpE8mBbN3MnC5WL3S6e-q9TJ3aqw3WVlLO8yaeIMiR_jc85Q" />
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTYwNTExMywiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJhMmQ1YmQwZC1hZGU0LTQ1YzYtYTczMy1jNGM5ZDQ3OWJjZjUiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.gOxqPsu_TrroRTuP_hHn6V_yQ4Zwysh9Kbw3Nu2I4fG6QRXUZdQNlZvx4jGHFrqIZHwF21BUtlzrthtdOowJ81vXO9DHUTOygYePT9RM3L50yhexNqm8DUif_CnqFD424y1WJYpEcgRwcXm66BV2NUL5ga1WP_RJc2XUo0Eqq-7CmxganKmWE8I__WYGvMHjVxRq4takgMKmKfa-cyiaft_SaLAwaPpR5tK1xBBmJs4rWkH525CAIrC1FwofcrnjSF2fwxUeMLnNq_MCBSZmvgwyiWKAlAIuy_Y1b2_aG0QO3r-gjdzo-L5600_XvdmaBm3WIjgZHtWyBxcGZmanUQ" />
                   </map>
                 </value>
               </entry>
@@ -536,19 +536,28 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="dto">
+            <entry key="statisticsQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcInspectIsolateRecordController" />
-        <option name="method" value="editIsolateTime" />
-        <option name="methodDescription" value="修改隔离时间" />
+        <option name="className" value="com.sp.biz.storage.controller.web.CcTagInventoryStatisticsController" />
+        <option name="method" value="queryForPage" />
+        <option name="methodDescription" value="分页查询标签库存" />
         <option name="methodType" value="POST" />
         <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/ccInspectIsolateRecord/editIsolateTime" />
+        <option name="originUrl" value="/tagInventoryStatistics/queryForPage" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
         <option name="url" value="/ccInspectIsolateRecord/editIsolateTime" />
       </ParamGroup>
     </option>
