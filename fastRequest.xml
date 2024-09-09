@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8908" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="storage" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -536,29 +536,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="statisticsQuery">
+            <entry key="pushMarkCodeVO">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.sp.biz.storage.controller.web.CcTagInventoryStatisticsController" />
-        <option name="method" value="queryForPage" />
-        <option name="methodDescription" value="分页查询标签库存" />
+        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
+        <option name="method" value="yqSend" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="POST" />
-        <option name="module" value="sp-storage-center" />
-        <option name="originUrl" value="/tagInventoryStatistics/queryForPage" />
-        <option name="requestParamMap">
-          <map>
-            <entry key="page">
-              <value>
-                <Object />
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="url" value="/ccInspectIsolateRecord/editIsolateTime" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/yq/docking/yqSend" />
+        <option name="url" value="/yq/docking/yqSend" />
       </ParamGroup>
     </option>
     <option name="projectList">
