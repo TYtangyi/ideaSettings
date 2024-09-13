@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8093" />
+    <option name="domain" value="http://127.0.0.1:8906" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prod" />
+    <option name="enableProject" value="mark" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -399,9 +399,7 @@
             <map>
               <entry key="dev">
                 <value>
-                  <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTUxNzcxNCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJjMDljMTEyYy0zYTMwLTQwMTgtYTliNS01MWNiYmJkY2Y0YmEiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.y8pDP0C1pw5YtQmsQ0rWyrlisTxVHTVxbMP3yNvfrqNSA4f97CL4SLeUnVc4Byobd6TuIKXy4TvwmvdHAfLVt72QL9R3ZeIHR5sXz9WNP5Uxuw3g3RgxoLgOA9n8SDuBlLcAPvgsOCRl9hRwTphH-VVCvgKNb9m2-vbbmMbUARmqQVgoNdS0pu1I8FB1mJDmOTZFI_ytNAEljYKB_xk3qUy62f0lTZN8kj8wxv73qrfPwsO6iT2dyTqtGipMMpeE5uA1sD7WAar98qapNq_3_HEz1fABTIFA7kHsl2j3pw0B-D7tED6JhO7i3BBOstBe2zvKirYjd5wGzp6SIdq10Q" />
-                  </map>
+                  <map />
                 </value>
               </entry>
             </map>
