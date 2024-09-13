@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8093" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="prod" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -522,7 +522,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MTUwODAyOTAsImp0aSI6IjlkZGFjODYxLWJjY2UtNDA0ZC1hYTY4LWVkYmNiOGIzZjMxNiIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.RVpwzRAcP26njh1QTrsQg0kztc7J7h7ZeGu0mvM9VapEmpbyeHxpkIZrFdZyTtm-FFFRFIH5jsh1gMRJ2l6LNNM5lI15fUcqYWxdR5oHADz9vSPn7lVp2YTh0G1ZMDuVGQ8aSLz84B8qj8Sx3O-pH10nlhw4aQMo6T6KYGSLuvg" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MjYyMTAyMTksImp0aSI6ImUxZDk0NDBmLWY4ZWItNDdkYS1iYWIyLWEyYmJjYTA4Y2IzNSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.NjeYwD1nDQI2IxG3bW0rcFTrNkK5wK015efEpNAbTf6GLFxVrM3ZfdylUKGvEmkhHxAThmbAmu6QWH5uvR17ZWG9jsyDI-qqoC_tPGJ_Y0FlNB6PZVwV0fvuv6jQxWicS5Q0iBUy0lGDzg9EAasSHyiDajTV9UcCB2KO0_Htmzo" />
                   </map>
                 </value>
               </entry>
@@ -536,20 +536,20 @@
       <ParamGroup>
         <option name="bodyParamMap">
           <map>
-            <entry key="pushMarkCodeVO">
+            <entry key="dto">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.api.YqDockingController" />
-        <option name="method" value="yqSend" />
-        <option name="methodDescription" value="" />
+        <option name="className" value="com.panpass.prod.service.controller.ProductLineController" />
+        <option name="method" value="productLineUpload" />
+        <option name="methodDescription" value="产线上传" />
         <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/yq/docking/yqSend" />
-        <option name="url" value="/yq/docking/yqSend" />
+        <option name="module" value="prod-service" />
+        <option name="originUrl" value="/productLine/upload" />
+        <option name="url" value="/productLine/upload" />
       </ParamGroup>
     </option>
     <option name="projectList">
