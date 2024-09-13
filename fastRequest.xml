@@ -522,7 +522,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MjYyMTAyMTksImp0aSI6ImUxZDk0NDBmLWY4ZWItNDdkYS1iYWIyLWEyYmJjYTA4Y2IzNSIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.NjeYwD1nDQI2IxG3bW0rcFTrNkK5wK015efEpNAbTf6GLFxVrM3ZfdylUKGvEmkhHxAThmbAmu6QWH5uvR17ZWG9jsyDI-qqoC_tPGJ_Y0FlNB6PZVwV0fvuv6jQxWicS5Q0iBUy0lGDzg9EAasSHyiDajTV9UcCB2KO0_Htmzo" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiIzIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzb3R5cGUiOm51bGwsInNjb3BlIjpbImFsbCJdLCJnZW5lcmF0ZWRJblpvbmUiOiJHTVQrMDg6MDAiLCJleHAiOjE3MjYyMTQ2NjAsImp0aSI6ImJiYmE2MDk0LWQwOGYtNDM3Mi1hOGFlLWZkODZmYjlmMWEwMiIsImNsaWVudF9pZCI6IjVkZWY4N2IyYTYxZDRhNWVhOTJiNmJhNDRiOTY4MmNkIn0.eYXlMbEOpm3C5yeqYtwflY_xrG8LQb3A-SurxpFi_0wN8mGxpZX0Ipq6NK80-Lj4bSU4dQiNfJmN8LOQewi3UGFqsASHH1fahqwXS7OyvtLgOkWhLuiSMeuOD7eyekAsJXB2gY2_VOesX8nLzXlJqR7AhdpMAZDgblAd43Ez_pg" />
                   </map>
                 </value>
               </entry>
@@ -548,8 +548,8 @@
         <option name="methodDescription" value="产线上传" />
         <option name="methodType" value="POST" />
         <option name="module" value="prod-service" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="originUrl" value="/productLine/upload" />
+        <option name="url" value="/productLine/upload" />
       </ParamGroup>
     </option>
     <option name="projectList">
