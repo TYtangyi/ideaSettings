@@ -548,8 +548,8 @@
         <option name="methodDescription" value="产线上传" />
         <option name="methodType" value="POST" />
         <option name="module" value="prod-service" />
-        <option name="originUrl" value="/productLine/upload" />
-        <option name="url" value="/productLine/upload" />
+        <option name="originUrl" value="" />
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="projectList">
