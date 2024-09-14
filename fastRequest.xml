@@ -541,13 +541,13 @@
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.prod.service.controller.ProductLineController" />
-        <option name="method" value="productLineUpload" />
-        <option name="methodDescription" value="产线上传" />
+        <option name="className" value="com.panpass.mark.center.service.controller.web.TestKafkaController" />
+        <option name="method" value="pushYqPoc" />
+        <option name="methodDescription" value="" />
         <option name="methodType" value="POST" />
-        <option name="module" value="prod-service" />
-        <option name="originUrl" value="/productLine/upload" />
-        <option name="url" value="/productLine/upload" />
+        <option name="module" value="mark-service" />
+        <option name="originUrl" value="/test/kafka/pushYqPoc" />
+        <option name="url" value="/test/kafka/pushYqPoc" />
       </ParamGroup>
     </option>
     <option name="projectList">
