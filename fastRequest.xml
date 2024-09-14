@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8906" />
+    <option name="domain" value="http://127.0.0.1:8907" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="mark" />
+    <option name="enableProject" value="prevent" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -457,7 +457,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJhZG1pbiIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyMzY0MDk2NywiYXV0aG9yaXRpZXMiOlsiMTMwMTM2NjgwMzk3MDc1MjUxMyIsIjEzMDEwNjk0MTYwMTU4MjI4NTAiLCIxMzE5MTI3OTE5Nzg2NTQ5MjQ5IiwiMTM0NzA3MzU2NjM1NzcwODgwMSIsIjEzNDY2NDUwNDgxNjM0MjYzMDYiXSwianRpIjoiZDg1YzMxNTMtM2ViOC00YzVhLTlkMjEtMGRhMjg2NzljYzU5IiwiY2xpZW50X2lkIjoiNWRlZjg3YjJhNjFkNGE1ZWE5MmI2YmE0NGI5NjgyY2QifQ.rvq8HuBuWJc7tV97BWKxUiG6_ylqOBIElJMLmOID4pMtHZTQn9pVj_JhIeTitKZ2rXZ-AIqMIpH5coys3pIe0ng5NFbSANFWdVkw5KxISC7w-W3icjdI1UhmaHIqs_yxUTCFFGT4Yq_ADO1dWyb9MBAKcC0GE75uYOpqvSZfXOCisKuwPFOmFaGyT2PVdpecZws40DsjYmDJgi1SqMw5CbRixzHYEUpEZHmhnxyAh7h2ukSKkACk67siG4pwrvDYbxo2_zya8CxPdkFhTqpIh4CO27WQHZCF3dCSE5m3Y8IMugvKCEpBYc0G3lYsTpPSKDT7-zbGKJFwa_Cnv0Fnuw" />
+                    <entry key="Authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNjMxODAxNSwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJmODk1MTkzYS00MGY1LTQ2ZmMtYThjOC0zMzBiMWZhMDEwMjgiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.xYzyUzBrerQsLZGLNqz7AEGfncm3p_om1Ln1N924euo2FfIgIIRtCOy4Uti6hCyn8usnoZQA5O0edsdKs4vSRP3gryDxsoQqYno-m1aRzwC6PT7RoWKy30W1ScPetdWcCFZCTmsZlVi1CY0U3Yhub6Dp-slpvk1kXp2SLQ5DaQcg9cKYs3Z4OO0P58mgLUwon54T53j-qzO8ZIbJ_Hp3epmYGbtM151eiCxOpflRTQPsURAEY4ilV6ZWNd-sAIzrtaBQVysYq1NbmUOi1L0i70eyDo2lNKbc-_jME1BYIiKP7uhBk2rghvg9-xQcxS_SrZTado6JLDqIc0APveN-Tw" />
                   </map>
                 </value>
               </entry>
@@ -532,22 +532,22 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="bodyParamMap">
+        <option name="className" value="com.sp.biz.prevent.controller.web.SynthesizeInfoController" />
+        <option name="method" value="search" />
+        <option name="methodDescription" value="fw_SynthesizeInfoController_search 稽查/溯源/物流信息查询" />
+        <option name="methodType" value="GET" />
+        <option name="module" value="sp-prevent-center" />
+        <option name="originUrl" value="/synthesize/search" />
+        <option name="requestParamMap">
           <map>
-            <entry key="dto">
+            <entry key="code">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="className" value="com.panpass.mark.center.service.controller.web.TestKafkaController" />
-        <option name="method" value="pushYqPoc" />
-        <option name="methodDescription" value="" />
-        <option name="methodType" value="POST" />
-        <option name="module" value="mark-service" />
-        <option name="originUrl" value="/test/kafka/pushYqPoc" />
-        <option name="url" value="/test/kafka/pushYqPoc" />
+        <option name="url" value="/synthesize/search" />
       </ParamGroup>
     </option>
     <option name="projectList">
