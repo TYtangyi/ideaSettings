@@ -361,9 +361,9 @@
         </DataMapping>
       </list>
     </option>
-    <option name="domain" value="http://127.0.0.1:8907" />
+    <option name="domain" value="http://127.0.0.1:8908" />
     <option name="enableEnv" value="dev" />
-    <option name="enableProject" value="prevent" />
+    <option name="enableProject" value="storage" />
     <option name="envList">
       <list>
         <option value="dev" />
@@ -379,7 +379,7 @@
               <entry key="dev">
                 <value>
                   <map>
-                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNTYwNTExMywiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiJhMmQ1YmQwZC1hZGU0LTQ1YzYtYTczMy1jNGM5ZDQ3OWJjZjUiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.gOxqPsu_TrroRTuP_hHn6V_yQ4Zwysh9Kbw3Nu2I4fG6QRXUZdQNlZvx4jGHFrqIZHwF21BUtlzrthtdOowJ81vXO9DHUTOygYePT9RM3L50yhexNqm8DUif_CnqFD424y1WJYpEcgRwcXm66BV2NUL5ga1WP_RJc2XUo0Eqq-7CmxganKmWE8I__WYGvMHjVxRq4takgMKmKfa-cyiaft_SaLAwaPpR5tK1xBBmJs4rWkH525CAIrC1FwofcrnjSF2fwxUeMLnNq_MCBSZmvgwyiWKAlAIuy_Y1b2_aG0QO3r-gjdzo-L5600_XvdmaBm3WIjgZHtWyBxcGZmanUQ" />
+                    <entry key="authorization" value="Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJtc2ciOiLmk43kvZzmiJDlip8iLCJjb2RlIjowLCJkYXRhIjpudWxsLCJ1c2VyX25hbWUiOiJUWSIsInNvdHlwZSI6IlBDIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyNjY0MDQxNCwiYXV0aG9yaXRpZXMiOlsiMTM0NjY0NTA0ODE2MzQyNjMwNiJdLCJqdGkiOiI1Y2E5MGNjOC1jNjJlLTQwOGYtYWY4MC0zODUzYjNlYjU5NGMiLCJjbGllbnRfaWQiOiI1ZGVmODdiMmE2MWQ0YTVlYTkyYjZiYTQ0Yjk2ODJjZCJ9.I4ZlDKiGOSpeSfhXoUMlj7nQry8jf14DWhV178kNe5cPFlUut17fKJNz30qQoamZiU-4mX-uBmEh9J5VQPCOSE_JfW34QE-Qhx8v6wQu8q3lfSYkZLPlWNT8rGvfnL58ZrZAm_9BYdjEXNOFWnMWCWT27gTeBamZBebdIm7vMP8qa4xLETyyoY8JWAzNINP64tbgqFVDGL1aN3J-7O40HhXzYWLGhrLc2SwyODKc4TiKd-FoR6QEtq4AA_wKYCZbTPfbO4h2BLelxtURcP0JYGGX9ccy9pQ9RMCbVD4U8D6GonNrRgVue5eqeyryhT7G-alt6TdqPOg7jGJTSViZzw" />
                   </map>
                 </value>
               </entry>
@@ -532,22 +532,27 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="com.sp.biz.prevent.controller.web.SynthesizeInfoController" />
-        <option name="method" value="search" />
-        <option name="methodDescription" value="fw_SynthesizeInfoController_search 稽查/溯源/物流信息查询" />
+        <option name="className" value="com.sp.biz.storage.controller.web.StoreProductController" />
+        <option name="method" value="queryStoreSreamForPage" />
+        <option name="methodDescription" value="cc_storeProduct_queryStoreSreamForPage 出入库流水分页查询" />
         <option name="methodType" value="GET" />
-        <option name="module" value="sp-prevent-center" />
-        <option name="originUrl" value="/synthesize/search" />
+        <option name="module" value="sp-storage-center" />
+        <option name="originUrl" value="/store/product/queryStoreSreamForPage" />
         <option name="requestParamMap">
           <map>
-            <entry key="code">
+            <entry key="page">
+              <value>
+                <Object />
+              </value>
+            </entry>
+            <entry key="storeStreamQuery">
               <value>
                 <Object />
               </value>
             </entry>
           </map>
         </option>
-        <option name="url" value="/synthesize/search" />
+        <option name="url" value="/store/product/queryStoreSreamForPage" />
       </ParamGroup>
     </option>
     <option name="projectList">
